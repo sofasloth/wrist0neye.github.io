@@ -1,9 +1,8 @@
 ---
 title: Hello Blog!
-date: YYYY-MM-DD HH:MM:SS +/-TTTT
-categories: [doodle, etc]
+date: 2024-08-03 HH:MM:SS +0000
+categories: [Doodle, Diary]
 tags: [diary]
-toc: true
 comments: true
 ---
 
