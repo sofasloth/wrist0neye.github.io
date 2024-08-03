@@ -1,6 +1,6 @@
 ---
 title: Hello Blog!
-date: 2024-08-03 HH:MM:SS +0000
+date: 2024-08-03 00:00:00 +0000
 categories: [Doodle, Diary]
 tags: [diary]
 comments: true
