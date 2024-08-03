@@ -3,7 +3,8 @@ title: Hello Blog!
 date: 2024-08-03 00:00:00 +0000
 categories: [Doodle, Diary]
 tags: [diary]
-comments: true
+comments: true 
+published: true
 ---
 
 ## 여기는 무슨 블로그인가요?
