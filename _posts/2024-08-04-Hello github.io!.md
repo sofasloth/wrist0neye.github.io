@@ -1,6 +1,6 @@
 ---
 title: Hello Blog!
-date: 2024-08-03 00:00:00 +0000
+date: 2024-08-04 00:00:00 +0000
 categories: [Doodle, Diary]
 tags: [diary]
 comments: true 
@@ -8,8 +8,8 @@ published: true
 ---
 
 ## 여기는 무슨 블로그인가요?
-> [!CAUTION]
-> 전문성 전혀 없으니 이 점 참고부탁드립니다.
+- 비개발자의 개발공부 블로그입니다.
+
 
 ### 1. Programming
 > [!NOTE]
@@ -21,6 +21,16 @@ published: true
 - Web : Svelte + Js
 - Flutter(TBD)
 
+```python
+print("test codeblock");
+```
+
+```rs
+fn main() {
+    println!("Hello world!");
+}
+```
+
 ### 2. 잡다한 지식 정리
 > [!NOTE]
 > 공학말고도 살면서 필요한 잡지식을 정리해서 공유하는 걸 목적으로 하고 있습니다. 
@@ -31,5 +41,10 @@ published: true
 
 ### 3. 취미
 
+
+---
+## 이 블로그를 만들기 위해 참고한 사이트
+- [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
+- [Admonition - markdown 추가](https://www.adamsdesk.com/posts/admonitions-jekyll/)
 
 
