@@ -7,7 +7,7 @@ comments: true
 published: true
 math: true
 image: 
-  path: https://tauri.app/img/social.png
+  path: /assets/img/tauri_banner.png
 ---
 
 [공식 문서](https://tauri.app/ko/v1/guides/features/window-customization)에서 친절하게 설명이 되어 있는데 공식문서대로 따라하면 다음 문제점에 조우하게 된다.
