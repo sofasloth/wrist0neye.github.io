@@ -12,8 +12,8 @@ published: true
 
 
 ### 1. Programming
-> [!NOTE]
 > 개인 프로그래밍 공부나 프로젝트 try & error 를 기록하는 걸 목적으로 하고 있습니다.
+{: .prompt-info}
 
 다음 내용을 주로 다룹니다.
 - Python : PyQt + `numpy/pandas/scipy` + 시각화
@@ -32,8 +32,9 @@ fn main() {
 ```
 
 ### 2. 잡다한 지식 정리
-> [!NOTE]
+
 > 공학말고도 살면서 필요한 잡지식을 정리해서 공유하는 걸 목적으로 하고 있습니다. 
+{: .prompt-note}
 
 - 기계/공업수학
 - 회계 등
