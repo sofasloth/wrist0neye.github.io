@@ -1,24 +1,24 @@
 ---
 title: (Tauri)Window Customized 하기
 date: 2024-08-05 00:25:00 +0000
-categories: [Programming, Tauri]
+categories: [Programming, Web_desktop]
 tags: [Tauri, Web, FE]
 comments: true
 published: true
 math: true
 image: 
-  path: /assets/img/tauri_banner.png
+  path: /assets/img/res/tauri_banner.png
 ---
 
 [공식 문서](https://tauri.app/ko/v1/guides/features/window-customization)에서 친절하게 설명이 되어 있는데 공식문서대로 따라하면 다음 문제점에 조우하게 된다.
 - `titlebar` 부분의 위쪽 가장자리로 창 크기 조절(`resize`)이 거의 불가능해진다.
 - 창의 가장자리에 `border-radius` 기능이 안 먹힌다.
 
-![alt text](/assets/img/tauri-error.gif)
+![alt text](/assets/img/res/tauri-error.gif)
 
 최근 재미삼아 만들고 있는 tauri app은 **svelte + JS** 기능을 활용한다. 앱의 구조는 아래와 같다.
 
-![alt text](/assets/img/240805Tauri.png)
+![alt text](/assets/img/res/240805Tauri.png)
 
 ```html
 <!--src/index.html-->
@@ -154,7 +154,7 @@ import "../app.css"
 ```
 
 해결되면 아래와 같이 창 드래그와 창 크기 조절이 가능해진다.
-![tauri-solved1.gif](/assets/img/tauri-solved1.gif)
+![tauri-solved1.gif](/assets/img/res/tauri-solved1.gif)
 
 ### 2. Apply Border-radius to Window
 **Svelte + JS(FE)** 로 세팅된 tauri는 기본적으로 `<body>` 태그에 `margin: 8px;` 스타일이 적용되어 있다.  그리고 `tauri.conf.json`에 `transparent: true`로 설정하면 `html`창과 Window 창의 크기가 맞지 않기 때문에 `<html>`크기를 Window 창에 맞춰야 한다.
@@ -254,7 +254,7 @@ body {
 
 고친결과는 아래와 같다.
 
-![tauri-solved2.gif](/assets/img/tauri-solved2.gif)
+![tauri-solved2.gif](/assets/img/res/tauri-solved2.gif)
 
 ---
 # Reference
