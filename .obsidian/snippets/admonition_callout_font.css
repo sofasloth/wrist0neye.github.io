@@ -1,0 +1,12 @@
+.admontion-content, .callout-content{
+    font-size: medium;
+    margin-top: 10px;
+}
+
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-embed-block>div, .markdown-source-view.mod-cm6.is-readable-line-width .cm-embed-block>mjx-container, .markdown-source-view.mod-cm6.is-readable-line-width .mod-empty {
+    margin-top : 10px;
+}
+
+.markdown-source-view.mod-cm6 .cm-embed-block pre {
+    margin-top: 10px;
+}

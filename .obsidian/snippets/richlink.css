@@ -1,0 +1,92 @@
+/* --------------------------------------------------------------------------------
+Rich link css
+edited by Yang(Customed)
+-------------------------------------------------------------------------------- */
+.rich-link-card {
+  border: 1px solid var(--background-modifier-border);
+  margin: 20px 0;
+  border-radius: 5px;
+  width: 100%;
+  height : 100%;
+  display: flex;
+  text-decoration: none;
+  background-color: var(--background-primary);
+}
+.rich-link-card:hover {
+	background-color : var(--background-secondary);
+}
+
+.rich-link-card-container {
+  position: relative;
+  height : 108px;
+}
+
+.rich-link-card .rich-link-image-container {
+    height: 100%;
+    width: 35%;
+    min-width: 120px;
+    overflow: hidden;
+    border-right: 1px solid var(--background-modifier-border);
+    position: relative;
+}
+
+.rich-link-card .rich-link-image {
+	background-position: center center;
+    /* display: block; */
+    background-size: cover;
+    /* object-fit: cover; */
+    background-repeat: no-repeat;
+    /* padding-bottom: 100px; */
+    top: 0px;
+    background-color: var(--background-secondary);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+.rich-link-card .rich-link-card-text {
+    padding: 8px 12px 5px;
+    width: 75%;
+    overflow: hidden;
+    /* font-family: consolas; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.rich-link-card .rich-link-card-title {
+	font-size: 1.15em !important;
+    margin-top: 0px !important;
+    margin: 0 0 4px 0;
+    /* display: -webkit-box; */
+    /* -webkit-line-clamp: 1; */
+    /* -webkit-box-orient: vertical; */
+    overflow: hidden;
+    color: var(--text-normal);
+    /* position: absolute; */
+    flex: 1;
+}
+
+.rich-link-card .rich-link-card-description {
+    font-size: 0.85em;
+    margin: 0;
+    /* color: var(--text-muted); */
+    /* display: -webkit-box; */
+    /* -webkit-line-clamp: 2; */
+    /* -webkit-box-orient: vertical; */
+    overflow: hidden;
+    flex: 1.8;
+}
+
+.rich-link-card .rich-link-href {
+    font-size: 0.8em;
+    margin: 0px;
+    color: var(--text-faint);
+    /* display: -webkit-box; */
+    /* -webkit-line-clamp: 1; */
+    /* -webkit-box-orient: vertical; */
+    overflow: hidden;
+    flex: 1;
+}

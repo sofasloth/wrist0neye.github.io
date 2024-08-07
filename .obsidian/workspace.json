@@ -1,0 +1,302 @@
+{
+  "main": {
+    "id": "298bb4a070d6cd3b",
+    "type": "split",
+    "children": [
+      {
+        "id": "540f8b4d83901971",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7fe69c5dc00b219a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-05-Tauri Window Customized.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "17ba5320ac2e145d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a9de8bc611d283e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d3f0c00700a95d89",
+    "type": "split",
+    "children": [
+      {
+        "id": "e96d121e2708325f",
+        "type": "tabs",
+        "dimension": 59.523809523809526,
+        "children": [
+          {
+            "id": "c0d1cda2e4363d8c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          },
+          {
+            "id": "301fcc90e7fdd31b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "preventD",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          },
+          {
+            "id": "805cab3fde8ea0da",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "8ebbce987db50d16",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "0cdc352edcd7a61b",
+        "type": "tabs",
+        "dimension": 40.476190476190474,
+        "children": [
+          {
+            "id": "e98444f153fdf4bb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 264.50312423706055
+  },
+  "right": {
+    "id": "73c23346572ca585",
+    "type": "split",
+    "children": [
+      {
+        "id": "0693c09cbbf34a81",
+        "type": "tabs",
+        "dimension": 19.550342130987293,
+        "children": [
+          {
+            "id": "4bc035b1441ce136",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9a344e9d67b16860",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.6577169471499441,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "fc7fa55b13385ef0",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "552c26984e695be1",
+        "type": "tabs",
+        "dimension": 48.48484848484848,
+        "children": [
+          {
+            "id": "7538827666cb044e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/2024-08-07-Tauri의 기본기능 활용하기.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "7908170ec3483a9a",
+        "type": "tabs",
+        "dimension": 31.964809384164223,
+        "children": [
+          {
+            "id": "1dce18a2e3a43ccb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 271
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "zk-prefixer:Create new unique note": false,
+      "random-note:Open random note": false,
+      "obsidian-kanban:Create new board": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "c0d1cda2e4363d8c",
+  "lastOpenFiles": [
+    "_batch script/git pull-add-commit-push_auto.bat",
+    "_batch script/jekyll.txt",
+    "_batch script/새 텍스트 문서.txt",
+    "_batch script",
+    "_site/assets/img/res/Pasted image 20240808000508.png",
+    "assets/img/res/Pasted image 20240808000508.png",
+    "_posts/2024-08-05-Tauri Window Customized.md",
+    "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
+    "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
+    "_includes/template/_post template.md",
+    "_includes/template/admonition.md",
+    "_posts/image.png",
+    "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
+    "README.md",
+    "_site/tags/electron/index.html",
+    "_site/tags/electron",
+    "_site/posts/Tauri의-기본기능-활용하기/index.html",
+    "_site/posts/Tauri의-기본기능-활용하기",
+    "_site/assets/img/res/Pasted image 20240807231107.png",
+    "_batch script/jeykll_localbuilder.bat",
+    "jeykll_localbuilder.txt",
+    "jeykll-build.txt",
+    "assets/img/res/Pasted image 20240807231107.png",
+    "_posts/2024-08-07.md",
+    "_posts/Untitled.md",
+    "03_GTD(unused)/03.2_Kanban Baord/03.2.1 Announcement/유튜브 면접질문 및 전략.md",
+    "Archive/News Summary/Daily News/Theme/기업 및 국제기구 & 주요 인물·상품/[국제기구]WIPO, World Intellectual Property Organization (세계지식재산권기구).md",
+    "02_Resource/반도체,회로,전자공학/Device Physics_1.6 고체의 불완전성(Imperfection)과 불순물(Impurity).md",
+    "02_Resource/반도체,회로,전자공학/Device Physics_1.4 다이아몬드 구조.md",
+    "02_Resource/컴퓨터 책과 강의/WebGL+Three_js/Three.js 강의 필기.md",
+    "02_Resource/반도체,회로,전자공학/zImage/Pasted image 20240803204814.png",
+    "02_Resource/반도체,회로,전자공학/zImage/Pasted image 20240803204756.png",
+    "02_Resource/반도체,회로,전자공학/Device Physics_1.3 공간 격자(Space Lattices).md",
+    "02_Resource/반도체,회로,전자공학/zImage/Pasted image 20240803203850.png",
+    "02_Resource/반도체,회로,전자공학/zImage/Pasted image 20240803203609.png",
+    "02_Resource/반도체,회로,전자공학/zImage/Pasted image 20240803203534.png",
+    "02_Resource/반도체,회로,전자공학/Device Physics_1.2 고체의 유형(Types of Solids).md",
+    "Excalidraw/Drawing 2024-08-03 19.50.54.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-03 19.50.46.excalidraw.md",
+    "02_Resource/반도체,회로,전자공학/Device Physics_1.1 반도체 물질(Semiconductor Materials).md",
+    "02_Resource/반도체,회로,전자공학/반도체 기초 (3) Extrinsic Semiconductor (도핑, P형 반도체, N형 반도체).md",
+    "02_Resource/반도체,회로,전자공학/반도체 기초 (6) 외부의 자극에 의한 Carriers의 운동 (Drift & Diffusion).md",
+    "02_Resource/반도체,회로,전자공학/반도체 기초 (5) Carriers의 특징 - 유효 질량, Scattering, Mobility.md",
+    "02_Resource/반도체,회로,전자공학/반도체 기초 (4) Charge Carriers와 Fermi Energy의 관계.md",
+    "02_Resource/반도체,회로,전자공학/반도체 기초 (1) 실리콘 원소와 Charge Carrier.md",
+    "02_Resource/반도체,회로,전자공학/반도체 기초 (2) 실리콘 재료와 에너지 밴드 & 전자의 분포 (Fermi Function).md",
+    "Python ml3.canvas",
+    "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
+    "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",
+    "04_Ideas/PJT_옷 관리 도구/dyson airwrap 특허 사진 모음.canvas",
+    "04_Ideas/resilio test.canvas",
+    "swea 2312 분석.canvas",
+    "04_Ideas/밀대 아이디어 목업.canvas"
+  ]
+}

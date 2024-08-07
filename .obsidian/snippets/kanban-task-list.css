@@ -1,0 +1,6 @@
+/*ol > li.task-list-item, ul > li.task-list-item {
+	font-size : 0.9em !important;
+}*/
+.kanban-plugin__markdown-preview-view>div>* {
+	font-size : 0.9em !important;
+}

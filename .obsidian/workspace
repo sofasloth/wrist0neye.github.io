@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "298bb4a070d6cd3b",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe04d72e0efc0d5d",
+        "type": "split",
+        "children": [
+          {
+            "id": "c6bdc5b900890d07",
+            "type": "leaf",
+            "dimension": 20.25440313111546,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02_Resource/Samsung/4차 산업혁명 영상 콘텐츠.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e47f0d4968f7c975",
+            "type": "leaf",
+            "dimension": 79.74559686888453,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_Inbox/202209221528 레거시 시스템이란?.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d3f0c00700a95d89",
+    "type": "split",
+    "children": [
+      {
+        "id": "e96d121e2708325f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0d1cda2e4363d8c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "301fcc90e7fdd31b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "byCreatedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "805cab3fde8ea0da",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "0cdc352edcd7a61b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e98444f153fdf4bb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 266.00435638427734,
+    "collapsed": true
+  },
+  "right": {
+    "id": "73c23346572ca585",
+    "type": "split",
+    "children": [
+      {
+        "id": "0693c09cbbf34a81",
+        "type": "tabs",
+        "dimension": 19.550342130987293,
+        "children": [
+          {
+            "id": "4bc035b1441ce136",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9a344e9d67b16860",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "01_Inbox/202209221528 레거시 시스템이란?.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.922107911481729,
+                  "close": true
+                }
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "552c26984e695be1",
+        "type": "tabs",
+        "dimension": 48.48484848484848,
+        "children": [
+          {
+            "id": "7538827666cb044e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01_Inbox/202209221528 레거시 시스템이란?.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "7908170ec3483a9a",
+        "type": "tabs",
+        "dimension": 31.964809384164223,
+        "children": [
+          {
+            "id": "1dce18a2e3a43ccb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01_Inbox/202209221528 레거시 시스템이란?.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 271,
+    "collapsed": true
+  },
+  "active": "e47f0d4968f7c975",
+  "lastOpenFiles": [
+    "01_Inbox/202209221528 레거시 시스템이란?.md",
+    "02_Resource/Samsung/4차 산업혁명 영상 콘텐츠.md",
+    "02_Resource/Samsung/CiC 영상 - 수학도 인생도 선택의 연속.md",
+    "02_Resource/Samsung/블루락서 모음.md",
+    "02_Resource/Samsung/블루락서 1. 위성 개발의 꿈을 이루기 위한 변화와 도전.md",
+    "01_Inbox/Diary/2022-09-20.md",
+    "01_Inbox/⚙️Just Mindmap/SVP 사전과제/📌202209211025 SVP 사전과제 메모.md",
+    "01_Inbox/⚙️Just Mindmap/SVP 사전과제/202209211233 배달의 민족.md",
+    "01_Inbox/202209201821 2021 글로벌 기계기술 포럼.md",
+    "01_Inbox/202208241600 기구학적 역공학을 알아보자..md"
+  ]
+}

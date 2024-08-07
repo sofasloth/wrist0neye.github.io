@@ -1,0 +1,7 @@
+{
+  "show-relative-date": true,
+  "link-date-to-daily-note": true,
+  "prepend-archive-date": true,
+  "date-picker-week-start": 0,
+  "hide-date-display": true
+}

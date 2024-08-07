@@ -1,0 +1,21 @@
+{
+  "baseFontSize": 16,
+  "cssTheme": "",
+  "theme": "obsidian",
+  "translucency": false,
+  "baseFontSizeAction": false,
+  "enabledCssSnippets": [
+    "richlink",
+    "kanban-task-list",
+    "custom-admonitions.12f87c",
+    "img_effect",
+    "minimal_heading_reshaped",
+    "admonition_callout_font",
+    "mjx-math_font130%"
+  ],
+  "textFontFamily": "nanumsquare neo,Noto Sans CJK KR",
+  "accentColor": "#157d0d",
+  "interfaceFontFamily": "nanumsquare neo,Noto Sans CJK KR",
+  "monospaceFontFamily": "",
+  "nativeMenus": false
+}
