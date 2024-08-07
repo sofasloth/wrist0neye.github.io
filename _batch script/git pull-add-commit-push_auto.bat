@@ -24,11 +24,21 @@ set minute=%minute:~-2%
 set second=%second:~-2%
 set "formattedTime=%hour%:%minute%:%second%"
 
+pause
+
 
 git stash
 git pull
 git stash pop
+
+pause
+
 git add -A
 git commit -m "blog update at %formattedDate% at %formattedTime%"
+
+pause
+
 git push origin main
 pause
+
+@echo on
