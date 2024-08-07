@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "540f8b4d83901971",
+        "id": "17ba5320ac2e145d",
         "type": "tabs",
         "children": [
           {
@@ -23,7 +23,7 @@
         ]
       },
       {
-        "id": "17ba5320ac2e145d",
+        "id": "8235a67750fafe8e",
         "type": "tabs",
         "children": [
           {
@@ -32,7 +32,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
+                "file": "_includes/template/_post template.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "015c8fe5ac2fd94e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d049fe85888a93a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -141,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -164,7 +183,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6577169471499441,
+                  "scale": 0.6577169471499443,
                   "close": true
                 }
               }
@@ -179,7 +198,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "552c26984e695be1",
@@ -192,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-07-Tauri의 기본기능 활용하기.md"
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md"
               }
             }
           }
@@ -209,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +243,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271
+    "width": 347.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,8 +262,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c0d1cda2e4363d8c",
+  "active": "5d049fe85888a93a",
   "lastOpenFiles": [
+    "_includes/template/_post template.md",
+    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+    "assets/img/res/Pasted image 20240808014201.png",
+    "assets/img/res/Pasted image 20240808012836.png",
+    "assets/img/res/Pasted image 20240808012409.png",
+    "assets/img/res/Pasted image 20240808012221.png",
+    "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
+    "_posts/2024-08-05-Tauri Window Customized.md",
+    "assets/img/res/Pasted image 20240808011033.png",
+    "assets/img/res/Pasted image 20240808010356.png",
+    "assets/img/res/Pasted image 20240808010356.md",
+    "assets/img/res/Pasted.md",
+    "assets/img/res/Pasted image 20240808010433.png",
+    "assets/img/res/Pasted image 20240808000508.png",
+    "assets/img/res/Pasted image 20240808010106.png",
+    "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
+    "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
+    "_posts/2024-08-06-pyQt6 Index.md",
     "_layouts/archives.html",
     "_layouts/category.html",
     "_layouts/compress.html",
@@ -255,19 +292,9 @@
     "_layouts/tags.html",
     "_batch script/git pull-add-commit-push_auto.bat",
     "_batch script/jekyll.txt",
-    "_batch script/새 텍스트 문서.txt",
     "_site/assets/img/res/Pasted image 20240808000508.png",
-    "assets/img/res/Pasted image 20240808000508.png",
-    "_posts/2024-08-05-Tauri Window Customized.md",
-    "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
-    "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
-    "_includes/template/_post template.md",
     "_includes/template/admonition.md",
-    "_posts/image.png",
-    "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
     "README.md",
-    "_site/assets/img/res/Pasted image 20240807231107.png",
-    "assets/img/res/Pasted image 20240807231107.png",
     "_posts/2024-08-07.md",
     "_posts/Untitled.md",
     "03_GTD(unused)/03.2_Kanban Baord/03.2.1 Announcement/유튜브 면접질문 및 전략.md",
@@ -275,22 +302,13 @@
     "02_Resource/반도체,회로,전자공학/Device Physics_1.6 고체의 불완전성(Imperfection)과 불순물(Impurity).md",
     "02_Resource/반도체,회로,전자공학/Device Physics_1.4 다이아몬드 구조.md",
     "02_Resource/컴퓨터 책과 강의/WebGL+Three_js/Three.js 강의 필기.md",
-    "02_Resource/반도체,회로,전자공학/zImage/Pasted image 20240803204814.png",
-    "02_Resource/반도체,회로,전자공학/zImage/Pasted image 20240803204756.png",
     "02_Resource/반도체,회로,전자공학/Device Physics_1.3 공간 격자(Space Lattices).md",
-    "02_Resource/반도체,회로,전자공학/zImage/Pasted image 20240803203850.png",
-    "02_Resource/반도체,회로,전자공학/zImage/Pasted image 20240803203609.png",
-    "02_Resource/반도체,회로,전자공학/zImage/Pasted image 20240803203534.png",
     "02_Resource/반도체,회로,전자공학/Device Physics_1.2 고체의 유형(Types of Solids).md",
     "Excalidraw/Drawing 2024-08-03 19.50.54.excalidraw.md",
     "Excalidraw/Drawing 2024-08-03 19.50.46.excalidraw.md",
     "02_Resource/반도체,회로,전자공학/Device Physics_1.1 반도체 물질(Semiconductor Materials).md",
     "02_Resource/반도체,회로,전자공학/반도체 기초 (3) Extrinsic Semiconductor (도핑, P형 반도체, N형 반도체).md",
     "02_Resource/반도체,회로,전자공학/반도체 기초 (6) 외부의 자극에 의한 Carriers의 운동 (Drift & Diffusion).md",
-    "02_Resource/반도체,회로,전자공학/반도체 기초 (5) Carriers의 특징 - 유효 질량, Scattering, Mobility.md",
-    "02_Resource/반도체,회로,전자공학/반도체 기초 (4) Charge Carriers와 Fermi Energy의 관계.md",
-    "02_Resource/반도체,회로,전자공학/반도체 기초 (1) 실리콘 원소와 Charge Carrier.md",
-    "02_Resource/반도체,회로,전자공학/반도체 기초 (2) 실리콘 재료와 에너지 밴드 & 전자의 분포 (Fermi Function).md",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",
