@@ -32,10 +32,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_includes/template/_post template.md",
-                "mode": "preview",
+                "file": "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
+                "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
               }
             }
           }
@@ -264,13 +264,15 @@
   },
   "active": "5d049fe85888a93a",
   "lastOpenFiles": [
-    "_includes/template/_post template.md",
+    "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+    "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
+    "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
+    "_includes/template/_post template.md",
     "assets/img/res/Pasted image 20240808014201.png",
     "assets/img/res/Pasted image 20240808012836.png",
     "assets/img/res/Pasted image 20240808012409.png",
     "assets/img/res/Pasted image 20240808012221.png",
-    "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
     "_posts/2024-08-05-Tauri Window Customized.md",
     "assets/img/res/Pasted image 20240808011033.png",
     "assets/img/res/Pasted image 20240808010356.png",
@@ -279,8 +281,6 @@
     "assets/img/res/Pasted image 20240808010433.png",
     "assets/img/res/Pasted image 20240808000508.png",
     "assets/img/res/Pasted image 20240808010106.png",
-    "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
-    "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
     "_posts/2024-08-06-pyQt6 Index.md",
     "_layouts/archives.html",
     "_layouts/category.html",
