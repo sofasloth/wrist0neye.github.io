@@ -26,7 +26,7 @@ set "formattedTime=%hour%:%minute%:%second%"
 
 pause
 
-
+@echo on
 git stash
 git pull
 git stash pop
@@ -41,4 +41,3 @@ pause
 git push origin main
 pause
 
-@echo on
