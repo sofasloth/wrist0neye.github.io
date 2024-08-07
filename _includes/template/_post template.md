@@ -1,6 +1,6 @@
 ---
 title: 
-date: "{{date}}{{time}} +0900"
+date: "{{date}}{{time}}:00 +0900"
 categories: 
 tags: 
 comments: 
