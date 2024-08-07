@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-05-Tauri Window Customized.md",
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-05-Tauri Window Customized.md"
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md"
               }
             }
           }
@@ -228,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-05-Tauri Window Customized.md",
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -262,11 +262,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7fe69c5dc00b219a",
+  "active": "5d049fe85888a93a",
   "lastOpenFiles": [
+    "_posts/2024-08-05-Tauri Window Customized.md",
     "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
-    "_posts/2024-08-05-Tauri Window Customized.md",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
     "_posts/2024-08-06-pyQt6 Index.md",
     "_includes/template/_post template.md",
