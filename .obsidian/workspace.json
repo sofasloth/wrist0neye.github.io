@@ -258,8 +258,7 @@
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
       "obsidian-kanban:Create new board": false,
-      "oz-clear-unused-images:Clear Unused Images": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
   "active": "5d049fe85888a93a",
