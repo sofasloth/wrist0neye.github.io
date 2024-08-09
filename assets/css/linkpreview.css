@@ -1,6 +1,6 @@
 .jekyll-linkpreview-wrapper {
-    max-width: 600px;
     margin-bottom: 20px;
+    background-color: var(--highlight-bg-color);
   }
   
   .jekyll-linkpreview-wrapper-inner {

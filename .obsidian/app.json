@@ -45,7 +45,7 @@
   "useMarkdownLinks": true,
   "readableLineLength": true,
   "vimMode": false,
-  "newLinkFormat": "absolute",
+  "newLinkFormat": "shortest",
   "showInlineTitle": true,
   "newFileFolderPath": "_posts"
 }
