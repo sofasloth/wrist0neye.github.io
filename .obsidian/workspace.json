@@ -22,19 +22,14 @@
             }
           },
           {
-            "id": "1e4c6b91e967ed2e",
+            "id": "d54f0569dd68ef15",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://wrist0neye.github.io"
-              },
-              "pinned": true
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "015c8fe5ac2fd94e",
@@ -170,7 +165,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+                "file": "_posts/2024-08-05-Tauri Window Customized.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -221,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md"
+                "file": "_posts/2024-08-05-Tauri Window Customized.md"
               }
             }
           }
@@ -238,7 +233,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+                "file": "_posts/2024-08-05-Tauri Window Customized.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,10 +267,12 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "5d049fe85888a93a",
+  "active": "7fe69c5dc00b219a",
   "lastOpenFiles": [
-    "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+    "_cache/linkpreivew.css",
+    "_cache",
+    "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
     "_posts/2024-08-05-Tauri Window Customized.md",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
     "_posts/2024-08-06-pyQt6 Index.md",
@@ -301,8 +298,6 @@
     "_site/assets/img/res/Pasted image 20240808010356.md",
     "_site/tags/blog/index.html",
     "_site/tags/blog",
-    "_site/assets/favicons/site.webmanifest",
-    "_site/assets/favicons/browserconfig.xml",
     "assets/img/res/Pasted image 20240808010356.md",
     "assets/img/res/Pasted.md",
     "_includes/template/admonition.md",
@@ -319,7 +314,6 @@
     "Excalidraw/Drawing 2024-08-03 19.50.54.excalidraw.md",
     "Excalidraw/Drawing 2024-08-03 19.50.46.excalidraw.md",
     "02_Resource/반도체,회로,전자공학/Device Physics_1.1 반도체 물질(Semiconductor Materials).md",
-    "02_Resource/반도체,회로,전자공학/반도체 기초 (3) Extrinsic Semiconductor (도핑, P형 반도체, N형 반도체).md",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",
