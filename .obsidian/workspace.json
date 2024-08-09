@@ -40,7 +40,7 @@
       {
         "id": "015c8fe5ac2fd94e",
         "type": "tabs",
-        "dimension": 55.898366606170605,
+        "dimension": 27.9491833030853,
         "children": [
           {
             "id": "3a9de8bc611d283e",
@@ -53,6 +53,25 @@
                 "backlinks": true,
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "732824e6a38b0c5a",
+        "type": "tabs",
+        "dimension": 27.9491833030853,
+        "children": [
+          {
+            "id": "c77bbd4cfc10eb3c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://github.com/benbalter/jekyll-relative-links/tree/main/docs"
+              },
+              "pinned": true
             }
           }
         ]
@@ -157,7 +176,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,9 +225,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -225,7 +241,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,10 +274,10 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "3a9de8bc611d283e",
+  "active": "c77bbd4cfc10eb3c",
   "lastOpenFiles": [
-    "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+    "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
     "_posts/블로그 꾸며보기.md",
     "_cache/6c362d30505f9a33fe5357c9b087bbc0.json",
     "_site/assets/css/linkpreview.css",
