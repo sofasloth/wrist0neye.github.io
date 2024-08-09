@@ -229,6 +229,10 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
+relative_links:
+  enabled:     false
+  collections: false
+
 # Plugins (previously gems:)
 plugins:
   - jekyll-coffeescript

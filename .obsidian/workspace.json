@@ -69,7 +69,7 @@
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://github.com/benbalter/jekyll-relative-links/tree/main/docs"
+                "url": "https://github.com/benbalter/jekyll-relative-links"
               },
               "pinned": true
             }
@@ -277,22 +277,23 @@
   "active": "c77bbd4cfc10eb3c",
   "lastOpenFiles": [
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+    "_site/Github 블로그 꾸며보기2/index.html",
+    "_site/Github 블로그 꾸며보기2",
+    "_site/Github.io블로그 꾸며보기/index.html",
     "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
+    "_site/Github 블로그 꾸며보기2.html",
+    "_site/Github.io블로그 꾸며보기",
+    "_posts/2024-08-06-pyQt6 Index.md",
+    "_includes/template/_post template.md",
+    "_posts/Github.io블로그 꾸며보기.md",
     "_posts/블로그 꾸며보기.md",
     "_cache/6c362d30505f9a33fe5357c9b087bbc0.json",
     "_site/assets/css/linkpreview.css",
     "assets/css/linkpreview.css",
     "_includes/linkpreview.css",
     "_cache/e2010699be801aa8e113c30874b2bf2a.json",
-    "_includes/linkpreivew.css",
-    "_includes/template/_post template.md",
     "_posts/2024-08-05-Tauri Window Customized.md",
-    "_posts/2024-08-06-pyQt6 Index.md",
     "_posts/2024-08-04-Hello github.io!.md",
-    "_site/assets/css/linkpreivew.css",
-    "assets/css/linkpreivew.css",
-    "_cache/linkpreivew.css",
-    "_cache",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
     "_posts/2024-08-09-.md",
     "assets/img/favicons/favicon-96x96.png",
@@ -320,8 +321,6 @@
     "02_Resource/컴퓨터 책과 강의/WebGL+Three_js/Three.js 강의 필기.md",
     "02_Resource/반도체,회로,전자공학/Device Physics_1.3 공간 격자(Space Lattices).md",
     "02_Resource/반도체,회로,전자공학/Device Physics_1.2 고체의 유형(Types of Solids).md",
-    "Excalidraw/Drawing 2024-08-03 19.50.54.excalidraw.md",
-    "Excalidraw/Drawing 2024-08-03 19.50.46.excalidraw.md",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",
