@@ -6,7 +6,7 @@
       {
         "id": "17ba5320ac2e145d",
         "type": "tabs",
-        "dimension": 32.93821839080459,
+        "dimension": 44.1016333938294,
         "children": [
           {
             "id": "7fe69c5dc00b219a",
@@ -37,9 +37,9 @@
         "currentTab": 1
       },
       {
-        "id": "8235a67750fafe8e",
+        "id": "015c8fe5ac2fd94e",
         "type": "tabs",
-        "dimension": 33.728448275862064,
+        "dimension": 55.898366606170605,
         "children": [
           {
             "id": "3a9de8bc611d283e",
@@ -53,14 +53,7 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "015c8fe5ac2fd94e",
-        "type": "tabs",
-        "dimension": 33.33333333333333,
-        "children": [
+          },
           {
             "id": "5d049fe85888a93a",
             "type": "leaf",
@@ -74,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.50312423706055
+    "width": 264.50312423706055,
+    "collapsed": true
   },
   "right": {
     "id": "73c23346572ca585",
@@ -176,6 +171,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -225,7 +221,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md"
+              }
             }
           }
         ]
@@ -241,6 +239,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +254,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 347.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -273,11 +273,11 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "1e4c6b91e967ed2e",
+  "active": "5d049fe85888a93a",
   "lastOpenFiles": [
+    "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "_posts/2024-08-05-Tauri Window Customized.md",
-    "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
     "_posts/2024-08-06-pyQt6 Index.md",
     "_includes/template/_post template.md",
