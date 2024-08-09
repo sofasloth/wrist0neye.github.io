@@ -6,6 +6,7 @@
       {
         "id": "17ba5320ac2e145d",
         "type": "tabs",
+        "dimension": 32.93821839080459,
         "children": [
           {
             "id": "7fe69c5dc00b219a",
@@ -19,12 +20,26 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1e4c6b91e967ed2e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://wrist0neye.github.io"
+              },
+              "pinned": true
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "8235a67750fafe8e",
         "type": "tabs",
+        "dimension": 33.728448275862064,
         "children": [
           {
             "id": "3a9de8bc611d283e",
@@ -44,6 +59,7 @@
       {
         "id": "015c8fe5ac2fd94e",
         "type": "tabs",
+        "dimension": 33.33333333333333,
         "children": [
           {
             "id": "5d049fe85888a93a",
@@ -160,7 +176,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-05-Tauri Window Customized.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -210,9 +225,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/2024-08-05-Tauri Window Customized.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -228,7 +241,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-05-Tauri Window Customized.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -261,7 +273,7 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "7fe69c5dc00b219a",
+  "active": "1e4c6b91e967ed2e",
   "lastOpenFiles": [
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "_posts/2024-08-05-Tauri Window Customized.md",
