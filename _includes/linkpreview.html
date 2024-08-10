@@ -1,7 +1,8 @@
 <link rel="stylesheet" type = "text/css" href="/assets/css/linkpreview.css" media="screen">
 
 <div class="card bg-transparent">
-    <a class ="post-preview row g-0 flex-md-row-reverse jekyll-linkpreview-inner" href="{{url}}">
+  <a href="{{url}}" class="jekyll-linkpreview-linkbox"></a>
+    <div class ="post-preview row g-0 flex-md-row-reverse jekyll-linkpreview-inner">
         {% assign card_body_col = '12' %}
 
         {% if image %}
@@ -30,13 +31,13 @@
         <div class="col-md-7"> 
             <div class="card-body d-flex flex-column">
                 <h1 class="card-title my-2 mt-md-0 jekyll-linkpreview-title">{{ title }}</h1>
-                <div class="card-text mt-0 jekyll-linkpreview-description">
-                    <p>{{ description }}</p>
+                <div class="card-text mt-0">
+                    <p class = "jekyll-linkpreview-description">{{ description }}</p>
                 </div>
                 <span class="jekyll-linkpreview-domain">
                   {{ domain }}
                 </span>
             </div> 
         </div>
-    </a>
+    </div>
 </div>
