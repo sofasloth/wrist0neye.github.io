@@ -258,8 +258,9 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "3a9de8bc611d283e",
+  "active": "c0d1cda2e4363d8c",
   "lastOpenFiles": [
+    "assets/img/res/bootstrap_card.gif",
     "_includes/linkpreview.html",
     "_layouts/linkpreview.html",
     "_includes/1.html",
@@ -277,7 +278,6 @@
     "_includes/template/_post template.md",
     "_posts/Github.io블로그 꾸며보기.md",
     "_posts/블로그 꾸며보기.md",
-    "_cache/6c362d30505f9a33fe5357c9b087bbc0.json",
     "_posts/2024-08-04-Hello github.io!.md",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
     "_posts/2024-08-09-.md",
