@@ -50,3 +50,32 @@
   .jekyll-linkpreview-footer {
     font-size: 0.75rem;
   } */
+
+.jekyll-linkpreview-inner {
+  cursor: pointer;
+}
+
+.jekyll-linkpreview-img-wrapper{
+  height:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.jekyll-linkpreview-title{
+  font-size:1.25rem;
+  font-weight: 400;
+  color: var(--heading-color);
+}
+
+.jekyll-linkpreview-description{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  color:var(--text-color);
+}
+
+.jekyll-linkpreview-domain{
+  color:var(--text-muted-color);
+}

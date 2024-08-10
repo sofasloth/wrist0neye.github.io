@@ -1,5 +1,7 @@
+<link rel="stylesheet" type = "text/css" href="/assets/css/linkpreview.css" media="screen">
+
 <div class="card bg-transparent">
-    <div class ="post-preview row g-0 flex-md-row-reverse" onclick="location.href='{{url}}'" style="cursor: pointer;">
+    <a class ="post-preview row g-0 flex-md-row-reverse jekyll-linkpreview-inner" href="{{url}}">
         {% assign card_body_col = '12' %}
 
         {% if image %}
@@ -17,7 +19,7 @@
           {% endif %}
 
           <div class="col-md-5">
-            <div class="preview-img" style="height:100%;display: flex;flex-direction: column;justify-content: center;">
+            <div class="preview-img jekyll-linkpreview-img-wrapper">
               <img src="{{src}}" alt="{{alt}}" {{lqip}}>
             </div>
           </div>
@@ -27,14 +29,14 @@
 
         <div class="col-md-7"> 
             <div class="card-body d-flex flex-column">
-                <h1 class="card-title my-2 mt-md-0" style="font-size:1.25rem;font-weight: 400;color: var(--heading-color);">{{ title }}</h1>
-                <div class="card-text mt-0" style="overflow: hidden;overflow-wrap: break-word;color:var(--text-color);">
+                <h1 class="card-title my-2 mt-md-0 jekyll-linkpreview-title">{{ title }}</h1>
+                <div class="card-text mt-0 jekyll-linkpreview-description">
                     <p>{{ description }}</p>
                 </div>
-                <span style="color:var(--text-muted-color); -webkit-line-clamp:3;">
+                <span class="jekyll-linkpreview-domain">
                   {{ domain }}
                 </span>
             </div> 
         </div>
-    </div>
+    </a>
 </div>
