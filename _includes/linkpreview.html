@@ -1,5 +1,5 @@
 <article class="card-wrapper card">
-    <a class="post-preview row g-0 flex-md-row-reverse" href="{{url}}">
+    <a href="{{url}}" class="post-preview row g-0 flex-md-row-reverse" >
         {% assign card_body_col = '12' %}
 
         {% if image %}
@@ -25,9 +25,9 @@
           {% assign card_body_col = '7' %}
         {% endif %}
 
-        <div class="col-md-{{card_body_col}}">
-            <div class="card-body d-flex flex-column flex-column">
-                <h1 class="card-title my-2 mt-md-0 jekyll-linkpreview-title">{{ title }}</h1>
+        <div class="col-md-{{card_body_col}}"> 
+            <div class="card-body d-flex flex-column">
+                <h1 class="card-title my-2 mt-md-0">{{ title }}</h1>
                 <div class="card-text content mt-0 mb-3">
                     <p>{{ description }}</p>
                 </div>
