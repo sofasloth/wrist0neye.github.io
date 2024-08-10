@@ -6,7 +6,7 @@
       {
         "id": "17ba5320ac2e145d",
         "type": "tabs",
-        "dimension": 44.10163339382941,
+        "dimension": 38.677738741616096,
         "children": [
           {
             "id": "7fe69c5dc00b219a",
@@ -40,7 +40,7 @@
       {
         "id": "015c8fe5ac2fd94e",
         "type": "tabs",
-        "dimension": 27.949183303085295,
+        "dimension": 28.84062599808368,
         "children": [
           {
             "id": "3a9de8bc611d283e",
@@ -60,21 +60,30 @@
       {
         "id": "732824e6a38b0c5a",
         "type": "tabs",
-        "dimension": 27.949183303085295,
+        "dimension": 32.48163526030022,
         "children": [
           {
-            "id": "c77bbd4cfc10eb3c",
+            "id": "64852fcf62cc8cc3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "bc791930371e584b",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://github.com/benbalter/jekyll-relative-links"
+                "url": "https://github.com/benbalter/jekyll-relative-links/tree/main/.github"
               },
               "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,7 +185,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-05-Tauri Window Customized.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -226,9 +234,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/2024-08-05-Tauri Window Customized.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -244,7 +250,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-05-Tauri Window Customized.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +283,7 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "c77bbd4cfc10eb3c",
+  "active": "bc791930371e584b",
   "lastOpenFiles": [
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "_site/Github 블로그 꾸며보기2/index.html",

@@ -229,9 +229,9 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
-relative_links:
-  enabled:     false
-  collections: false
+# relative_links:
+#   enabled:     false
+#   collections: false
 
 # Plugins (previously gems:)
 plugins:
@@ -241,5 +241,5 @@ plugins:
   - jekyll-optional-front-matter
   - jekyll-readme-index
   - jekyll-titles-from-headings
-  - jekyll-relative-links
+  # - jekyll-relative-links
   - jekyll-linkpreview
