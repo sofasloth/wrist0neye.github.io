@@ -1,5 +1,5 @@
-<div class="card-wrapper jekyll-linkpreview-wrapper">
-    <a class="post-preview row g-0 flex-md-row-reverse jekyll-linkpreview-wrapper-inner" href="{{url}}">
+<article class="card-wrapper card">
+    <a class="post-preview row g-0 flex-md-row-reverse" href="{{url}}">
         {% assign card_body_col = '12' %}
 
         {% if image %}
@@ -16,8 +16,10 @@
             {% capture lqip %}lqip="{{ image.lqip }}"{% endcapture %}
           {% endif %}
 
-          <div class="col-md-5 jekyll-linkpreview-image">
-            <img src="{{src}}" alt="{{alt}}" {{lqip}}>
+          <div class="col-md-5">
+            <div class="preview-img">
+              <img src="{{src}}" alt="{{alt}}" {{lqip}}>
+            </div>
           </div>
 
           {% assign card_body_col = '7' %}
@@ -37,7 +39,7 @@
             </div>
         </div>
     </a>
-</div>
+</article>
 <!-- <div class="jekyll-linkpreview-wrapper">
   <div class="jekyll-linkpreview-wrapper-inner">
     <div class="jekyll-linkpreview-content">
