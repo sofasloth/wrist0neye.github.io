@@ -6,7 +6,7 @@
       {
         "id": "17ba5320ac2e145d",
         "type": "tabs",
-        "dimension": 44.1016333938294,
+        "dimension": 44.10163339382941,
         "children": [
           {
             "id": "7fe69c5dc00b219a",
@@ -40,7 +40,7 @@
       {
         "id": "015c8fe5ac2fd94e",
         "type": "tabs",
-        "dimension": 27.9491833030853,
+        "dimension": 27.949183303085295,
         "children": [
           {
             "id": "3a9de8bc611d283e",
@@ -60,7 +60,7 @@
       {
         "id": "732824e6a38b0c5a",
         "type": "tabs",
-        "dimension": 27.9491833030853,
+        "dimension": 27.949183303085295,
         "children": [
           {
             "id": "c77bbd4cfc10eb3c",
@@ -176,6 +176,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "_posts/2024-08-05-Tauri Window Customized.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -225,7 +226,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/2024-08-05-Tauri Window Customized.md"
+              }
             }
           }
         ]
@@ -241,6 +244,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/2024-08-05-Tauri Window Customized.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
