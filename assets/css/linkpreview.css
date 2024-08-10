@@ -66,12 +66,7 @@
   z-index:2;
   border:none !important;
   border-radius: 0.375rem;
-}
-
-.jekyll-linkpreview-linkbox:hover {
-  background-color: #464d51;
-  transition: opacity .35s ease-in-out;
-  opacity: 0.3;
+  background-color: transparent;
 }
 
 .jekyll-linkpreview-img-wrapper{
