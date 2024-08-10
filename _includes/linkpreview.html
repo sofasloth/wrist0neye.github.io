@@ -1,5 +1,5 @@
 <div class="card-wrapper card row g-0 flex-md-row-reverse">
-    <a href="{{url}}" class="post-preview">
+    <a href="{{url}}">
         {% assign card_body_col = '12' %}
 
         {% if image %}
@@ -27,7 +27,7 @@
 
         <div class="col-md-{{card_body_col}}"> 
             <div class="card-body d-flex flex-column">
-                <h1 class="card-title my-2 mt-md-0">{{ title }}</h1>
+                <h1 class="card-title my-2 mt-md-0" style="font-size:1.25rem;font-weight: 400;">{{ title }}</h1>
                 <div class="card-text content mt-0 mb-3">
                     <p>{{ description }}</p>
                 </div>
