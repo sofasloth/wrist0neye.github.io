@@ -34,8 +34,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "015c8fe5ac2fd94e",
@@ -77,7 +76,7 @@
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://github.com/benbalter/jekyll-relative-links/tree/main/.github"
+                "url": "https://github.com/benbalter/jekyll-relative-links/blob/main/lib/jekyll-relative-links/generator.rb"
               },
               "pinned": true
             }
@@ -288,6 +287,9 @@
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "_site/Github 블로그 꾸며보기2/index.html",
     "_site/Github 블로그 꾸며보기2",
+    "_site/tags/blog/index.html",
+    "_site/tags/blog",
+    "_posts/2024-08-05-Tauri Window Customized.md",
     "_site/Github.io블로그 꾸며보기/index.html",
     "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
     "_site/Github 블로그 꾸며보기2.html",
@@ -299,9 +301,6 @@
     "_cache/6c362d30505f9a33fe5357c9b087bbc0.json",
     "_site/assets/css/linkpreview.css",
     "assets/css/linkpreview.css",
-    "_includes/linkpreview.css",
-    "_cache/e2010699be801aa8e113c30874b2bf2a.json",
-    "_posts/2024-08-05-Tauri Window Customized.md",
     "_posts/2024-08-04-Hello github.io!.md",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
     "_posts/2024-08-09-.md",
