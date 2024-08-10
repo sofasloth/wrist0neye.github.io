@@ -244,3 +244,4 @@ plugins:
   - jekyll-titles-from-headings
   # - jekyll-relative-links
   - jekyll-linkpreview
+  - obsidian_link_converter
