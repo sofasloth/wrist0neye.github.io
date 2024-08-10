@@ -1,4 +1,4 @@
-<div class="card-wrapper card">
+<div class="card bg-transparent">
     <div class ="post-preview row g-0 flex-md-row-reverse" onclick="location.href='{{url}}'">
         {% assign card_body_col = '12' %}
 
@@ -28,37 +28,13 @@
         <div class="col-md-7"> 
             <div class="card-body d-flex flex-column">
                 <h1 class="card-title my-2 mt-md-0" style="font-size:1.25rem;font-weight: 400;">{{ title }}</h1>
-                <div class="card-text content mt-0 mb-3">
+                <div class="card-text content mt-0">
                     <p>{{ description }}</p>
                 </div>
-            </div>
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-                <span class="categories">
-                    {{ domain }}
+                <span>
+                  {{ domain }}
                 </span>
-            </div>
+            </div> 
         </div>
     </div>
 </div>
-<!-- <div class="jekyll-linkpreview-wrapper">
-  <div class="jekyll-linkpreview-wrapper-inner">
-    <div class="jekyll-linkpreview-content">
-      <div class="jekyll-linkpreview-image">
-        <a href="{{url}}" target="_blank">
-          </a><a href="{{image_secure_url}}" class="popup img-link">
-            <img src="{{image_secure_url}}" loading="lazy"></a>
-        
-      </div>
-
-      <div class="jekyll-linkpreview-body">
-        <h2 class="jekyll-linkpreview-title">
-          <a href="{{url}}" target="_blank">GitHub - ysk24ok/jekyll-linkpreview: Jekyll plugin to generate link preview</a>
-        </h2>
-        <div class="jekyll-linkpreview-description">Jekyll plugin to generate link preview. Contribute to ysk24ok/jekyll-linkpreview development by creating an account on GitHub.</div>
-      </div>
-    </div>
-    <div class="jekyll-linkpreview-footer">
-      <a href="{{domain}}" target="_blank">{{domain}}</a>
-    </div>
-  </div>
-</div> -->
