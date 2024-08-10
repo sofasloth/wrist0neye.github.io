@@ -39,7 +39,7 @@
       {
         "id": "015c8fe5ac2fd94e",
         "type": "tabs",
-        "dimension": 28.84062599808368,
+        "dimension": 28.840625998083677,
         "children": [
           {
             "id": "3a9de8bc611d283e",
@@ -184,6 +184,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "_posts/2024-08-05-Tauri Window Customized.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -233,7 +234,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/2024-08-05-Tauri Window Customized.md"
+              }
             }
           }
         ]
@@ -249,6 +252,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/2024-08-05-Tauri Window Customized.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",

@@ -1,0 +1,47 @@
+---
+layout: default
+refactor: true
+---
+
+{% include lang.html %}
+
+<div class="card-wrapper jekyll-linkpreview-wrapper">
+    <a class="post-preview row g-0 flex-md-row-reverse jekyll-linkpreview-wrapper-inner" href="{{url}}">
+        {% assign card_body_col = '12' %}
+
+        {% if image %}
+          {% assign src = image.path | default: image %}
+          {% unless src contains '//' %}
+            {% assign src = post.media_subpath | append: '/' | append: src | replace: '//', '/' %}
+          {% endunless %}
+
+          {% assign alt = image.alt | xml_escape | default: 'Preview Image' %}
+
+          {% assign lqip = null %}
+
+          {% if image.lqip %}
+            {% capture lqip %}lqip="{{ image.lqip }}"{% endcapture %}
+          {% endif %}
+
+          <div class="col-md-5 jekyll-linkpreview-image">
+            <img src="{{src}}" alt="{{alt}}" {{lqip}}>
+          </div>
+
+          {% assign card_body_col = '7' %}
+        {% endif %}
+
+        <div class="col-md-{{card_body_col}}">
+            <div class="card-body d-flex flex-column flex-column">
+                <h1 class="card-title my-2 mt-md-0 jekyll-linkpreview-title">{{ title }}</h1>
+                <div class="card-text content mt-0 mb-3">
+                    <p>{{ description }}</p>
+                </div>
+            </div>
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+                <span class="categories">
+                    {{ url }}
+                </span>
+            </div>
+        </div>
+    </a>
+</div>
