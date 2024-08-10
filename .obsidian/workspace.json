@@ -6,7 +6,7 @@
       {
         "id": "17ba5320ac2e145d",
         "type": "tabs",
-        "dimension": 38.677738741616096,
+        "dimension": 57.28476821192053,
         "children": [
           {
             "id": "7fe69c5dc00b219a",
@@ -39,7 +39,7 @@
       {
         "id": "015c8fe5ac2fd94e",
         "type": "tabs",
-        "dimension": 28.840625998083677,
+        "dimension": 42.71523178807947,
         "children": [
           {
             "id": "3a9de8bc611d283e",
@@ -55,34 +55,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "732824e6a38b0c5a",
-        "type": "tabs",
-        "dimension": 32.48163526030022,
-        "children": [
-          {
-            "id": "64852fcf62cc8cc3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "bc791930371e584b",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://github.com/benbalter/jekyll-relative-links/blob/main/lib/jekyll-relative-links/generator.rb"
-              },
-              "pinned": true
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,7 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-05-Tauri Window Customized.md",
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -235,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-05-Tauri Window Customized.md"
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md"
               }
             }
           }
@@ -252,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-05-Tauri Window Customized.md",
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,8 +258,10 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "bc791930371e584b",
+  "active": "3a9de8bc611d283e",
   "lastOpenFiles": [
+    "_includes/linkpreview.html",
+    "_includes/1.html",
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "_site/Github 블로그 꾸며보기2/index.html",
     "_site/Github 블로그 꾸며보기2",
@@ -304,7 +278,6 @@
     "_posts/블로그 꾸며보기.md",
     "_cache/6c362d30505f9a33fe5357c9b087bbc0.json",
     "_site/assets/css/linkpreview.css",
-    "assets/css/linkpreview.css",
     "_posts/2024-08-04-Hello github.io!.md",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
     "_posts/2024-08-09-.md",
