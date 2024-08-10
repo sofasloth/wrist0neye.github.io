@@ -261,6 +261,7 @@
   "active": "3a9de8bc611d283e",
   "lastOpenFiles": [
     "_includes/linkpreview.html",
+    "_layouts/linkpreview.html",
     "_includes/1.html",
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "_site/Github 블로그 꾸며보기2/index.html",
@@ -277,7 +278,6 @@
     "_posts/Github.io블로그 꾸며보기.md",
     "_posts/블로그 꾸며보기.md",
     "_cache/6c362d30505f9a33fe5357c9b087bbc0.json",
-    "_site/assets/css/linkpreview.css",
     "_posts/2024-08-04-Hello github.io!.md",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
     "_posts/2024-08-09-.md",
