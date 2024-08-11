@@ -20,19 +20,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d54f0569dd68ef15",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "assets/img/Excalidraw/Drawing 2024-08-11 11.16.52.excalidraw.md"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "015c8fe5ac2fd94e",
@@ -154,7 +143,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "assets/img/Excalidraw/Drawing 2024-08-11 11.16.52.excalidraw.md",
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/img/Excalidraw/Drawing 2024-08-11 11.16.52.excalidraw.md"
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md"
               }
             }
           }
@@ -222,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/img/Excalidraw/Drawing 2024-08-11 11.16.52.excalidraw.md",
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,34 +246,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c0d1cda2e4363d8c",
+  "active": "3a9de8bc611d283e",
   "lastOpenFiles": [
-    "assets/font/Nanum GaRamYeonGgoc.ttf",
-    "_includes/template/_post template.md",
-    "assets/img/Excalidraw/Drawing 2024-08-11 11.16.52.excalidraw.md",
-    "assets/font/나눔손글씨 가람연꽃.ttf",
-    "assets/font",
+    "assets/img/Excalidraw/Drawing 2024-08-11 11.51.24.excalidraw.md",
+    "_site/assets/font/Nanum MaslssNeunCe.ttf",
+    "assets/font/Nanum MaslssNeunCe.ttf",
+    "_site/assets/font/Nanum .ttf",
+    "assets/font/Nanum .ttf",
+    "_site/assets/font/나눔손글씨 맛있는체.ttf",
+    "assets/font/나눔손글씨 맛있는체.ttf",
+    "_site/assets/img/Excalidraw/Drawing 2024-08-11 11.51.24.excalidraw.html",
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
-    "assets/img/Excalidraw",
-    "_posts/2024-08-05-Tauri Window Customized.md",
-    "_plugins/obsidian_link_conveter.rb",
+    "assets/img/res/Pasted image 20240811114936.png",
+    "_site/assets/img/res/Pasted image 20240811114936.png",
+    "assets/img/Excalidraw/Drawing 2024-08-11 11.16.52.excalidraw.md",
     "_site/sitemap.xml",
-    "_site/redirects.json",
     "_site/about/index.html",
     "_site/about",
-    "_site/archives/index.html",
-    "_site/archives",
-    "_site/assets/img/res/pyqt++.png",
-    "_site/assets/img/res/image.png",
-    "_site/assets/img/icons/times-circle-solid.svg",
-    "_site/assets/img/icons/quote-right-solid.svg",
-    "_site/assets/img/icons/question-circle-solid.svg",
-    "_site/assets/img/icons/list-ol-solid.svg",
-    "_site/assets/img/icons/pen-solid.svg",
-    "_site/assets/img/icons/info-circle-solid.svg",
-    "_site/assets/img/icons/fire-solid.svg",
-    "_site/assets/img/icons/exclamation-triangle-solid.svg",
+    "_site/assets/img/res/tauri-solved1.gif",
+    "_site/assets/img/res/tauri-error.gif",
+    "_site/assets/img/res/Pasted image 20240811043914.png",
+    "_site/assets/img/res/Pasted image 20240811042940.png",
+    "_site/assets/img/res/Pasted image 20240808014201.png",
+    "_site/assets/img/res/Pasted image 20240811032023.png",
+    "_site/assets/img/res/Pasted image 20240808022308.png",
+    "_site/assets/img/res/Pasted image 20240808012836.png",
     "_site/assets/img/res/Pasted image 20240808010356.md",
+    "_includes/template/_post template.md",
+    "_posts/2024-08-05-Tauri Window Customized.md",
     "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
     "_posts/2024-08-06-pyQt6 Index.md",
     "_posts/Github.io블로그 꾸며보기.md",
@@ -304,7 +293,6 @@
     "02_Resource/반도체,회로,전자공학/Device Physics_1.6 고체의 불완전성(Imperfection)과 불순물(Impurity).md",
     "02_Resource/반도체,회로,전자공학/Device Physics_1.4 다이아몬드 구조.md",
     "02_Resource/컴퓨터 책과 강의/WebGL+Three_js/Three.js 강의 필기.md",
-    "02_Resource/반도체,회로,전자공학/Device Physics_1.3 공간 격자(Space Lattices).md",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",
