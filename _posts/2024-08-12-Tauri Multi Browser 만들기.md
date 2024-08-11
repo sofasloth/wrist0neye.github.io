@@ -65,6 +65,75 @@ drag & drop에 관한 이벤트 종류는 아래와 같다.
 이것만으로 구현하면 허전하니 Browser의 기본기능들을 구현해보자.
 ![](/assets/img/res/Pasted%20image%2020240812003438.png)
 
+![](/assets/img/res/Pasted%20image%2020240812011724.png)
+
+![](/assets/img/res/Pasted%20image%2020240812011825.png)
+
+이것만으로 페이지 여는 걸 어떻게 여는지 확인할 수 없다..
+
+![](/assets/img/res/Pasted%20image%2020240812012620.png)
+
+하지만 위 사진처럼 문제가 생겼는데`https://www.electron.org`, `https:/tauri.app`은 `<iframe>`으로 그대로 가져올 수 있었는데, `goolge`, `naver`, `github` 등은 위와 같이 `X-frame-Ooptions` to `sameorigin`이라는 Warning창을 띄우며 액세스를 거부한다.
+
+이는 [mdn X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options)를 봤는데 이해가 잘 안 되서 google에 `X-Frame-Options`와 `frame-ancestors` 검색했는데 *click jacking* 이라고 `iframe` 위에 `z-index` 높은 이상한 링크를 숨겨놓아서 사용자가 클릭 시 이상한 사이트로 옮겨버리는 방식 때문에 생긴 보안 장치라고 보면 된다. 
+
+electron의 경우 iframe을 안 쓰고 `<webview>` 라는 태그를 대신 사용하는데, [Tauri 공식 문서](https://tauri.app/)에서 비슷한 기능이 없는지 찾아봤지만 이에 대해서 설명한 내용이 없었는지 확인해본 결과 window.ts 에서 비슷한 기능을 하는 WebViewWindow 라는 클래스를 찾을 수 있다. 그 클래스 내용은 다음과 같다. 
+```ts
+declare class WebviewWindow extends WindowManager {
+    /**
+     * Creates a new WebviewWindow.
+     * @example
+     * ```typescript
+     * import { WebviewWindow } from '@tauri-apps/api/window';
+     * const webview = new WebviewWindow('my-label', {
+     *   url: 'https://github.com/tauri-apps/tauri'
+     * });
+     * webview.once('tauri://created', function () {
+     *  // webview window successfully created
+     * });
+     * webview.once('tauri://error', function (e) {
+     *  // an error happened creating the webview window
+     * });
+     * ```
+     *
+     * * @param label The unique webview window label. Must be alphanumeric: `a-zA-Z-/:_`.
+     * @returns The WebviewWindow instance to communicate with the webview.
+     */
+
+    constructor(label: WindowLabel, options?: WindowOptions);
+    /**
+     * Gets the WebviewWindow for the webview associated with the given label.
+     * @example
+     * ```typescript
+     * import { WebviewWindow } from '@tauri-apps/api/window';
+     * const mainWindow = WebviewWindow.getByLabel('main');
+     * ```
+     *
+     * @param label The webview window label.
+     * @returns The WebviewWindow instance to communicate with the webview or null if the webview doesn't exist.
+     */
+
+    static getByLabel(label: string): WebviewWindow | null;
+    /**
+     *  Gets the focused window.
+     * @example
+     * ```typescript
+     * import { WebviewWindow } from '@tauri-apps/api/window';
+     * const focusedWindow = WebviewWindow.getFocusedWindow();
+     * ```
+     *
+     * @returns The WebviewWindow instance to communicate with the webview or `undefined` if there is not any focused window.
+     *
+     * @since 1.4
+     */
+    static getFocusedWindow(): Promise<WebviewWindow | null>;
+}
+```
+
+위에서 가이드라인 대로 한 번 코드를 짜보자.
+
+
+
 
 #### Step 1.3 구현하기
 
@@ -86,9 +155,11 @@ drag & drop에 관한 이벤트 종류는 아래와 같다.
 - [Electron : Web Embeds](https://www.electronjs.org/docs/latest/tutorial/web-embeds)
 - [웹페이지 뒤로가기 및 앞으로 가기](https://codingbroker.tistory.com/73)
 - [웹페이지 새로고침](https://bba-jin.tistory.com/30)
+- [iframe 와 click jacking](https://lucas-owner.tistory.com/69)
 
 {% linkpreview "https://wikidocs.net/86838" %}
 {% linkpreview "https://tauri.app/v1/references/webview-versions/" %}
+
 
 ### Tauri
 #### Session & Cookie 설명
