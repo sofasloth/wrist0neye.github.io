@@ -21,6 +21,16 @@
             }
           },
           {
+            "id": "40c1d1b23fc407a4",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "assets/img/Excalidraw/Drawing 2024-08-11 22.34.17.excalidraw.md"
+              }
+            }
+          },
+          {
             "id": "739d1a090b0332a1",
             "type": "leaf",
             "state": {
@@ -33,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "ef0fbc43d718b4ef",
@@ -51,8 +62,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "85344461cb760aca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-12-Tauri Multi Browser 만들기.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -257,29 +282,32 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e75b8601566d3ce9",
+  "active": "85344461cb760aca",
   "lastOpenFiles": [
+    "_site/assets/img/res/Pasted image 20240811223716.png",
+    "_posts/2024-08-12-Tauri Multi Browser 만들기.md",
+    "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
+    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+    "_cache/87e3c02b58fdad739d1149d4bba102f6.json",
+    "_includes/template/fast asset.md",
+    "assets/img/res/Pasted image 20240811223716.png",
+    "assets/img/Excalidraw/Drawing 2024-08-11 22.34.17.excalidraw.md",
+    "_posts/2024-08-05-Tauri Window Customized.md",
     "_cache/fff3e8850542d3923e88de393adabc2f.json",
     "_cache/455c13de1d9e40d21c1136f01d40f75b.json",
     "_includes/template/linkpreview.md",
-    "_posts/2024-08-12-Tauri Multi Browser 만들기.md",
     "_cache/3638454bcc5242df410c45e2061bf3b3.json",
     "_cache/63670e8b0fe33cd86c7cdcd9ec280f2b.json",
     "_site/posts/Tauri-Multi-Browser-만들기/index.html",
     "_site/posts/Tauri-Multi-Browser-만들기",
     "_site/posts/2024-08-12-Tauri-Multi-Browser-만들기/index.html",
     "_site/posts/2024-08-12-Tauri-Multi-Browser-만들기",
-    "_posts/2024-08-05-Tauri Window Customized.md",
-    "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
     "_cache/549415d9f083816bca44e027def2de50.json",
-    "_cache/2d7adc769cda78608d66b388d358208f.json",
-    "_cache/533ae76fa219feb822f70617750dd2d2.json",
     "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
     "_includes/template/_post template.md",
-    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "_site/assets/img/favicons/favicon-96x96 copy.png",
     "assets/img/favicons/favicon-96x96 copy.png",
-    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
     "_site/assets/img/favicons/mstile-150x150.png",
     "_site/assets/img/favicons/apple-touch-icon.png",
     "_site/assets/img/favicons/android-chrome-512x512.png",
@@ -287,7 +315,6 @@
     "_site/assets/img/res/tauri_banner.png",
     "_site/assets/img/res/tauri-solved2.gif",
     "_site/assets/img/res/bootstrap_card.gif",
-    "_site/assets/img/res/Pasted image 20240808014201.png",
     "_site/assets/img/res/Pasted image 20240808010356.md",
     "_posts/Untitled.md",
     "_posts/2024-08-06-pyQt6 Index.md",
@@ -303,8 +330,6 @@
     "assets/img/res/Pasted.md",
     "_includes/template/admonition.md",
     "README.md",
-    "_posts/2024-08-07.md",
-    "03_GTD(unused)/03.2_Kanban Baord/03.2.1 Announcement/유튜브 면접질문 및 전략.md",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",
