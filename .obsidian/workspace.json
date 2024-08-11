@@ -6,7 +6,7 @@
       {
         "id": "17ba5320ac2e145d",
         "type": "tabs",
-        "dimension": 57.28476821192053,
+        "dimension": 55.41360587671671,
         "children": [
           {
             "id": "7fe69c5dc00b219a",
@@ -26,7 +26,7 @@
       {
         "id": "015c8fe5ac2fd94e",
         "type": "tabs",
-        "dimension": 42.71523178807947,
+        "dimension": 44.5863941232833,
         "children": [
           {
             "id": "3a9de8bc611d283e",
@@ -248,6 +248,10 @@
   },
   "active": "3a9de8bc611d283e",
   "lastOpenFiles": [
+    "_site/assets/img/res/Pasted image 20240811120604.png",
+    "assets/img/res/Pasted image 20240811120604.png",
+    "_posts/2024-08-06-pyQt6 Index.md",
+    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "assets/img/Excalidraw/Drawing 2024-08-11 11.51.24.excalidraw.md",
     "_site/assets/font/Nanum MaslssNeunCe.ttf",
     "assets/font/Nanum MaslssNeunCe.ttf",
@@ -256,7 +260,6 @@
     "_site/assets/font/나눔손글씨 맛있는체.ttf",
     "assets/font/나눔손글씨 맛있는체.ttf",
     "_site/assets/img/Excalidraw/Drawing 2024-08-11 11.51.24.excalidraw.html",
-    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "assets/img/res/Pasted image 20240811114936.png",
     "_site/assets/img/res/Pasted image 20240811114936.png",
     "assets/img/Excalidraw/Drawing 2024-08-11 11.16.52.excalidraw.md",
@@ -270,12 +273,10 @@
     "_site/assets/img/res/Pasted image 20240808014201.png",
     "_site/assets/img/res/Pasted image 20240811032023.png",
     "_site/assets/img/res/Pasted image 20240808022308.png",
-    "_site/assets/img/res/Pasted image 20240808012836.png",
     "_site/assets/img/res/Pasted image 20240808010356.md",
     "_includes/template/_post template.md",
     "_posts/2024-08-05-Tauri Window Customized.md",
     "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
-    "_posts/2024-08-06-pyQt6 Index.md",
     "_posts/Github.io블로그 꾸며보기.md",
     "_posts/블로그 꾸며보기.md",
     "_posts/2024-08-04-Hello github.io!.md",
