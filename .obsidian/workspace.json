@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+                "file": "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -34,8 +34,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "fd92c2a7ff9dfb16",
@@ -61,7 +60,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+                "file": "_posts/2024-08-05-Tauri Window Customized.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -171,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-05-Tauri Window Customized.md",
+                "file": "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -222,7 +221,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-05-Tauri Window Customized.md"
+                "file": "_posts/2024-08-04-Github.io블로그 꾸며보기.md"
               }
             }
           }
@@ -239,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-05-Tauri Window Customized.md",
+                "file": "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -274,41 +273,41 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d74c1ca8f42b52ab",
+  "active": "e75b8601566d3ce9",
   "lastOpenFiles": [
-    "_site/assets/img/favicons/mstile-150x150.png",
-    "_site/assets/img/favicons/favicon.ico",
-    "_site/assets/img/favicons/apple-touch-icon.png",
-    "_site/assets/img/favicons/android-chrome-512x512.png",
-    "_site/assets/img/favicons/android-chrome-192x192.png",
-    "_site/assets/img/res/image.png",
+    "_site/sitemap.xml",
+    "_site/redirects.json",
+    "_site/norobots/index.html",
+    "_site/norobots",
+    "_site/robots.txt",
+    "_site/sw.min.js",
+    "_site/assets/js/dist/post.min.js",
+    "_site/assets/js/dist/page.min.js",
+    "_site/assets/js/dist/misc.min.js",
+    "_site/assets/js/dist/commons.min.js",
+    "_site/assets/js/dist/home.min.js",
     "_site/assets/img/res/tauri-solved2.gif",
-    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
-    "assets/img/res/tauri-solved2.gif",
+    "_site/assets/img/res/tauri-solved1.gif",
+    "_site/assets/img/res/tauri-error.gif",
+    "_site/assets/img/res/richlink-example.png",
+    "_site/assets/img/res/pyqt++.png",
+    "_site/assets/img/res/image.png",
+    "_site/assets/img/res/bootstrap_card.gif",
+    "_site/assets/img/res/Pasted image 20240811120604.png",
+    "_site/assets/img/res/Pasted image 20240811114936.png",
+    "_site/assets/img/res/Pasted image 20240811043914.png",
     "_posts/2024-08-05-Tauri Window Customized.md",
+    "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
+    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+    "_site/assets/img/res/Pasted image 20240808010356.md",
     "_includes/template/_post template.md",
-    "_site/posts/명세서는-뭐고-어떻게-작성하는-걸까/index.html",
-    "_site/posts/명세서는-뭐고-어떻게-작성하는-걸까",
-    "_site/Github 블로그 꾸며보기3/index.html",
-    "_site/Github 블로그 꾸며보기3",
-    "_site/categories/design/index.html",
-    "_site/categories/design",
-    "_site/categories/how-to/index.html",
-    "_site/categories/how-to",
-    "_site/tags/미완성/index.html",
     "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
     "_includes/template/linkpreview.md",
     "_posts/Untitled.md",
-    "_site/assets/img/res/Pasted image 20240811120604.png",
-    "assets/img/res/Pasted image 20240811120604.png",
     "_posts/2024-08-06-pyQt6 Index.md",
     "assets/img/Excalidraw/Drawing 2024-08-11 11.51.24.excalidraw.md",
-    "assets/img/res/Pasted image 20240811114936.png",
-    "_site/assets/img/res/Pasted image 20240811114936.png",
     "assets/img/Excalidraw/Drawing 2024-08-11 11.16.52.excalidraw.md",
-    "_site/assets/img/res/Pasted image 20240808010356.md",
-    "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
     "_posts/Github.io블로그 꾸며보기.md",
     "_posts/블로그 꾸며보기.md",
     "_posts/2024-08-04-Hello github.io!.md",
