@@ -6,7 +6,7 @@
       {
         "id": "17ba5320ac2e145d",
         "type": "tabs",
-        "dimension": 64.00491400491401,
+        "dimension": 50.45791539467947,
         "children": [
           {
             "id": "e75b8601566d3ce9",
@@ -39,7 +39,7 @@
       {
         "id": "fd92c2a7ff9dfb16",
         "type": "tabs",
-        "dimension": 35.995085995085994,
+        "dimension": 49.54208460532054,
         "children": [
           {
             "id": "f94834a02ba8d225",
@@ -274,8 +274,8 @@
   },
   "active": "f94834a02ba8d225",
   "lastOpenFiles": [
-    "assets/img/res/Pasted image 20240811163621.png",
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+    "assets/img/res/Pasted image 20240811163621.png",
     "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
     "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
     "_site/sitemap.xml",
@@ -297,7 +297,6 @@
     "_site/assets/img/res/bootstrap_card.gif",
     "_site/assets/img/res/Pasted image 20240811120604.png",
     "_site/assets/img/res/Pasted image 20240811114936.png",
-    "_site/assets/img/res/Pasted image 20240811043914.png",
     "_posts/2024-08-05-Tauri Window Customized.md",
     "_site/assets/img/res/Pasted image 20240808010356.md",
     "_includes/template/_post template.md",
