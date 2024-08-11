@@ -20,6 +20,10 @@ layout: compress
   <body>
     {% include sidebar.html lang=lang %}
 
+    {% if page.linkpreview %}
+      {% include linkpreview.html %}
+    {% endif %}
+
     <div id="main-wrapper" class="d-flex justify-content-center">
       <div class="container d-flex flex-column px-xxl-5">
         {% include topbar.html lang=lang %}
