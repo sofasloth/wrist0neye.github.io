@@ -255,8 +255,7 @@
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
       "obsidian-kanban:Create new board": false,
-      "oz-clear-unused-images:Clear Unused Images": false,
-      "templater-obsidian:Templater": false
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
   "active": "3a9de8bc611d283e",
