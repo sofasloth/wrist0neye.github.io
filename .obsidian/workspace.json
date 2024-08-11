@@ -123,8 +123,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "0cdc352edcd7a61b",
@@ -274,8 +273,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "739d1a090b0332a1",
+  "active": "c0d1cda2e4363d8c",
   "lastOpenFiles": [
+    "assets/img/favicons/favicon.ico",
+    "_site/assets/img/favicons/favicon-96x96 copy.png",
+    "assets/img/favicons/favicon-96x96 copy.png",
     "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
     "_posts/2024-08-05-Tauri Window Customized.md",
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
@@ -297,8 +299,6 @@
     "_site/assets/img/res/tauri-solved2.gif",
     "_site/assets/img/res/bootstrap_card.gif",
     "_site/assets/img/res/Pasted image 20240808014201.png",
-    "_site/assets/img/res/Pasted image 20240808012836.png",
-    "_site/assets/img/res/Pasted image 20240808012409.png",
     "_site/assets/img/res/Pasted image 20240808010356.md",
     "_includes/template/_post template.md",
     "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
