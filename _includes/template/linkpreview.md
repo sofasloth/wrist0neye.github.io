@@ -1,1 +1,1 @@
-<% linkpreview "" %>
+{% linkpreview "" %}

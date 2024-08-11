@@ -15,8 +15,8 @@ published: true
 math: true
 pin: "false"
 mermaid: "false"
-image: 
-  path : /assets/img/res/tauri_banner.png
+image:
+  path: /assets/img/res/tauri_banner.png
 linkpreview: true
 ---
 이번에 만들 어플리케이션은 VSC, Pycharm과 같이 문서를 여러 개 열 수 있는 어플리케이션이다.
@@ -28,14 +28,31 @@ linkpreview: true
 - Tauri [Ref](#Tauri)
 	- [ ] Session 및 Cookie 활용하기
 - 기타 [Ref](#기타)
+	- [ ] 브라우저 메모리 (누수) 확인하기
+
+## 개발 단계
+### Step 1_기본 기능 점검하기
+다음 브라우저들을 
+
 
 
 
 ---
 # Reference
-### 기반지식 모음
-#### html/css/js
+## 기반지식 모음
+### html/css/js
 
-#### Tauri
+#### Drag & Drop 기능 활용하기
 
-#### 기타
+{% linkpreview "https://inpa.tistory.com/entry/%EB%93%9C%EB%9E%98%EA%B7%B8-%EC%95%A4-%EB%93%9C%EB%A1%AD-Drag-Drop-%EA%B8%B0%EB%8A%A5" %}
+
+### Tauri
+#### Session & Cookie 설명
+{% linkpreview "https://hahahoho5915.tistory.com/32" %}
+
+{% linkpreview "https://nesoy.github.io/articles/2017-03/Session-Cookie"%}
+
+### 기타
+
+#### 브라우저 메모리 확인
+{% linkpreview "https://blog.eunsukim.me/posts/debugging-javascript-memory-leak-with-chrome-devtools" %}
