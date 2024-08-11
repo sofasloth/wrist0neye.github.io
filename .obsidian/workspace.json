@@ -21,19 +21,6 @@
             }
           },
           {
-            "id": "e75b8601566d3ce9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "739d1a090b0332a1",
             "type": "leaf",
             "state": {
@@ -46,8 +33,26 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "ef0fbc43d718b4ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e75b8601566d3ce9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-12-Tauri Multi Browser 만들기.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -149,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
+                "file": "_posts/2024-08-12-Tauri Multi Browser 만들기.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -200,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md"
+                "file": "_posts/2024-08-12-Tauri Multi Browser 만들기.md"
               }
             }
           }
@@ -217,7 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
+                "file": "_posts/2024-08-12-Tauri Multi Browser 만들기.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,13 +259,19 @@
   },
   "active": "e75b8601566d3ce9",
   "lastOpenFiles": [
+    "_site/posts/Tauri-Multi-Browser-만들기/index.html",
+    "_site/posts/Tauri-Multi-Browser-만들기",
+    "_site/posts/2024-08-12-Tauri-Multi-Browser-만들기/index.html",
+    "_site/posts/2024-08-12-Tauri-Multi-Browser-만들기",
+    "_posts/2024-08-05-Tauri Window Customized.md",
+    "_posts/2024-08-12-Tauri Multi Browser 만들기.md",
+    "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
     "_cache/549415d9f083816bca44e027def2de50.json",
     "_cache/2d7adc769cda78608d66b388d358208f.json",
     "_cache/533ae76fa219feb822f70617750dd2d2.json",
     "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
     "_includes/template/_post template.md",
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
-    "_posts/2024-08-05-Tauri Window Customized.md",
     "assets/img/favicons/favicon.ico",
     "_site/assets/img/favicons/favicon-96x96 copy.png",
     "assets/img/favicons/favicon-96x96 copy.png",
@@ -268,10 +279,6 @@
     "_cache/9d6540c70ee79b0fd23a07eb5fd5fb08.json",
     "_cache/62759d45bf6c8db9896952a544a15508.json",
     "_site/posts/pyQt6-Index/index.html",
-    "_site/posts/pyQt6-Index",
-    "_site/posts/node.js에서-비동기함수-동작하기/index.html",
-    "_site/posts/node.js에서-비동기함수-동작하기",
-    "_site/posts/Tauri-Window-Customized/index.html",
     "_site/assets/img/favicons/mstile-150x150.png",
     "_site/assets/img/favicons/apple-touch-icon.png",
     "_site/assets/img/favicons/android-chrome-512x512.png",
@@ -281,7 +288,6 @@
     "_site/assets/img/res/bootstrap_card.gif",
     "_site/assets/img/res/Pasted image 20240808014201.png",
     "_site/assets/img/res/Pasted image 20240808010356.md",
-    "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
     "_includes/template/linkpreview.md",
     "_posts/Untitled.md",
     "_posts/2024-08-06-pyQt6 Index.md",
@@ -299,7 +305,6 @@
     "README.md",
     "_posts/2024-08-07.md",
     "03_GTD(unused)/03.2_Kanban Baord/03.2.1 Announcement/유튜브 면접질문 및 전략.md",
-    "Archive/News Summary/Daily News/Theme/기업 및 국제기구 & 주요 인물·상품/[국제기구]WIPO, World Intellectual Property Organization (세계지식재산권기구).md",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",
