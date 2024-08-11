@@ -6,7 +6,7 @@
       {
         "id": "17ba5320ac2e145d",
         "type": "tabs",
-        "dimension": 50.45791539467947,
+        "dimension": 54.1648495420846,
         "children": [
           {
             "id": "e75b8601566d3ce9",
@@ -39,7 +39,7 @@
       {
         "id": "fd92c2a7ff9dfb16",
         "type": "tabs",
-        "dimension": 49.54208460532054,
+        "dimension": 45.8351504579154,
         "children": [
           {
             "id": "f94834a02ba8d225",
@@ -274,6 +274,7 @@
   },
   "active": "f94834a02ba8d225",
   "lastOpenFiles": [
+    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "_site/about/index.html",
     "_site/about",
     "_site/archives/index.html",
@@ -284,7 +285,6 @@
     "_site/posts/명세서는-뭐고-어떻게-작성하는-걸까",
     "_site/posts/Github-블로그-꾸며보기3/index.html",
     "_site/posts/Github-블로그-꾸며보기3",
-    "_site/posts/Github-블로그-꾸며보기2/index.html",
     "_site/assets/img/icons/times-circle-solid.svg",
     "_site/assets/img/icons/question-circle-solid.svg",
     "_site/assets/img/icons/quote-right-solid.svg",
@@ -296,7 +296,6 @@
     "_site/assets/img/icons/check-circle-solid.svg",
     "_site/assets/img/icons/bolt-solid.svg",
     "_site/assets/img/res/Pasted image 20240808010356.md",
-    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
     "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
     "_posts/2024-08-05-Tauri Window Customized.md",
