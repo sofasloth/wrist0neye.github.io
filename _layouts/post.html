@@ -10,6 +10,10 @@ tail_includes:
 ---
 
 {% include lang.html %}
+{% if page.linkpreview %}
+  {% include linkpreview.html %}
+  {% include linkpreview_nog.html %}
+{% endif %}
 
 <article class="px-1">
   <header>
