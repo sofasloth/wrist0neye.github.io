@@ -6,7 +6,7 @@
       {
         "id": "17ba5320ac2e145d",
         "type": "tabs",
-        "dimension": 38.77355477483232,
+        "dimension": 33.26947637292465,
         "children": [
           {
             "id": "7fe69c5dc00b219a",
@@ -40,7 +40,7 @@
       {
         "id": "015c8fe5ac2fd94e",
         "type": "tabs",
-        "dimension": 29.287767486426063,
+        "dimension": 29.310344827586203,
         "children": [
           {
             "id": "3a9de8bc611d283e",
@@ -60,7 +60,7 @@
       {
         "id": "fd92c2a7ff9dfb16",
         "type": "tabs",
-        "dimension": 31.938677738741617,
+        "dimension": 37.42017879948914,
         "children": [
           {
             "id": "f94834a02ba8d225",
@@ -177,7 +177,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -228,7 +228,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md"
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md"
               }
             }
           }
@@ -245,7 +245,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,11 +280,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f94834a02ba8d225",
+  "active": "3a9de8bc611d283e",
   "lastOpenFiles": [
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
-    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+    "_includes/template/linkpreview.md",
     "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
+    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
     "_posts/Untitled.md",
     "_site/assets/img/res/Pasted image 20240811120604.png",
     "assets/img/res/Pasted image 20240811120604.png",
@@ -327,7 +328,6 @@
     "03_GTD(unused)/03.2_Kanban Baord/03.2.1 Announcement/유튜브 면접질문 및 전략.md",
     "Archive/News Summary/Daily News/Theme/기업 및 국제기구 & 주요 인물·상품/[국제기구]WIPO, World Intellectual Property Organization (세계지식재산권기구).md",
     "02_Resource/반도체,회로,전자공학/Device Physics_1.6 고체의 불완전성(Imperfection)과 불순물(Impurity).md",
-    "02_Resource/반도체,회로,전자공학/Device Physics_1.4 다이아몬드 구조.md",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",
