@@ -219,6 +219,7 @@ exclude:
   - LICENSE
   - "*.config.js"
   - package*.json
+  - "/assets/img/Excalidraw/"
 
 jekyll-archives:
   enabled: [categories, tags]
