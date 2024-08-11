@@ -155,6 +155,7 @@ tail_includes:
   <!-- div.post-tail-wrapper -->
 </article>
 
+{% if page.comments %}
 <script src="https://utteranc.es/client.js"
         repo="wrist0neye/wrist0neye.github.io"
         issue-term="pathname"
@@ -162,3 +163,4 @@ tail_includes:
         crossorigin="anonymous"
         async>
 </script>
+{% endif %}
