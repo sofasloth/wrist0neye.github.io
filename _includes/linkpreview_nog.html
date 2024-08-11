@@ -1,7 +1,4 @@
----
-linkpreview: true
----
-
+{% if page.linkpreview %}
 <link rel="stylesheet" type = "text/css" href="/assets/css/linkpreview.css" media="screen">
 
 <div class="card bg-transparent jekyll-linkpreview-wrapper">
@@ -24,3 +21,4 @@ linkpreview: true
         </div>
     </div>
 </div>
+{% endif %}
