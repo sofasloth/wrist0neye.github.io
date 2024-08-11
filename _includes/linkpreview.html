@@ -1,7 +1,7 @@
 <link rel="stylesheet" type = "text/css" href="/assets/css/linkpreview.css" media="screen">
 
 <div class="card bg-transparent jekyll-linkpreview-wrapper">
-  {% assign og_url = url | default: "#" %}
+  {% assign og_url = url | default =  "#" %}
   <a href="{{og_url}}" class="post-preview jekyll-linkpreview-linkbox"></a>
     <div class ="post-preview row g-0 flex-md-row-reverse jekyll-linkpreview-inner">
         {% assign card_body_col = '12' %}
