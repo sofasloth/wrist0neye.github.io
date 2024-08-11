@@ -9,5 +9,6 @@ published: true
 math: true
 pin: "false"
 mermaid: "false"
-image:
+image: 
+linkpreview: true
 ---

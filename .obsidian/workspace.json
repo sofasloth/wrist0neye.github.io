@@ -33,27 +33,28 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "720ab58a93c3c635",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_includes/template/_post template.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "fd92c2a7ff9dfb16",
         "type": "tabs",
         "dimension": 45.8351504579154,
         "children": [
-          {
-            "id": "f94834a02ba8d225",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
           {
             "id": "7fe69c5dc00b219a",
             "type": "leaf",
@@ -66,8 +67,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "739d1a090b0332a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -272,35 +287,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f94834a02ba8d225",
+  "active": "739d1a090b0332a1",
   "lastOpenFiles": [
-    "_site/posts/Tauri의-기본기능-활용하기/index.html",
-    "_site/posts/Tauri의-기본기능-활용하기",
     "_site/posts/pyQt6-Index/index.html",
     "_site/posts/pyQt6-Index",
     "_site/posts/node.js에서-비동기함수-동작하기/index.html",
     "_site/posts/node.js에서-비동기함수-동작하기",
-    "_site/posts/Github.io블로그-꾸며보기/index.html",
-    "_site/posts/Github.io블로그-꾸며보기",
     "_site/posts/Tauri-Window-Customized/index.html",
     "_site/posts/Tauri-Window-Customized",
+    "_site/posts/Github.io블로그-꾸며보기/index.html",
+    "_site/posts/Github.io블로그-꾸며보기",
+    "_site/sitemap.xml",
     "_site/posts/Hello-github.io!/index.html",
+    "_site/posts/Hello-github.io!",
+    "_site/assets/img/favicons/mstile-150x150.png",
+    "_site/assets/img/favicons/apple-touch-icon.png",
+    "_site/assets/img/favicons/android-chrome-512x512.png",
+    "_site/assets/img/favicons/android-chrome-192x192.png",
     "_site/assets/img/res/tauri_banner.png",
     "_site/assets/img/res/tauri-solved2.gif",
-    "_site/assets/img/res/tauri-solved1.gif",
-    "_site/assets/img/res/richlink-example.png",
-    "_site/assets/img/res/tauri-error.gif",
-    "_site/assets/img/res/pyqt++.png",
-    "_site/assets/img/res/Pasted image 20240811170723.png",
-    "_site/assets/img/res/Pasted image 20240811163621.png",
-    "_site/assets/img/res/Pasted image 20240811043914.png",
-    "_site/assets/img/res/Pasted image 20240811120604.png",
+    "_site/assets/img/res/bootstrap_card.gif",
+    "_site/assets/img/res/Pasted image 20240808014201.png",
+    "_site/assets/img/res/Pasted image 20240808012836.png",
+    "_site/assets/img/res/Pasted image 20240808012409.png",
     "_site/assets/img/res/Pasted image 20240808010356.md",
-    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
-    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
-    "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
     "_posts/2024-08-05-Tauri Window Customized.md",
+    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "_includes/template/_post template.md",
+    "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
+    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
     "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
     "_includes/template/linkpreview.md",
     "_posts/Untitled.md",
