@@ -20,8 +20,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e75b8601566d3ce9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "015c8fe5ac2fd94e",
@@ -34,7 +48,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -143,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md"
+                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md"
               }
             }
           }
@@ -211,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -246,12 +260,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3a9de8bc611d283e",
+  "active": "c0d1cda2e4363d8c",
   "lastOpenFiles": [
+    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
     "_site/assets/img/res/Pasted image 20240811120604.png",
     "assets/img/res/Pasted image 20240811120604.png",
     "_posts/2024-08-06-pyQt6 Index.md",
-    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "assets/img/Excalidraw/Drawing 2024-08-11 11.51.24.excalidraw.md",
     "_site/assets/font/Nanum MaslssNeunCe.ttf",
     "assets/font/Nanum MaslssNeunCe.ttf",
@@ -272,7 +287,6 @@
     "_site/assets/img/res/Pasted image 20240811042940.png",
     "_site/assets/img/res/Pasted image 20240808014201.png",
     "_site/assets/img/res/Pasted image 20240811032023.png",
-    "_site/assets/img/res/Pasted image 20240808022308.png",
     "_site/assets/img/res/Pasted image 20240808010356.md",
     "_includes/template/_post template.md",
     "_posts/2024-08-05-Tauri Window Customized.md",
