@@ -34,8 +34,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "fd92c2a7ff9dfb16",
@@ -157,7 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+                "file": "_posts/2024-08-05-Tauri Window Customized.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -208,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md"
+                "file": "_posts/2024-08-05-Tauri Window Customized.md"
               }
             }
           }
@@ -225,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+                "file": "_posts/2024-08-05-Tauri Window Customized.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,8 +259,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f94834a02ba8d225",
+  "active": "7fe69c5dc00b219a",
   "lastOpenFiles": [
+    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
     "_includes/template/_post template.md",
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "_site/posts/명세서는-뭐고-어떻게-작성하는-걸까/index.html",
@@ -274,7 +274,6 @@
     "_site/categories/how-to",
     "_site/tags/미완성/index.html",
     "_site/tags/미완성",
-    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
     "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
     "_includes/template/linkpreview.md",
     "_posts/Untitled.md",
