@@ -1,9 +1,9 @@
 {
   "commitMessage": "vault backup: {{date}}{{time}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 15,
+  "autoSaveInterval": 120,
   "autoPushInterval": 0,
-  "autoPullInterval": 20,
+  "autoPullInterval": 0,
   "autoPullOnBoot": false,
   "disablePush": false,
   "pullBeforePush": true,
