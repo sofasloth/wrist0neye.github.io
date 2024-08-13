@@ -71,10 +71,7 @@ jobs:
     needs: build
     steps:
       - name: Restore Previous Build Artifacts
-        uses: action/download-artifact@v3
-        with:
-          name: site
-          path: "_site${{ steps.pages.outputs.base_path }}"
+        uses: action/download-artifact@v4
         continue-on-error: true
 
       - name: Deploy to GitHub Pages
