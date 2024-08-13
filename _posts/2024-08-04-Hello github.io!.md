@@ -9,7 +9,8 @@ published: true
 
 > 비개발자의 유사 개발블로그
 
-`D3` 라이브러리를 활용해서 추가할려고 하는 내용
+%%`D3` 라이브러리를 활용해서 추가할려고 하는 내용%%
+
 - Python : PyQt + `numpy/pandas/scipy` + 시각화
 - Rust
 - Web : Svelte + JS

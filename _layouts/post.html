@@ -10,10 +10,10 @@ tail_includes:
 ---
 
 {% include lang.html %}
-{% if page.linkpreview %}
+<!-- {% if page.linkpreview %}
   {% include linkpreview.html %}
   {% include linkpreview_nog.html %}
-{% endif %}
+{% endif %} -->
 
 <article class="px-1">
   <header>
@@ -100,7 +100,14 @@ tail_includes:
   </header>
 
   <div class="content">
-    {{ content }}
+    {% if page.published %}
+      {{ content }}
+    {% else %}
+      <p>내용 점검 및 정리로 인해 비공개합니다.</p>
+      <a href="/assets/img/res/Constuction_Zone.png" class="popup img-link">
+        <img src="/assets/img/res/Constuction_Zone.png" alt="비공개" loading="lazy">
+      </a>
+    {% endif %}
   </div>
 
   <div class="post-tail-wrapper text-muted">
@@ -154,6 +161,7 @@ tail_includes:
   </div>
   <!-- div.post-tail-wrapper -->
 </article>
+
 
 {% if page.comments %}
 <script src="https://utteranc.es/client.js"
