@@ -74,10 +74,9 @@ jobs:
         uses: action/download-artifact@v3
         with:
           name: site
+          path: "_site${{ steps.pages.outputs.base_path }}"
         continue-on-error: true
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          name: site
