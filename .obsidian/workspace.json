@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-12-Tauri Multi Browser 만들기.md",
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -198,7 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-12-Tauri Multi Browser 만들기.md",
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -249,7 +249,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-12-Tauri Multi Browser 만들기.md"
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md"
               }
             }
           }
@@ -266,7 +266,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-12-Tauri Multi Browser 만들기.md",
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -303,11 +303,11 @@
   },
   "active": "e75b8601566d3ce9",
   "lastOpenFiles": [
-    "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
     "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+    "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
+    "_posts/2024-08-12-Tauri Multi Browser 만들기.md",
     "_posts/2024-08-14-Rust 비교하기.md",
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
-    "_posts/2024-08-12-Tauri Multi Browser 만들기.md",
     "_site/assets/img/res/unnamed.png",
     "assets/img/res/unnamed.png",
     "_includes/template/_post template.md",
