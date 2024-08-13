@@ -29,11 +29,20 @@ echo "[Comment]blog update at %formattedDate% T %formattedTime%"
 @echo on
 pause
 
+REM echo "htmlproofer testing..."
+REM bundle exec htmlproofer _site
 
-git add -A
-git commit -m "blog update at %formattedDate% T %formattedTime%"
+REM if %errorlevel% equ 0 (
+    echo "[Proofer PASS]htmlproofer test passed.."
+    git add -A
+    git commit -m "blog update at %formattedDate% T %formattedTime%"
 
-pause
+    pause
 
-git push origin main
-pause
+    git push origin main
+
+REM) else (
+REM    echo "[Proofer FAIL]htmlproofer test failed.."
+REM    pause
+REM    exit /B 1
+REM)

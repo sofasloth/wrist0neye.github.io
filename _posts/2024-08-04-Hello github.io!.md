@@ -7,14 +7,17 @@ comments: true
 published: true
 ---
 
-## 여기는 무슨 블로그인가요?
-- 비개발자의 개발 블로그입니다.
-- 개발 외에도 다른 잡지식도 기록합니다.
+> 비개발자의 유사 개발블로그
 
-시간만 된다면 다음 내용들을 다뤄볼 예정입니다.
+`D3` 라이브러리를 활용해서 추가할려고 하는 내용
 - Python : PyQt + `numpy/pandas/scipy` + 시각화
-- Rust : 기본 문법 및 데이터 처리
-- Web : Svelte + Js
+- Rust
+- Web : Svelte + JS
+	- JS 라이브러리를 활용한 각종 프로젝트
 - Flutter(TBD)
-- 회계나 금융쪽 지식 정리
+	- Mobile cross platform
+- Web + Gui Application
+	- Electron
+	- Tauri
 - Excel, PPT, AI
+- 그 외 기타 내용 모음

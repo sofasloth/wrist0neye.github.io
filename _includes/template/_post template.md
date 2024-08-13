@@ -7,7 +7,6 @@ tags:
 comments: 
 published: true
 math: true
-pin: "false"
 mermaid: "false"
 image: 
 linkpreview: true

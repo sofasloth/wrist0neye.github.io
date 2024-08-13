@@ -26,9 +26,9 @@ linkpreview: false
 	- [ ] drag & drop 기능에 대한 이해
 		-  [ ] (선택) `DropZone` 패키지 활용하기
 	- [ ] 웹을 html component 안에서 열어보기
-- Tauri [Ref](#Tauri)
+- Tauri `[Ref](#Tauri)`
 	- [ ] Session 및 Cookie 활용하기
-- 기타 [Ref](#기타)
+- 기타 `[Ref](#기타)`
 	- [ ] 브라우저 메모리 (누수) 확인하기
 
 ## 개발 단계
@@ -73,7 +73,9 @@ drag & drop에 관한 이벤트 종류는 아래와 같다.
 
 ![](/assets/img/res/Pasted%20image%2020240812012620.png)
 
-하지만 위 사진처럼 문제가 생겼는데`https://www.electron.org`, `https:/tauri.app`은 `<iframe>`으로 그대로 가져올 수 있었는데, `goolge`, `naver`, `github` 등은 위와 같이 `X-frame-Ooptions` to `sameorigin`이라는 Warning창을 띄우며 액세스를 거부한다.
+하지만 위 사진처럼 문제가 생겼는데`https://www.electron.org`, `https:/tauri.app`은 `<iframe>`으로 그대로 가져올 수 있었는데, `goolge`, `naver`, `github` 등은 위와 같이 `X-frame-options` to `sameorigin`이라는 Warning창을 띄우며 액세스를 거부한다.
+
+![](/assets/img/res/Pasted%20image%2020240814001728.png)
 
 이는 [mdn X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options)를 봤는데 이해가 잘 안 되서 google에 `X-Frame-Options`와 `frame-ancestors` 검색했는데 *click jacking* 이라고 `iframe` 위에 `z-index` 높은 이상한 링크를 숨겨놓아서 사용자가 클릭 시 이상한 사이트로 옮겨버리는 방식 때문에 생긴 보안 장치라고 보면 된다. 
 
