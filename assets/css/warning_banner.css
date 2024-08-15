@@ -20,7 +20,7 @@
         border-radius:1rem;
         transform: rotateZ(-3deg) translate(-50%,-50%);
         opacity: 0.6;
-        transition: all 1s;
+        
     }
     .letterbox{
         position: relative;
@@ -73,7 +73,6 @@
         border-radius:1rem;
         transform: rotateZ(-3deg) translate(-50%,-50%);
         opacity: 0.6;
-        transition: all 1s;
     }
     .letterbox{
         position: relative;
@@ -112,6 +111,7 @@
 }
 
 .post-preview:hover .box{
+    transition: all 1s;
     opacity: 0.05;
 }
 
@@ -123,36 +123,3 @@
         transform: translateX(-80px);
     }
 }
-
-
-/* .box{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    max-width: 600px;
-    
-    min-height: 80px;
-    aspect-ratio: 4 / 1;
-    overflow: hidden;
-    
-    outline-offset: 0.2rem;
-    outline: 0.4rem solid var(--yellow-warning);
-    border-radius: 1rem;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    transform: rotateZ(-12deg) translate(0%, 20%);
-    opacity: 0.3;
-} */
-
-
-/* .letterbox {
-    position: relative;
-    flex: 1;
-    width: calc(100% + 80px);
-    background: repeating-linear-gradient(120deg, var(--yellow-warning), var(--yellow-warning) 16.3205px, #000000 17.3205px, #000000 31.641px, rgba(0, 0, 0, 0.7) 32.641px, rgba(0, 0, 0, 0.7) 33.641px, var(--yellow-warning) 34.641px);
-    animation: animateStripes 2s linear infinite;
-    min-height: 20px;
-} */

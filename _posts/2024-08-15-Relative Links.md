@@ -70,6 +70,7 @@ plugins:
 >         - obsidian의 경우 일부 문자열을 사용하지 않는다.
 >         - 이 때의 `#`는 Heading이 아니라 특수문자로 취급한다.
 >     - heading만 있을 경우 `baseurl/현재문서/`에 붙인다.
+{: .prompt-info}
 
 {% linkpreview "https://pythex.org/" %}
 
@@ -85,26 +86,30 @@ plugins:
 
 그러면 어떤 문자열로 변환해야 정확한 링크로 변환해줄까? 성공적으로 변환한 것만 체크해뒀다.
 
-- 일반 링크 `[구현단계 ABC](#-ABC)`
+- [ ] 일반 링크 `[구현단계 ABC](#-ABC)`
     - [구현단계 ABC](http://localhost:4000/posts/relative-links/#구현단계%20ABC)
-- `%20` `-`로 치환 + 소문자 치환 `[구현단계 ABC](#-abc)`
+- [x] `%20` `-`로 치환 + 소문자 치환 `[구현단계 ABC](#-abc)`
     - [구현단계 ABC](http://localhost:4000/posts/relative-links/#구현단계-abc)
     - [Python 스크립트 만들기](http://localhost:4000/posts/relative-links/#python-스크립트-만들기)
     - **위 두 링크를 번갈아가며 클릭해도 정상적으로 동작한다.**
-- liquid 문법1 `[구현단계 ABC]({{ site.baseurl }}/posts#-ABC)`
+- [ ] liquid 문법1 `[구현단계 ABC]({{ site.baseurl }}/posts#-ABC)`
     - [구현단계 ABC](http://localhost:4000/posts/#구현단계%20ABC)
     - `post.url` 문구가 접근이 안 된다.
-- liquid 문법2 + 소문자 치환 + `%20` 치환 `[구현단계 ABC](#-abc)]`
+- [ ] liquid 문법2 + 소문자 치환 + `%20` 치환 `[구현단계 ABC](#-abc)]`
     - [구현단계 ABC](http://localhost:4000/posts/relative-links/#구현단계-abc)
     - `post.url | relative_url`도 역시 접근이 안 된다.
-- 다른 문서 참고하기 `[1. linkpreview.html]({{ site.baseurl }}/postslinkpreview-#1-linkpreviewhtml)`
+- [x] 다른 문서 참고하기 `[1. linkpreview.html]({{ site.baseurl }}/postslinkpreview-#1-linkpreviewhtml)`
     - [1. linkpreview.html](http://localhost:4000/posts/linkpreview-구현하기/#1-linkpreviewhtml)
 
 위 노가다를 통해 다음과 같이 정리할 수 있다.
+
 ![Pasted image 20240816020817](assets/img/res/Pasted%20image%2020240816020817.png)
 
+
 ![Pasted image 20240816020839](assets/img/res/Pasted%20image%2020240816020839.png)
+
 위 요구사항을 만족하는 정규표현식은 다음과 같다.
+
 ![Pasted image 20240816023541](assets/img/res/Pasted%20image%2020240816023541.png)
 
 ```python
@@ -204,7 +209,7 @@ else :
 ```
 
 
-> 코드를 무턱대고 바로 실행시키면 `_posts` 내 모든 마크다운 문서들의 파일 링크가 옵시디언에서는 사용할 수 없게 되니 되도록이면 로컬에서 실행시키지 말자. 이를 방지하기 위해서 운영체제가 `Ubuntu` 일때만 실행하도록 만들면 된다. 실제로 한 번 날려먹었는데, 제목에 `-`나 특수문자를 거의 안 썼다면 역변환할 수 있는 파이썬 스크립트도 만들 수 있으니 한 번 시도해보자.
+> `with open(filepath, "w") as file` 코드를 무턱대고 바로 실행시키면 `_posts` 내 모든 옵시디언 파일들이 지워지거나 사용할 수 없는 링크로 변환되니 되도록이면 로컬에서 실행하지 않는 것을 권장한다. 이를 방지하기 위해서 운영체제가 `Ubuntu` 일때만 실행하도록 위와 같이 코드를 짜면 된다. 실제로 한 번 날려먹었는데, 제목에 `-`나 특수문자를 거의 안 썼다면 역변환할 수 있는 파이썬 스크립트도 만들 수 있으니 한 번 시도해보자.
 {: .prompt-danger }
 
 #### Step3. workflow 설정하기
@@ -242,7 +247,31 @@ jobs:
 
 그러면 처음보는 step이 새로 생기면서 문서 변환이 정상적으로 이뤄진다. 
 ![](/assets/img/res/Pasted%20image%2020240816044932.png)
-아마 특수한 문자를 쓰는 거 아니면 정상적으로 동작할 것이다. 추후 새로 발견된 예외사항이 생기면 추가 작성할 예정이다. 
+
+아마 특수한 문자를 쓰는 거 아니면 정상적으로 동작할 것이다. 추후 새 예외사항이 생기면 본 문서에 추가 작성할 예정이다. 
+
+매우 긴 글이 되었는데 이제 localhost에서 빌드하는 경우를 제외한다면 obsidian 파일링크와 블로그에서의 링크 둘 다 사용할 수 있게 되었다. 다음 시간에 여기서 좀 더 응용해서 `D3-force` 와 그래프를 활용한 포트폴리오 페이지를 구성할 예정이다.
+
+#### 수정사항
+- \[2024-08-16\]
+	- 정규표현식 변환할 때, 두 번째항 `\2`가 비어있는 경우 현재 파일명을 받도록 수정해야 한다.
+		- `\2` 가 비어있으면 자동으로 `localhost:4000/`뒤에 주소가 붙게 되어 있어 build&deploy한 페이지에서는 링크가 정상적으로 작동하지 않는다.
+		- [Step2. python 정규표현식 `group` 메소드 활용하기](#Step2.%20python%20정규표현식%20`group`%20메소드%20활용하기) 코드에서 다음 부분을 수정한다.
+		  ```python
+			def regex_rule(match, filename = None) :
+				alias = match.group(1)
+				other_file = match.group(2)
+				heading = match.group(3)
+
+				# 수정 구문
+				other_file = filename if other_file is None else other_file 
+				# 생략
+
+			# open(파일, "r", encoding = "UTF-8") 직후 구문
+			content = re.sub(r'정규표현식', lambda x : regex_rul(x, filename), content);
+			```
+
+
 
 ## 주의사항
 

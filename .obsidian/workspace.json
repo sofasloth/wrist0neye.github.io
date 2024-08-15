@@ -6,7 +6,7 @@
       {
         "id": "17ba5320ac2e145d",
         "type": "tabs",
-        "dimension": 20.472175379426645,
+        "dimension": 20.481467329002676,
         "children": [
           {
             "id": "d74c1ca8f42b52ab",
@@ -40,7 +40,7 @@
       {
         "id": "ef0fbc43d718b4ef",
         "type": "tabs",
-        "dimension": 29.544688026981454,
+        "dimension": 38.632021398547955,
         "children": [
           {
             "id": "85344461cb760aca",
@@ -49,19 +49,19 @@
               "type": "markdown",
               "state": {
                 "file": "_posts/2024-08-15-Relative Links.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           },
           {
-            "id": "fd7557fb1a921e28",
+            "id": "79dcf40380b32feb",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "image",
               "state": {
-                "file": "assets/img/Excalidraw/Drawing 2024-08-16 01.04.55.excalidraw.md"
+                "file": "assets/img/res/Pasted image 20240816033031.png"
               }
             }
           }
@@ -70,7 +70,7 @@
       {
         "id": "d35ef60aea8a8d3f",
         "type": "tabs",
-        "dimension": 49.9831365935919,
+        "dimension": 40.88651127244937,
         "children": [
           {
             "id": "f69e6e74b60dba7f",
@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -97,21 +97,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "50cf310e2f5d9163",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_includes/template/_post template.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,7 +129,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[comments]",
+                "query": "tag:#미완성",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,7 +182,7 @@
       {
         "id": "0693c09cbbf34a81",
         "type": "tabs",
-        "dimension": 19.550342130987293,
+        "dimension": 19.558599695585997,
         "children": [
           {
             "id": "4bc035b1441ce136",
@@ -213,7 +201,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+                "file": "_posts/2024-08-15-Relative Links.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -250,13 +238,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "552c26984e695be1",
         "type": "tabs",
-        "dimension": 48.48484848484848,
+        "dimension": 42.16133942161339,
         "children": [
           {
             "id": "7538827666cb044e",
@@ -264,7 +251,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md"
+                "file": "_posts/2024-08-15-Relative Links.md"
               }
             }
           }
@@ -273,7 +260,7 @@
       {
         "id": "7908170ec3483a9a",
         "type": "tabs",
-        "dimension": 31.964809384164223,
+        "dimension": 38.28006088280061,
         "children": [
           {
             "id": "1dce18a2e3a43ccb",
@@ -281,7 +268,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+                "file": "_posts/2024-08-15-Relative Links.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -296,8 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5,
-    "collapsed": true
+    "width": 347.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -316,37 +302,37 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f69e6e74b60dba7f",
+  "active": "85344461cb760aca",
   "lastOpenFiles": [
+    "_posts/2024-08-15-linkpreview 구현하기.md",
     "_posts/2024-08-15-Relative Links.md",
+    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+    "assets/img/res/Pasted image 20240816033031.png",
+    "_posts/2024-08-06-pyQt6 Index.md",
+    "_posts/2024-08-12-Multi Browser 만들기.md",
+    "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
+    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+    "assets/img/Excalidraw/Drawing 2024-08-16 01.04.55.excalidraw.md",
+    "_includes/template/_post template.md",
+    "_posts/2024-08-14-Rust 비교하기.md",
     "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
     "_site/assets/img/res/Pasted image 20240816044932.png",
     "assets/img/res/Pasted image 20240816044932.png",
-    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
-    "assets/img/res/Pasted image 20240816033031.png",
-    "_posts/2024-08-15-linkpreview 구현하기.md",
-    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "_site/categories/css/index.html",
     "_site/categories/css",
     "_site/tags/design/index.html",
     "_site/tags/design",
     "_site/tags/css/index.html",
     "_site/tags/css",
-    "_posts/2024-08-14-Rust 비교하기.md",
     "_site/categories/rust/index.html",
     "_site/categories/rust",
     "_site/tags/clang/index.html",
     "_site/tags/clang",
-    "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
-    "_posts/2024-08-12-Multi Browser 만들기.md",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
-    "_posts/2024-08-06-pyQt6 Index.md",
     "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
     "_posts/2024-08-05-Tauri Window Customized.md",
     "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
     "_posts/2024-08-04-Hello github.io!.md",
-    "_includes/template/_post template.md",
-    "assets/img/Excalidraw/Drawing 2024-08-16 01.04.55.excalidraw.md",
     "assets/img/res/Pasted image 20240815234253.png",
     "assets/img/res/Pasted image 20240816030205.png",
     "assets/img/res/Pasted image 20240816023712.png",
