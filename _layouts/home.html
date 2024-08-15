@@ -50,6 +50,9 @@ refactor: true
         {% if post.incomplete %}
           {% include warning_banner.html %}
         {% endif %}
+        {% if post.pin %}
+          <div class="pinned_banner"></div>
+        {% endif %}
         {% assign card_body_col = '12' %}
 
         {% if post.image %}
@@ -99,12 +102,12 @@ refactor: true
                 {% endif %}
               </div>
 
-              {% if post.pin %}
+              <!-- {% if post.pin %}
                 <div class="pin ms-1">
                   <i class="fas fa-thumbtack fa-fw"></i>
                   <span>{{ site.data.locales[lang].post.pin_prompt }}</span>
                 </div>
-              {% endif %}
+              {% endif %} -->
             </div>
             <!-- .post-meta -->
           </div>

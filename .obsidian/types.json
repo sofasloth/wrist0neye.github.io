@@ -26,6 +26,7 @@
     "date": "text",
     "image": "text",
     "linkpreview": "checkbox",
-    "incomplete": "checkbox"
+    "incomplete": "checkbox",
+    "pin": "checkbox"
   }
 }

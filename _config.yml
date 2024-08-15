@@ -184,6 +184,7 @@ defaults:
       # to update the code of all other post links in this project.
       permalink: /posts/:title/
       incomplete: true
+      pin: false
   - scope:
       path: _drafts
     values:

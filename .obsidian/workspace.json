@@ -203,7 +203,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+                "file": "_posts/2024-08-14-Rust 비교하기.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -254,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md"
+                "file": "_posts/2024-08-14-Rust 비교하기.md"
               }
             }
           }
@@ -271,7 +271,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+                "file": "_posts/2024-08-14-Rust 비교하기.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -306,14 +306,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f69e6e74b60dba7f",
+  "active": "85344461cb760aca",
   "lastOpenFiles": [
+    "_site/assets/css/pinned_banner.css",
+    "assets/css/pinned_banner.css",
+    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+    "_includes/pinned_banner.html",
+    "_site/assets/css/pinned.css",
+    "assets/css/pinned.css",
     "_site/assets/img/res/PIN_BANNER.png",
     "assets/img/res/PIN_BANNER.png",
     "_posts/2024-08-14-Rust 비교하기.md",
     "_posts/2024-08-12-Multi Browser 만들기.md",
     "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
-    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
     "_includes/template/_post template.md",
@@ -326,7 +331,6 @@
     "assets/css/warning_banner.css",
     "_site/assets/img/res/css_warning_1.gif",
     "_site/posts/Tauri-Multi-Browser-만들기/index.html",
-    "_site/posts/Tauri-Multi-Browser-만들기",
     "_posts/2024-08-04-Hello github.io!.md",
     "_site/assets/img/res/Construction_Zone.png",
     "assets/img/res/Construction_Zone.png",
@@ -336,10 +340,6 @@
     "assets/img/res/rust_banner.png",
     "assets/img/res/rust_banner.bmp",
     "_site/assets/img/res/rust_banner.bmp",
-    "assets/img/res/rust_banner.avif",
-    "_site/tags/clang/index.html",
-    "_site/tags/clang",
-    "_site/page2/index.html",
     "_posts/2024-08-05-Tauri Window Customized.md",
     "_posts/2024-08-13-Rust 비교하기.md",
     "_posts/Untitled.md",
