@@ -19,6 +19,7 @@ mermaid: "false"
 image:
   path: /assets/img/res/tauri_banner.png
 linkpreview: false
+incomplete: true
 ---
 이번에 만들 어플리케이션은 VSC, Pycharm과 같이 문서를 여러 개 열 수 있는 어플리케이션이다.
 
