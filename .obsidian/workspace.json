@@ -48,7 +48,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-15-linkpreview 구현하기.md",
+                "file": "_posts/2024-08-15-Relative Links.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -329,8 +329,10 @@
   },
   "active": "4f637abb5b20212e",
   "lastOpenFiles": [
-    "_posts/2024-08-15-linkpreview 구현하기.md",
     "_posts/2024-08-15-Relative Links.md",
+    "_posts/2024-08-15-linkpreview 구현하기.md",
+    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+    "assets/img/res/Pasted image 20240816033031.png",
     "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
     "_site/categories/css/index.html",
     "_site/categories/css",
@@ -346,7 +348,6 @@
     "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
     "_posts/2024-08-12-Multi Browser 만들기.md",
     "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
-    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
     "_posts/2024-08-06-pyQt6 Index.md",
     "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
@@ -356,7 +357,6 @@
     "_includes/template/_post template.md",
     "assets/img/Excalidraw/Drawing 2024-08-16 01.04.55.excalidraw.md",
     "assets/img/res/Pasted image 20240815234253.png",
-    "assets/img/res/Pasted image 20240816033031.png",
     "assets/img/res/Pasted image 20240816030205.png",
     "assets/img/res/Pasted image 20240816023712.png",
     "assets/img/res/Pasted image 20240816023541.png",
