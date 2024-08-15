@@ -24,6 +24,8 @@ module Jekyll
           link_text = $1
           link_url = $2
   
+          # link_url = link_url.gsub(/^\([0-9]{4}\-[0-9]{2}\-[0-9]{2}\-/, '(')
+          # link_url = link_url
           if link_url.include?("#")
             # 헤딩을 참조하는 경우
             link_url = convert_heading_link(link_url)
@@ -43,6 +45,8 @@ module Jekyll
         # .md 확장자를 제거
         link_url = link_url.gsub(/\.md$/, '')
   
+        link_url = convert_heading(link_url)
+
         # baseurl 앞에 붙이기
         link_url = "{{ site.baseurl }}/#{link_url}"
   
@@ -68,7 +72,7 @@ module Jekyll
         heading = heading.gsub("%20", "-")
   
         # 특수문자 제거
-        heading = heading.gsub(/[^a-zA-Z0-9\-]/, '')
+        heading = heading.gsub(/[^a-zA-Z0-9\-\#]/, '')
   
         heading
       end

@@ -6,7 +6,7 @@
       {
         "id": "17ba5320ac2e145d",
         "type": "tabs",
-        "dimension": 35.879856349983676,
+        "dimension": 30.600539811066124,
         "children": [
           {
             "id": "d74c1ca8f42b52ab",
@@ -66,7 +66,7 @@
       {
         "id": "ef0fbc43d718b4ef",
         "type": "tabs",
-        "dimension": 36.957231472412666,
+        "dimension": 36.30229419703104,
         "children": [
           {
             "id": "85344461cb760aca",
@@ -86,7 +86,7 @@
       {
         "id": "d35ef60aea8a8d3f",
         "type": "tabs",
-        "dimension": 27.16291217760365,
+        "dimension": 33.097165991902834,
         "children": [
           {
             "id": "f69e6e74b60dba7f",
@@ -203,7 +203,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -254,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-15-움직이는 경고 배너 만들기.md"
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md"
               }
             }
           }
@@ -271,7 +271,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
+                "file": "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -306,45 +306,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "85344461cb760aca",
+  "active": "739d1a090b0332a1",
   "lastOpenFiles": [
-    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
-    "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
-    "_site/categories/css/index.html",
-    "_site/categories/css",
-    "_site/tags/design/index.html",
-    "_site/tags/design",
-    "_site/tags/css/index.html",
-    "_site/tags/css",
+    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+    "_site/assets/img/res/tauri-solved1.gif",
+    "_site/assets/img/res/tauri-error.gif",
+    "_site/assets/img/res/rust_banner.png",
+    "_site/assets/img/res/richlink-example.png",
+    "_site/assets/img/res/pyqt++.png",
+    "_site/assets/img/res/image.png",
+    "_site/assets/img/res/css_warning_1.gif",
+    "_site/about/index.html",
+    "_site/about",
+    "_site/archives/index.html",
+    "_site/archives",
     "_site/posts/움직이는-경고-배너-만들기/index.html",
     "_site/posts/움직이는-경고-배너-만들기",
-    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
-    "_includes/template/_post template.md",
+    "_site/posts/Rust-비교하기/index.html",
+    "_site/posts/Rust-비교하기",
+    "_site/posts/Github-블로그-꾸며보기3/index.html",
+    "_site/posts/Github-블로그-꾸며보기3",
+    "_site/assets/img/favicons/mstile-150x150.png",
+    "_site/assets/img/favicons/apple-touch-icon.png",
+    "_site/assets/img/favicons/android-chrome-512x512.png",
+    "_site/assets/img/res/Pasted image 20240808010356.md",
+    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+    "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
     "_posts/2024-08-14-Rust 비교하기.md",
-    "_site/assets/css/pinned_banner.css",
-    "assets/css/pinned_banner.css",
-    "_site/assets/img/res/PIN_BANNER.png",
-    "assets/img/res/PIN_BANNER.png",
+    "_includes/template/_post template.md",
     "_posts/2024-08-12-Multi Browser 만들기.md",
     "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
     "_includes/template/fast asset.md",
     "_includes/template/linkpreview.md",
-    "_site/assets/img/res/css_warning_1.gif",
     "_posts/2024-08-04-Hello github.io!.md",
-    "_site/assets/img/res/Construction_Zone.png",
-    "assets/img/res/Construction_Zone.png",
     "assets/img/Excalidraw/Drawing 2024-08-11 22.34.17.excalidraw.md",
-    "_site/assets/img/res/unnamed.png",
-    "assets/img/res/unnamed.png",
-    "assets/img/res/rust_banner.png",
-    "assets/img/res/rust_banner.bmp",
-    "_site/assets/img/res/rust_banner.bmp",
     "_posts/2024-08-05-Tauri Window Customized.md",
     "_posts/2024-08-13-Rust 비교하기.md",
     "_posts/Untitled.md",
     "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
-    "_site/assets/img/res/Pasted image 20240808010356.md",
     "_posts/2024-08-06-pyQt6 Index.md",
     "assets/img/Excalidraw/Drawing 2024-08-11 11.51.24.excalidraw.md",
     "assets/img/Excalidraw/Drawing 2024-08-11 11.16.52.excalidraw.md",
