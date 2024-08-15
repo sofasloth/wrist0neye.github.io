@@ -3,7 +3,8 @@ import re
 import sys
 
 # dir = os.getcwd()
-input_dir = '/_posts/'
+print(os.getcwd())
+input_dir = '_posts'
 
 def regex_rule(match) :
     alias = match.group(1)
