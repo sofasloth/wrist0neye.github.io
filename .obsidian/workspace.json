@@ -122,7 +122,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -224,7 +224,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-15-linkpreview 구현하기.md",
+                "file": "assets/img/res/Pasted image 20240816033031.png",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -275,7 +275,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-15-linkpreview 구현하기.md"
+                "file": "assets/img/res/Pasted image 20240816033031.png"
               }
             }
           }
@@ -292,7 +292,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-15-linkpreview 구현하기.md",
+                "file": "assets/img/res/Pasted image 20240816033031.png",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -327,8 +327,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "85344461cb760aca",
+  "active": "4f637abb5b20212e",
   "lastOpenFiles": [
+    "_posts/2024-08-15-linkpreview 구현하기.md",
     "_posts/2024-08-15-Relative Links.md",
     "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
     "_site/categories/css/index.html",
@@ -353,7 +354,6 @@
     "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
     "_posts/2024-08-04-Hello github.io!.md",
     "_includes/template/_post template.md",
-    "_posts/2024-08-15-linkpreview 구현하기.md",
     "assets/img/Excalidraw/Drawing 2024-08-16 01.04.55.excalidraw.md",
     "assets/img/res/Pasted image 20240815234253.png",
     "assets/img/res/Pasted image 20240816033031.png",

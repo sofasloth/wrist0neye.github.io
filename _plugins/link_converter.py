@@ -41,7 +41,7 @@ for filename in os.listdir(input_dir) :
             content = file.read()
         content = re.sub(r"(?!\!)(\[[^\]]+\])\(((?!http)(?!www.)(?![/]*assets/img/res)[^\)]+\.md)?(#.+)?\)", regex_rule, content)
 
-        if sys.platform.lower == "linux" :
+        if sys.platform.lower() == "linux" :
             with open(filepath, "w", encoding="UTF-8") as file : 
                 file.write(content)
         else : 
