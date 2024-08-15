@@ -26,8 +26,10 @@ set "formattedTime=%hour%:%minute%:%second%"
 
 echo "[Comment]blog update at %formattedDate% T %formattedTime%"
 
-@echo on
 set \p str=Input any commit comment : 
+echo %str%
+@echo on
+
 pause
 
 REM echo "htmlproofer testing..."
