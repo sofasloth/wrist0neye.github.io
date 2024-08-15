@@ -47,5 +47,15 @@
   "vimMode": false,
   "newLinkFormat": "shortest",
   "showInlineTitle": true,
-  "newFileFolderPath": "_posts"
+  "newFileFolderPath": "_posts",
+  "userIgnoreFilters": [
+    "_batch script/",
+    "_cache/",
+    "_layouts/",
+    "_data/",
+    "_includes/",
+    "_tabs/",
+    "_plugins/",
+    "_site/"
+  ]
 }
