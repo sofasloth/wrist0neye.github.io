@@ -74,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-14-Rust 비교하기.md",
+                "file": "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -203,7 +203,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-14-Rust 비교하기.md",
+                "file": "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -254,7 +254,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-14-Rust 비교하기.md"
+                "file": "_posts/2024-08-15-움직이는 경고 배너 만들기.md"
               }
             }
           }
@@ -271,7 +271,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-14-Rust 비교하기.md",
+                "file": "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -308,6 +308,9 @@
   },
   "active": "85344461cb760aca",
   "lastOpenFiles": [
+    "_includes/template/_post template.md",
+    "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
+    "_posts/2024-08-14-Rust 비교하기.md",
     "_site/assets/css/pinned_banner.css",
     "assets/css/pinned_banner.css",
     "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
@@ -316,12 +319,10 @@
     "assets/css/pinned.css",
     "_site/assets/img/res/PIN_BANNER.png",
     "assets/img/res/PIN_BANNER.png",
-    "_posts/2024-08-14-Rust 비교하기.md",
     "_posts/2024-08-12-Multi Browser 만들기.md",
     "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
-    "_includes/template/_post template.md",
     "_includes/file_linker.html",
     "_site/assets/css/warning_banner.css",
     "_includes/warning_banner.html",
@@ -330,7 +331,6 @@
     "_includes/template/linkpreview.md",
     "assets/css/warning_banner.css",
     "_site/assets/img/res/css_warning_1.gif",
-    "_site/posts/Tauri-Multi-Browser-만들기/index.html",
     "_posts/2024-08-04-Hello github.io!.md",
     "_site/assets/img/res/Construction_Zone.png",
     "assets/img/res/Construction_Zone.png",
