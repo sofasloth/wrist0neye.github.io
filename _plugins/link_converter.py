@@ -16,7 +16,7 @@ def regex_rule(match, filename = None) :
     heading = "" if heading is None else heading 
 
     #1. %20 => "-" 그리고 소문자로 치환하기
-    other_file = other_file.replace("%20", "-")
+    other_file = other_file.replace("%20", "-").replace(" ","-")
     heading = heading.replace("%20", "-").lower()
 
     #2. 특수문자 모두 제거

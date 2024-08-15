@@ -265,8 +265,10 @@ jobs:
 
 				# 수정 구문
 				other_file = filename if other_file is None else other_file 
+				
+				other_file = other_file.replace("%20", "-").replace(" ","-")
 				# 생략
-
+				
 			# open(파일, "r", encoding = "UTF-8") 직후 구문
 			content = re.sub(r'정규표현식', lambda x : regex_rul(x, filename), content);
 			```
