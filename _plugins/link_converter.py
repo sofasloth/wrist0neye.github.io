@@ -2,8 +2,8 @@ import os
 import re
 import sys
 
-dir = os.getcwd()
-input_dir = dir + '/_posts/'
+# dir = os.getcwd()
+input_dir = '/_posts/'
 
 def regex_rule(match) :
     alias = match.group(1)
@@ -40,12 +40,11 @@ for filename in os.listdir(input_dir) :
             content = file.read()
         content = re.sub(r"(?!\!)(\[[^\]]+\])\(((?!http)(?!www.)(?![/]*assets/img/res)[^\)]+\.md)?(#.+)?\)", regex_rule, content)
 
-        with open(filepath, "w", encoding="UTF-8") as file : 
-            if sys.platform.lower() == "linux" :
-                # file.write(content)
-                print("hello world!")
-            else : 
-                print(f"os platform error : {sys.platform}")
+        if sys.platform.lower == "linux" :
+            with open(filepath, "w", encoding="UTF-8") as file : 
+                file.write(content)
+        else : 
+            print(f"os platform error : {sys.platform}")
     
 
 

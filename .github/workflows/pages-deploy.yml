@@ -39,6 +39,14 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
 
+      - name: Set up Python
+        uses: action/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Run Python Script for link converter
+        run: _plugins/link_converter.py
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:

@@ -26,6 +26,8 @@ set "formattedTime=%hour%:%minute%:%second%"
 
 echo "[Comment]blog update at %formattedDate% T %formattedTime%"
 
+set \p str=아무 문자열이나 입력하세요:
+
 @echo on
 pause
 
@@ -35,7 +37,7 @@ REM bundle exec htmlproofer _site
 REM if %errorlevel% equ 0 (
     echo "[Proofer PASS]htmlproofer test passed.."
     git add -A
-    git commit -m "blog update at %formattedDate% T %formattedTime%"
+    git commit -m "blog update at %formattedDate% Time %formattedTime% >> %str%"
 
     pause
 
