@@ -27,7 +27,7 @@ set "formattedTime=%hour%:%minute%:%second%"
 echo "[Comment]blog update at %formattedDate% T %formattedTime%"
 
 @echo on
-set \p str=아무 문자열이나 입력하세요:
+set \p str=Input any commit comment : 
 pause
 
 REM echo "htmlproofer testing..."
