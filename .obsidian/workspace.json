@@ -99,16 +99,6 @@
             }
           },
           {
-            "id": "4f637abb5b20212e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/img/res/Pasted image 20240816033031.png"
-              }
-            }
-          },
-          {
             "id": "50cf310e2f5d9163",
             "type": "leaf",
             "state": {
@@ -121,8 +111,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -224,7 +213,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "assets/img/res/Pasted image 20240816033031.png",
+                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -275,7 +264,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/img/res/Pasted image 20240816033031.png"
+                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md"
               }
             }
           }
@@ -292,7 +281,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/img/res/Pasted image 20240816033031.png",
+                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -327,13 +316,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4f637abb5b20212e",
+  "active": "f69e6e74b60dba7f",
   "lastOpenFiles": [
     "_posts/2024-08-15-Relative Links.md",
+    "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
+    "_site/assets/img/res/Pasted image 20240816044932.png",
+    "assets/img/res/Pasted image 20240816044932.png",
+    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+    "assets/img/res/Pasted image 20240816033031.png",
     "_posts/2024-08-15-linkpreview 구현하기.md",
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
-    "assets/img/res/Pasted image 20240816033031.png",
-    "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
     "_site/categories/css/index.html",
     "_site/categories/css",
     "_site/tags/design/index.html",
@@ -347,7 +339,6 @@
     "_site/tags/clang",
     "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
     "_posts/2024-08-12-Multi Browser 만들기.md",
-    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
     "_posts/2024-08-06-pyQt6 Index.md",
     "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
@@ -363,8 +354,6 @@
     "assets/img/res/Pasted image 20240816020839.png",
     "assets/img/res/Pasted image 20240816020817.png",
     "assets/img/res/Pasted image 20240816014359.png",
-    "assets/img/res/Pasted image 20240816003615.png",
-    "assets/img/res/Pasted image 20240815234430.png",
     "{{site.baseurl}}/posts/linkpreview-구현하기.md",
     "_site/{{site.baseurl}}/posts/linkpreview-구현하기.md",
     "_site/assets/img/res/Pasted image 20240808010356.md",

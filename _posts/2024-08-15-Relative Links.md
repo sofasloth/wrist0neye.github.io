@@ -162,7 +162,7 @@ def regex_rule(match) :
     heading = "" if heading is None else heading 
 
     #1. %20 => "-" 그리고 소문자로 치환하기
-    other_file = other_file.replace("%20", "-").lower()
+    other_file = other_file.replace("%20", "-")
     heading = heading.replace("%20", "-").lower()
 
     #2. 특수문자 모두 제거
@@ -196,7 +196,7 @@ for filename in os.listdir(input_dir) :
 with open(filepath, "r", encoding="UTF-8") as file :
 	content = file.read()
 content = re.sub(r"(?!\!)(\[[^\]]+\])\(((?!http)(?!www.)(?![/]*assets/img/res)[^\)]+\.md)?(#.+)?\)", regex_rule, content)
-if sys.platform.lower == "linux" :
+if sys.platform.lower() == "linux" :
 	with open(filepath, "w", encoding="UTF-8") as file :
 		file.write(content)
 else :
@@ -204,8 +204,45 @@ else :
 ```
 
 
-> 코드를 무턱대고 바로 실행시키면 `_posts` 내 모든 마크다운 문서들의 파일 링크가 옵시디언에서는 사용할 수 없게 되니 되도록이면 로컬에서 실행시키지 말자. 이를 방지하기 위해서 운영체제가 `Ubuntu` 일때만 실행하도록 만들면 된다. 실제로 한 번 날려먹었다.. 
+> 코드를 무턱대고 바로 실행시키면 `_posts` 내 모든 마크다운 문서들의 파일 링크가 옵시디언에서는 사용할 수 없게 되니 되도록이면 로컬에서 실행시키지 말자. 이를 방지하기 위해서 운영체제가 `Ubuntu` 일때만 실행하도록 만들면 된다. 실제로 한 번 날려먹었는데, 제목에 `-`나 특수문자를 거의 안 썼다면 역변환할 수 있는 파이썬 스크립트도 만들 수 있으니 한 번 시도해보자.
 {: .prompt-danger }
+
+#### Step3. workflow 설정하기
+원래라면 `action/setup-python@v5`을 설치하는 과정을 가져야 하는데 `Repository`를 찾을 수 없다는 에러문구가 뜬다. 
+
+그렇기 때문에 `.github/workflow` 내 `yml` 파일에서 `Setup Ruby` 전에 다음 문구를 입력하자.
+```yaml
+jobs:
+  build:
+    runs-on: ubuntu-latest
+  
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          # submodules: true
+         # If using the 'assets' git submodule from Chirpy Starter, uncomment above
+          # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
+  
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v4
+
+      # 여기 추가
+      - name: Run Python Script for link converter
+        run: python _plugins/link_converter.py
+  
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.3
+          bundler-cache: true
+```
+
+그러면 처음보는 step이 새로 생기면서 문서 변환이 정상적으로 이뤄진다. 
+![](/assets/img/res/Pasted%20image%2020240816044932.png)
+아마 특수한 문자를 쓰는 거 아니면 정상적으로 동작할 것이다. 추후 새로 발견된 예외사항이 생기면 추가 작성할 예정이다. 
 
 ## 주의사항
 
@@ -218,7 +255,7 @@ else :
 > - ![Pasted image 20240811120604](assets/img/res/Pasted%20image%2020240811120604.png)
 > - ![Pasted image 20240811043914](assets/img/res/Pasted%20image%2020240811043914.png)
 > - 옵시디언의 문서 임베드 `![]()` 기능은 사용할 수 없다.
-
+{: .prompt-danger}
 # Reference
 
 ### Ruby
