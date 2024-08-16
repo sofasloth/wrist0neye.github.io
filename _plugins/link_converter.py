@@ -9,7 +9,7 @@ input_dir = '_posts'
 
 islinux = (sys.platform.lower() == "linux")
 
-def regex_rule(match, filename = None) :
+def regex_rule(match) :
     prefix = match.group(1)
     alias = match.group(2)
     other_file = match.group(3)
@@ -22,7 +22,7 @@ def regex_rule(match, filename = None) :
         print(f'- prefix escape : {prefix + alias + "(" + other_file + heading + ")"}')
         return prefix + alias + "(" + other_file + heading + ")"
 
-    other_file = filename if other_file is None else other_file # 빈 문자열도 false로 인식
+    other_file = "" if other_file is None else other_file # 빈 문자열도 false로 인식
     heading = "" if heading is None else heading 
 
     #1. %20 => "-" 그리고 소문자로 치환하기
@@ -38,7 +38,8 @@ def regex_rule(match, filename = None) :
 
     #4. 날짜를 다음 문자로 치환하기
     other_file = re.sub(r"\d{4}-\d{2}-\d{2}-", "", other_file)
-    ret = alias + "(" + "{{baseurl}}/posts/" + urllib.parse.quote(other_file) + "#" + urllib.parse.quote(heading[1:]) + ")"
+    abs_path = "" if other_file == "" else "{{baseurl}}/posts/"
+    ret = alias + "(" + abs_path + urllib.parse.quote(other_file) + "#" + urllib.parse.quote(heading[1:]) + ")"
     print(f'+ conversion result : {ret}')
     return ret
 
@@ -49,7 +50,7 @@ for filename in os.listdir(input_dir) :
         print(filename)
         with open(filepath, "r", encoding="UTF-8") as file :
             content = file.read()
-        content = re.sub(r"([!`]?)(\[[^\]]+\])\(((?!http)(?!www.)(?![/]*assets/img/res)[^\)]+\.md)?(#.+)?\)", lambda x : regex_rule(x, filename), content)
+        content = re.sub(r"([!`]?)(\[[^\]]+\])\(((?!http)(?!www.)(?![/]*assets/img/res)[^\)]+\.md)?(#.+)?\)", regex_rule, content)
 
         if islinux :
             with open(filepath, "w", encoding="UTF-8") as file : 

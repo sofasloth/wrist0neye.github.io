@@ -11,10 +11,10 @@ tags:
   - programming
   - Tauri
   - Electron
-comments: 
-published: false
+comments: false
+published: true
 math: true
-pin: "false"
+pin: false
 mermaid: "false"
 image:
   path: /assets/img/res/tauri_banner.png

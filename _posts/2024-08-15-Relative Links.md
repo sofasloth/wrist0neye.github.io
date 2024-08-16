@@ -304,6 +304,9 @@ def regex_rule(match, filename = None) :
 other_file = re.sub(r"\d{4}-\d{2}-\d{2}-", "", other_file)
 ret = alias + "(" + "{{baseurl}}/posts/" + urllib.parse.quote(other_file) + "#" + urllib.parse.quote(heading[1:]) +")"
 ```
+하지만 위와 같이 코드를 짜도 chrome, Edge에서는 주소가 깨지고 firefox에서는 주소가 깨지지 않는다. 어차피 firefox 위주로 사용했어서 상관은 없지만 여러모로 찝찝하다. 원인을 좀 더 알아보자.
+
+
 
 
 ## 주의사항
@@ -331,3 +334,7 @@ ret = alias + "(" + "{{baseurl}}/posts/" + urllib.parse.quote(other_file) + "#" 
 - [파이썬 정규표현식 패턴으로 변환하기](https://www.squash.io/how-to-replace-regex-in-python/)
 - [파이썬 정규표현식 .group method 활용하기](https://stackoverflow.com/questions/12597370/python-replace-string-pattern-with-output-of-function)
 - [문자열 변환 메소드 성능 비교](https://dogsavestheworld.tistory.com/entry/python-%EB%AC%B8%EC%9E%90%EC%97%B4-%EC%B9%98%ED%99%98-%EC%B4%9D-%EC%A0%95%EB%A6%AC-%EB%B0%8F-%EC%84%B1%EB%8A%A5-%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0strtranslate-strreplace-resub)
+
+### Jekyll
+- **[Jekyll url  vs baseurl](https://mademistakes.com/mastering-jekyll/site-url-baseurl/)**
+	- 난 블로그 `_layouts` 코드보고 `{baseurl}`을 확인했는데 여기서 정말 설명을 디테일하게 해준다..

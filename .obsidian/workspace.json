@@ -48,7 +48,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-04-Github 블로그 꾸며보기.md",
+                "file": "_posts/2024-08-12-Multi Browser 만들기.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -167,7 +167,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-04-Github 블로그 꾸며보기.md",
+                "file": "_posts/2024-08-15-Relative Links.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -217,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-04-Github 블로그 꾸며보기.md"
+                "file": "_posts/2024-08-15-Relative Links.md"
               }
             }
           }
@@ -234,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-04-Github 블로그 꾸며보기.md",
+                "file": "_posts/2024-08-15-Relative Links.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,12 +268,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f69e6e74b60dba7f",
+  "active": "40c1d1b23fc407a4",
   "lastOpenFiles": [
+    "_posts/2024-08-12-Multi Browser 만들기.md",
+    "_posts/2024-08-04-Github 블로그 꾸며보기.md",
     "_site/posts/Github-블로그-꾸며보기/index.html",
     "_site/posts/Github-블로그-꾸며보기",
     "assets/img/Excalidraw/2024-08-16 Relative Link.excalidraw.md",
-    "_posts/2024-08-04-Github 블로그 꾸며보기.md",
     "_site/assets/img/res/Pasted Image 20240816145031_249.png",
     "_site/assets/img/res/Pasted Image 20240816144929_314.png",
     "_site/assets/img/res/Pasted Image 20240816144650_250.png",
@@ -295,7 +296,6 @@
     "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
     "_posts/2024-08-06-pyQt6 Index.md",
     "_posts/2024-08-04-Hello github.io!.md",
-    "_posts/2024-08-12-Multi Browser 만들기.md",
     "_includes/template/_post template.md",
     "_posts/2024-08-14-Rust 비교하기.md",
     "_site/categories/css/index.html",
@@ -306,7 +306,6 @@
     "_site/tags/css",
     "_site/categories/rust/index.html",
     "_site/categories/rust",
-    "_site/tags/clang/index.html",
     "{{site.baseurl}}/posts/linkpreview-구현하기.md",
     "_site/{{site.baseurl}}/posts/linkpreview-구현하기.md",
     "_site/assets/img/res/Pasted image 20240808010356.md",
