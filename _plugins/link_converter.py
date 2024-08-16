@@ -39,7 +39,7 @@ def regex_rule(match) :
     #4. 날짜를 다음 문자로 치환하기
     other_file = re.sub(r"\d{4}-\d{2}-\d{2}-", "", other_file)
     abs_path = "" if other_file == "" else "{{baseurl}}/posts/"
-    file_path = urllib.prase.quote(other_file)+"/" if other_file != "" else ""
+    file_path = urllib.parse.quote(other_file)+"/" if other_file != "" else ""
     heading_path = "" if heading == "" else "#" + urllib.parse.quote(heading[1:]) 
     ret = alias + "(" + abs_path + file_path + heading_path + ")"
     print(f'+ conversion result : {ret}')
