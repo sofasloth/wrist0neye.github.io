@@ -300,13 +300,13 @@ def regex_rule(match, filename = None) :
 ```python
 #4. 날짜를 다음 문자로 치환하기
 # urllib.parse.quote()가 `{`, `}`를 %7B, %7D로 바꿔버려 {baseurl}을 블로그 주소로 변환못하게 만든다.
-# 따라서 아래 2줄을 아래와 같이 수정한다.
+# 따라서 아래와 같이 수정한다.
 other_file = re.sub(r"\d{4}-\d{2}-\d{2}-", "", other_file)
-ret = alias + "(" + "{{baseurl}}/posts/" + urllib.parse.quote(other_file) + "#" + urllib.parse.quote(heading[1:]) +")"
+abs_path = "" if other_file == "" else "{{baseurl}}/posts/"
+heading_path = "" if heading == "" else "#" + urllib.parse.quote(heading[1:])
+ret = alias + "(" + abs_path + urllib.parse.quote(other_file) + "/" + heading_path + ")"
 ```
-하지만 위와 같이 코드를 짜도 chrome, Edge에서는 주소가 깨지고 firefox에서는 주소가 깨지지 않는다. 어차피 firefox 위주로 사용했어서 상관은 없지만 여러모로 찝찝하다. 원인을 좀 더 알아보자.
-
-
+다른 문서 참조할 때 꼭 뒤에 `/`을 붙여주자. 안 그러면 주소값이 깨진다.
 
 
 ## 주의사항
@@ -337,4 +337,4 @@ ret = alias + "(" + "{{baseurl}}/posts/" + urllib.parse.quote(other_file) + "#" 
 
 ### Jekyll
 - **[Jekyll url  vs baseurl](https://mademistakes.com/mastering-jekyll/site-url-baseurl/)**
-	- 난 블로그 `_layouts` 코드보고 `{baseurl}`을 확인했는데 여기서 정말 설명을 디테일하게 해준다..
+- [Jekyll 마크다운(kramdown) 사용법](https://pennynd1me.github.io/wiki/write-markdown-practice/)
