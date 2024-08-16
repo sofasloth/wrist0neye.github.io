@@ -3,14 +3,23 @@ import re
 import sys
 
 # dir = os.getcwd()
-print(os.getcwd())
+# print(os.getcwd())  if islinux else None
 input_dir = '_posts'
 
-def regex_rule(match, filename = None) :
-    alias = match.group(1)
-    other_file = match.group(2)
-    heading = match.group(3)
+islinux = (sys.platform.lower() == "linux")
 
+def regex_rule(match, filename = None) :
+    prefix = match.group(1)
+    alias = match.group(2)
+    other_file = match.group(3)
+    heading = match.group(4)
+
+    if prefix is not None and prefix != "":
+        # !, ` 같은 문자가 오면 원문 그대로 반환할 것.
+        other_file = "" if other_file is None else other_file
+        heading = "" if heading is None else heading
+        print(f'prefix escape : {prefix + alias + "(" + other_file + heading + ")"}') if islinux else None
+        return prefix + alias + "(" + other_file + heading + ")"
 
     other_file = filename if other_file is None else other_file # 빈 문자열도 false로 인식
     heading = "" if heading is None else heading 
@@ -20,8 +29,8 @@ def regex_rule(match, filename = None) :
     heading = heading.replace("%20", "-").lower()
 
     #2. 특수문자 모두 제거
-    other_file = re.sub(r"[^\w-]","",other_file) 
-    heading = "#" + re.sub(r"[^\w-]","",heading) if heading != "" else ""
+    other_file = re.sub(r"[^\w\-/]","",other_file) if "baseurl}}" not in other_file else other_file
+    heading = "#" + re.sub(r"[^\w\-]","",heading) if heading != "" else ""
 
     #3. .md 제거하기 #2에서 "." 이미 제거됨.
     other_file = other_file[:-2] if len(other_file)>2 and other_file[-2:] == "md" else other_file
@@ -29,26 +38,22 @@ def regex_rule(match, filename = None) :
     #4. 날짜를 다음 문자로 치환하기
     other_file = re.sub(r"\d{4}-\d{2}-\d{2}-", "{{baseurl}}/posts/", other_file)
     
-    print(f'{alias + "(" + other_file + heading +")"}')
+    print(f'{alias + "(" + other_file + heading +")"}') if islinux else None
     return alias + "(" + other_file + heading +")"
 
 for filename in os.listdir(input_dir) :
     if filename.endswith(".md") :
         filepath = os.path.join(input_dir, filename)
 
-        print(filename)
+        print(filename) if islinux else None
         with open(filepath, "r", encoding="UTF-8") as file :
             content = file.read()
-        content = re.sub(r"(?!\!)(\[[^\]]+\])\(((?!http)(?!www.)(?![/]*assets/img/res)[^\)]+\.md)?(#.+)?\)", lambda x : regex_rule(x, filename), content)
+        content = re.sub(r"([!`]?)(\[[^\]]+\])\(((?!http)(?!www.)(?![/]*assets/img/res)[^\)]+\.md)?(#.+)?\)", lambda x : regex_rule(x, filename), content)
 
-        if sys.platform.lower() == "linux" :
+        if islinux :
             with open(filepath, "w", encoding="UTF-8") as file : 
                 file.write(content)
         else : 
-            print(f"os platform error : {sys.platform}")
+            print(f"os platform error : {sys.platform}") if islinux else None
 
-        print("\n=====================\n")
-    
-
-
-        
+        print("\n=====================\n") if islinux else None

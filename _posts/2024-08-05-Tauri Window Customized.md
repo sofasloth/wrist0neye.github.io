@@ -1,13 +1,19 @@
 ---
 title: (Tauri)Window Customized 하기
 date: 2024-08-05 00:25:00 +0000
-categories: [Programming, Web_desktop]
-tags: [Tauri, Web, FE]
+categories:
+  - Programming
+  - Web_desktop
+tags:
+  - Tauri
+  - Web
+  - FE
 comments: true
 published: true
 math: true
-image: 
+image:
   path: /assets/img/res/tauri_banner.png
+incomplete: false
 ---
 
 [공식 문서](https://tauri.app/ko/v1/guides/features/window-customization)에서 친절하게 설명이 되어 있는데 공식문서대로 따라하면 다음 문제점에 조우하게 된다.

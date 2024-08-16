@@ -89,17 +89,18 @@ plugins:
 - [ ] 일반 링크 `[구현단계 ABC](#-ABC)`
     - [구현단계 ABC](http://localhost:4000/posts/relative-links/#구현단계%20ABC)
 - [x] `%20` `-`로 치환 + 소문자 치환 `[구현단계 ABC](#-abc)`
-    - [구현단계 ABC](http://localhost:4000/posts/relative-links/#구현단계-abc)
-    - [Python 스크립트 만들기](http://localhost:4000/posts/relative-links/#python-스크립트-만들기)
+    - [구현단계 ABC](#구현단계-abc)
+    - [Python 스크립트 만들기](#python-스크립트-만들기)
     - **위 두 링크를 번갈아가며 클릭해도 정상적으로 동작한다.**
-- [ ] liquid 문법1 `[구현단계 ABC]({{ site.baseurl }}/posts#-ABC)`
-    - [구현단계 ABC](http://localhost:4000/posts/#구현단계%20ABC)
+- [ ] liquid 문법1 `[구현단계 ABC]({{ post.url }}/posts#-ABC)`
+    - `[구현단계 ABC]({{post.url | relative_url}}/posts/#구현단계%20ABC)`
     - `post.url` 문구가 접근이 안 된다.
-- [ ] liquid 문법2 + 소문자 치환 + `%20` 치환 `[구현단계 ABC](#-abc)]`
-    - [구현단계 ABC](http://localhost:4000/posts/relative-links/#구현단계-abc)
-    - `post.url | relative_url`도 역시 접근이 안 된다.
+- [x] liquid 문법2 + 소문자 치환 + `%20` 치환 `[구현단계 ABC](#-abc)]`
+    - [구현단계 ABC]({{site.baseurl}}/posts/relative-links/#구현단계-abc)
+    - `{{site.baseurl}}`은 접근해도 괜찮다.
 - [x] 다른 문서 참고하기 `[1. linkpreview.html]({{ site.baseurl }}/postslinkpreview-#1-linkpreviewhtml)`
-    - [1. linkpreview.html](http://localhost:4000/posts/linkpreview-구현하기/#1-linkpreviewhtml)
+    - [1. linkpreview.html]({{site.baseurl}}/posts/linkpreview-구현하기/#1-linkpreviewhtml)
+
 
 위 노가다를 통해 다음과 같이 정리할 수 있다.
 
@@ -209,7 +210,7 @@ else :
 ```
 
 
-> `with open(filepath, "w") as file` 코드를 무턱대고 바로 실행시키면 `_posts` 내 모든 옵시디언 파일들이 지워지거나 사용할 수 없는 링크로 변환되니 되도록이면 로컬에서 실행하지 않는 것을 권장한다. 이를 방지하기 위해서 운영체제가 `Ubuntu` 일때만 실행하도록 위와 같이 코드를 짜면 된다. 실제로 한 번 날려먹었는데, 제목에 `-`나 특수문자를 거의 안 썼다면 역변환할 수 있는 파이썬 스크립트도 만들 수 있으니 한 번 시도해보자.
+> `with open(filepath, "w") as file` 코드를 무턱대고 바로 실행시키면 `_posts` 내 모든 옵시디언 파일들이 지워지거나 사용할 수 없는 링크로 변환되니 되도록이면 로컬에서 실행하지 않는 것을 권장한다. 아니면 운영체제가 `Ubuntu` 일때만 실행하도록 위와 같이 코드를 짜면 된다. 실제로 한 번 날려먹었는데, 제목에 `-`나 특수문자를 거의 안 썼다면 역변환할 수 있는 파이썬 스크립트도 만들 수 있으니 한 번 시도해보자.
 {: .prompt-danger }
 
 #### Step3. workflow 설정하기
@@ -252,26 +253,45 @@ jobs:
 
 매우 긴 글이 되었는데 이제 localhost에서 빌드하는 경우를 제외한다면 obsidian 파일링크와 블로그에서의 링크 둘 다 사용할 수 있게 되었다. 다음 시간에 여기서 좀 더 응용해서 `D3-force` 와 그래프를 활용한 포트폴리오 페이지를 구성할 예정이다.
 
-#### 수정사항
-- \[2024-08-16\]
-	- 정규표현식 변환할 때, 두 번째항 `\2`가 비어있는 경우 현재 파일명을 받도록 수정해야 한다.
-		- `\2` 가 비어있으면 자동으로 `localhost:4000/`뒤에 주소가 붙게 되어 있어 build&deploy한 페이지에서는 링크가 정상적으로 작동하지 않는다.
-		- [Step2. python 정규표현식 `group` 메소드 활용하기](#Step2.%20python%20정규표현식%20`group`%20메소드%20활용하기) 코드에서 다음 부분을 수정한다.
-		  ```python
-			def regex_rule(match, filename = None) :
-				alias = match.group(1)
-				other_file = match.group(2)
-				heading = match.group(3)
+### 수정사항
+#### \[2024-08-16\]
+- 정규표현식 변환할 때, 두 번째항 `\2`가 비어있는 경우 현재 파일명을 받도록 수정해야 한다.
+	- `\2` 가 비어있으면 자동으로 `localhost:4000/`뒤에 주소가 붙게 되어 있어 build&deploy한 페이지에서는 링크가 정상적으로 작동하지 않는다.
+	- [Step2. python 정규표현식 `group` 메소드 활용하기](#Step2.%20python%20정규표현식%20`group`%20메소드%20활용하기) 코드에서 다음 부분을 수정한다.
 
-				# 수정 구문
-				other_file = filename if other_file is None else other_file 
-				
-				other_file = other_file.replace("%20", "-").replace(" ","-")
-				# 생략
-				
-			# open(파일, "r", encoding = "UTF-8") 직후 구문
-			content = re.sub(r'정규표현식', lambda x : regex_rul(x, filename), content);
-			```
+```python
+def regex_rule(match, filename = None) :
+	alias = match.group(1)
+	other_file = match.group(2)
+	heading = match.group(3)
+
+	# 수정 구문
+	other_file = filename if other_file is None else other_file 
+	
+	other_file = other_file.replace("%20", "-").replace(" ","-")
+	# 생략
+	
+# open(파일, "r", encoding = "UTF-8") 직후 구문
+content = re.sub(r'정규표현식', lambda x : regex_rule(x, filename), content);
+```
+
+- `[]()` "\`" 안 문자도 변환해서 설명하는 문서의 글도 이상하게 변한다. 예외처리해주자.
+	- ![](/assets/img/res/Pasted%20image%2020240816130839.png)
+	- 정규표현식 수정
+	- 앞에 "\`" 또는 `!` 가 온다면 무시한다. 
+	- ![](/assets/img/res/Pasted%20image%2020240816131720.png)
+```python
+def regex_rule(match, filename = None) :
+	prefix = match.group(1)
+	alias = match.group(2)
+	other_file = match.group(3)
+	heading = match.group(4)
+
+	if prefix is not None :
+		# !, ` 같은 문자가 오면 원문 그대로 반환할 것.
+		return prefix + alias + "(" + other_file + heading + ")"
+```
+
 
 
 

@@ -6,7 +6,7 @@
       {
         "id": "17ba5320ac2e145d",
         "type": "tabs",
-        "dimension": 20.481467329002676,
+        "dimension": 29.55223880597015,
         "children": [
           {
             "id": "d74c1ca8f42b52ab",
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
+                "file": "_posts/2024-08-15-Relative Links.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -38,31 +38,20 @@
         "currentTab": 1
       },
       {
-        "id": "ef0fbc43d718b4ef",
+        "id": "d615134b01b34117",
         "type": "tabs",
-        "dimension": 38.632021398547955,
+        "dimension": 37.12686567164179,
         "children": [
           {
-            "id": "85344461cb760aca",
+            "id": "cc72e27942fe15be",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
+              "type": "surfing-view",
               "state": {
-                "file": "_posts/2024-08-15-Relative Links.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79dcf40380b32feb",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/img/res/Pasted image 20240816033031.png"
-              }
+                "url": "https://pythex.org/"
+              },
+              "pinned": true
             }
           }
         ]
@@ -70,7 +59,7 @@
       {
         "id": "d35ef60aea8a8d3f",
         "type": "tabs",
-        "dimension": 40.88651127244937,
+        "dimension": 33.320895522388064,
         "children": [
           {
             "id": "f69e6e74b60dba7f",
@@ -89,12 +78,9 @@
             "id": "04d559a518ad4b18",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "_posts/2024-08-15-linkpreview 구현하기.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "assets/img/Excalidraw/2024-08-16 Relative Link.excalidraw.md"
               }
             }
           }
@@ -201,7 +187,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-15-Relative Links.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -250,9 +235,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/2024-08-15-Relative Links.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -268,7 +251,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-15-Relative Links.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,22 +284,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "85344461cb760aca",
+  "active": "cc72e27942fe15be",
   "lastOpenFiles": [
-    "_posts/2024-08-15-linkpreview 구현하기.md",
     "_posts/2024-08-15-Relative Links.md",
-    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+    "_site/assets/img/res/Pasted image 20240816131720.png",
+    "_site/assets/img/res/Pasted image 20240816130839.png",
+    "_site/assets/img/res/Pasted Image 20240816130646_859.png",
+    "_site/assets/img/res/Pasted Image 20240816130616_858.png",
+    "assets/img/res/Pasted image 20240816131720.png",
+    "assets/img/Excalidraw/2024-08-16 Relative Link.excalidraw.md",
+    "assets/img/res/Pasted image 20240816130839.png",
+    "assets/img/res/Pasted Image 20240816130646_859.png",
+    "assets/img/res/Pasted Image 20240816130616_858.png",
+    "_posts/2024-08-15-linkpreview 구현하기.md",
     "assets/img/res/Pasted image 20240816033031.png",
-    "_posts/2024-08-06-pyQt6 Index.md",
-    "_posts/2024-08-12-Multi Browser 만들기.md",
     "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
+    "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
+    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
-    "assets/img/Excalidraw/Drawing 2024-08-16 01.04.55.excalidraw.md",
+    "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
+    "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
+    "_posts/2024-08-06-pyQt6 Index.md",
+    "_posts/2024-08-05-Tauri Window Customized.md",
+    "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
+    "_posts/2024-08-04-Hello github.io!.md",
+    "_posts/2024-08-12-Multi Browser 만들기.md",
     "_includes/template/_post template.md",
     "_posts/2024-08-14-Rust 비교하기.md",
-    "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
     "_site/assets/img/res/Pasted image 20240816044932.png",
-    "assets/img/res/Pasted image 20240816044932.png",
     "_site/categories/css/index.html",
     "_site/categories/css",
     "_site/tags/design/index.html",
@@ -328,18 +322,6 @@
     "_site/categories/rust",
     "_site/tags/clang/index.html",
     "_site/tags/clang",
-    "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
-    "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
-    "_posts/2024-08-05-Tauri Window Customized.md",
-    "_posts/2024-08-04-Github.io블로그 꾸며보기.md",
-    "_posts/2024-08-04-Hello github.io!.md",
-    "assets/img/res/Pasted image 20240815234253.png",
-    "assets/img/res/Pasted image 20240816030205.png",
-    "assets/img/res/Pasted image 20240816023712.png",
-    "assets/img/res/Pasted image 20240816023541.png",
-    "assets/img/res/Pasted image 20240816020839.png",
-    "assets/img/res/Pasted image 20240816020817.png",
-    "assets/img/res/Pasted image 20240816014359.png",
     "{{site.baseurl}}/posts/linkpreview-구현하기.md",
     "_site/{{site.baseurl}}/posts/linkpreview-구현하기.md",
     "_site/assets/img/res/Pasted image 20240808010356.md",
