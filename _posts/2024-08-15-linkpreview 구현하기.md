@@ -23,7 +23,7 @@ gem install jekyll-gist jekyll-coffeescript jekyll-remote-theme some-other-jekyl
 
 그리고 `/assets/css` 폴더 내에 `linkpreview.css` 파일을 생성한다. 내용은 [여기 페이지 코드](https://github.com/ysk24ok/jekyll-linkpreview/blob/master/assets/css/linkpreview.css)대로 채우면 된다.
 
-`[2024-08-04-Github.io블로그 꾸며보기](_posts/2024-08-04-Github.io블로그%20꾸며보기.md)`에서 rich link 구현을 실패했었는데, 위 플러그인을 설치하고 아래와 같은 문법으로 작성하면 livepreview 링크를 만들 수 있다. 
+[이전 블로그 꾸미기 포스트](2024-08-04-Github.io블로그%20꾸며보기.md#Rich%20link(linkpreivew)%20구현하기)에서 rich link 구현을 실패했었는데, 위 플러그인을 설치하고 아래와 같은 문법으로 작성하면 linkpreview 링크를 만들 수 있다. 
 
 {% raw %}
 ```liquid

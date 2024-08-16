@@ -1,6 +1,7 @@
 import os
 import re
 import sys
+import urllib.parse
 
 # dir = os.getcwd()
 # print(os.getcwd()) 
@@ -38,8 +39,9 @@ def regex_rule(match, filename = None) :
     #4. 날짜를 다음 문자로 치환하기
     other_file = re.sub(r"\d{4}-\d{2}-\d{2}-", "{{baseurl}}/posts/", other_file)
     
-    print(f'+ conversion result : {alias + "(" + other_file + heading +")"}')
-    return alias + "(" + other_file + heading +")"
+    ret = alias + "(" + urllib.parse.quote(other_file + heading) + ")"
+    print(f'+ conversion result : {ret}')
+    return ret
 
 for filename in os.listdir(input_dir) :
     if filename.endswith(".md") :
