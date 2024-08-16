@@ -37,9 +37,9 @@ def regex_rule(match, filename = None) :
     other_file = other_file[:-2] if len(other_file)>2 and other_file[-2:] == "md" else other_file
 
     #4. 날짜를 다음 문자로 치환하기
-    other_file = re.sub(r"\d{4}-\d{2}-\d{2}-", "{{baseurl}}/posts/", other_file)
+    other_file = re.sub(r"\d{4}-\d{2}-\d{2}-", "", other_file)
     
-    ret = alias + "(" + urllib.parse.quote(other_file + heading) + ")"
+    ret = alias + "(" + "{{baseurl}}/posts/" + urllib.parse.quote(other_file + heading) + ")"
     print(f'+ conversion result : {ret}')
     return ret
 

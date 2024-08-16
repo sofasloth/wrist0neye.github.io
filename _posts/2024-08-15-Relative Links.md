@@ -297,7 +297,13 @@ def regex_rule(match, filename = None) :
 	- 그런데 또, 링크주소 복사를 하면 정상적으로 작동된다.
 	- ![](/assets/img/res/Pasted%20image%2020240816145338.png)
 	- `regex_rule` 함수 마지막에 `urllib.parse.quote` 함수로 소괄호 안 주소를 변환해줘야 한다.
-
+```python
+#4. 날짜를 다음 문자로 치환하기
+# urllib.parse.quote()가 `{`, `}`를 %7B, %7D로 바꿔버려 {baseurl}을 블로그 주소로 변환못하게 만든다.
+# 따라서 아래 2줄을 아래와 같이 수정한다.
+other_file = re.sub(r"\d{4}-\d{2}-\d{2}-", "", other_file)
+ret = alias + "(" + "{{baseurl}}/posts/" + urllib.parse.quote(other_file + heading) + ")"
+```
 
 
 ## 주의사항
