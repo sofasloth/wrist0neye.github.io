@@ -302,7 +302,7 @@ def regex_rule(match, filename = None) :
 # urllib.parse.quote()가 `{`, `}`를 %7B, %7D로 바꿔버려 {baseurl}을 블로그 주소로 변환못하게 만든다.
 # 따라서 아래 2줄을 아래와 같이 수정한다.
 other_file = re.sub(r"\d{4}-\d{2}-\d{2}-", "", other_file)
-ret = alias + "(" + "{{baseurl}}/posts/" + urllib.parse.quote(other_file + heading) + ")"
+ret = alias + "(" + "{{baseurl}}/posts/" + urllib.parse.quote(other_file) + "#" + urllib.parse.quote(heading[1:]) +")"
 ```
 
 

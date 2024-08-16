@@ -38,8 +38,7 @@ def regex_rule(match, filename = None) :
 
     #4. 날짜를 다음 문자로 치환하기
     other_file = re.sub(r"\d{4}-\d{2}-\d{2}-", "", other_file)
-    
-    ret = alias + "(" + "{{baseurl}}/posts/" + urllib.parse.quote(other_file + heading) + ")"
+    ret = alias + "(" + "{{baseurl}}/posts/" + urllib.parse.quote(other_file) + "#" + urllib.parse.quote(heading[1:]) + ")"
     print(f'+ conversion result : {ret}')
     return ret
 
