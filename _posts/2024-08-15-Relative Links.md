@@ -303,8 +303,9 @@ def regex_rule(match, filename = None) :
 # 따라서 아래와 같이 수정한다.
 other_file = re.sub(r"\d{4}-\d{2}-\d{2}-", "", other_file)
 abs_path = "" if other_file == "" else "{{baseurl}}/posts/"
+file_path = urllib.prase.quote(other_file)+"/" if other_file != "" else ""
 heading_path = "" if heading == "" else "#" + urllib.parse.quote(heading[1:])
-ret = alias + "(" + abs_path + urllib.parse.quote(other_file) + "/" + heading_path + ")"
+ret = alias + "(" + abs_path + file_path + heading_path + ")"
 ```
 다른 문서 참조할 때 꼭 뒤에 `/`을 붙여주자. 안 그러면 주소값이 깨진다.
 
