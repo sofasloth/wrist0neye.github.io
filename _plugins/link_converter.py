@@ -30,7 +30,7 @@ def regex_rule(match, filename = None) :
     heading = heading.replace("%20", "-").lower()
 
     #2. 특수문자 모두 제거
-    other_file = re.sub(r"[^\w\-/]","",other_file) if "baseurl}}" not in other_file else other_file
+    other_file = re.sub(r"[^\w\-/\.]","",other_file) if "baseurl}}" not in other_file else other_file
     heading = "#" + re.sub(r"[^\w\-]","",heading) if heading != "" else ""
 
     #3. .md 제거하기 #2에서 "." 이미 제거됨.
