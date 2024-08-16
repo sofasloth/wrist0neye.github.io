@@ -86,8 +86,8 @@ plugins:
 
 그러면 어떤 문자열로 변환해야 정확한 링크로 변환해줄까? 성공적으로 변환한 것만 체크해뒀다.
 
-- [ ] 일반 링크 `[구현단계 ABC](#-ABC)`
-    - [구현단계 ABC](http://localhost:4000/posts/relative-links/#구현단계%20ABC)
+- [ ] 일반 링크 `[구현단계 ABC](#구현단계%20ABC)`
+    - [구현단계 ABC](#구현단계%20ABC)
 - [x] `%20` `-`로 치환 + 소문자 치환 `[구현단계 ABC](#-abc)`
     - [구현단계 ABC](#구현단계-abc)
     - [Python 스크립트 만들기](#python-스크립트-만들기)
@@ -96,8 +96,9 @@ plugins:
     - `[구현단계 ABC]({{post.url | relative_url}}/posts/#구현단계%20ABC)`
     - `post.url` 문구가 접근이 안 된다.
 - [x] liquid 문법2 + 소문자 치환 + `%20` 치환 `[구현단계 ABC](#-abc)]`
-    - [구현단계 ABC]({{site.baseurl}}/posts/relative-links/#구현단계-abc)
-    - `{{site.baseurl}}`은 접근해도 괜찮다.
+    - `[구현단계 ABC]({{site.baseurl}}/posts/relative-links/#구현단계-abc)`
+	    - 오류 때문에 code block 처리
+    - `site.baseurl`은 접근해도 괜찮다.
 - [x] 다른 문서 참고하기 `[1. linkpreview.html]({{ site.baseurl }}/postslinkpreview-#1-linkpreviewhtml)`
     - [1. linkpreview.html]({{site.baseurl}}/posts/linkpreview-구현하기/#1-linkpreviewhtml)
 
