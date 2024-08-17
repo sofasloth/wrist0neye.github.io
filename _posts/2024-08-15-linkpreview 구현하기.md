@@ -1,5 +1,5 @@
 ---
-title: linkpreview를 github.io 블로그에 적용하기
+title: (blog)linkpreview를 github.io 블로그에 적용하기
 date: 2024-08-15 22:53:00 +0900
 categories:
   - Doodle
@@ -14,7 +14,6 @@ math: true
 image: 
 incomplete: false
 ---
-
 # [Linkpreview 설치하기](https://github.com/ysk24ok/jekyll-linkpreview)
 
 ```ruby

@@ -1,5 +1,5 @@
 ---
-title: obsidian link를 그대로 github.io에 적용하기
+title: (blog)obsidian link를 그대로 github.io에 적용하기
 date: 2024-08-15 23:53:00 +0900
 categories:
   - Doodle
@@ -8,6 +8,7 @@ tags:
   - diary
   - blog
   - github_action
+  - obsidian
 comments: true
 published: true
 math: true
@@ -281,6 +282,7 @@ content = re.sub(r'정규표현식', lambda x : regex_rule(x, filename), content
 	- 정규표현식 수정
 	- 앞에 "\`" 또는 `!` 가 온다면 무시한다. 
 	- ![](/assets/img/res/Pasted%20image%2020240816131720.png)
+
 ```python
 def regex_rule(match, filename = None) :
 	prefix = match.group(1)
@@ -292,6 +294,7 @@ def regex_rule(match, filename = None) :
 		# !, ` 같은 문자가 오면 원문 그대로 반환할 것.
 		return prefix + alias + "(" + other_file + heading + ")"
 ```
+
 - 인코딩 이슈 #issue
 	- Github Action에서 정상적으로 변환했음에도 불구하고 한글이 포함된 일부 링크들이 깨진다.
 	- 그런데 또, 링크주소 복사를 하면 정상적으로 작동된다.
@@ -339,3 +342,4 @@ ret = alias + "(" + abs_path + file_path + heading_path + ")"
 ### Jekyll
 - **[Jekyll url  vs baseurl](https://mademistakes.com/mastering-jekyll/site-url-baseurl/)**
 - [Jekyll 마크다운(kramdown) 사용법](https://pennynd1me.github.io/wiki/write-markdown-practice/)
+	- *kramdown*에서는 각주Footnote `[^fn]` 기능을 지원한다. 앞으로 문서 글 다듬을 때 사용 

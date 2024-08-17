@@ -27,6 +27,8 @@
 }
 
 .jekyll-linkpreview-title{
+  overflow: hidden;
+  text-overflow: ellipsis;
   font-size:1.25rem;
   font-weight: 400;
   color: var(--heading-color);
@@ -37,6 +39,7 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   overflow: hidden;
+  text-overflow: ellipsis;
   color:var(--text-color);
 
   margin: 0;
@@ -46,4 +49,5 @@
   color:var(--text-muted-color);
   text-decoration: underline;
   text-underline-offset: 0.2rem;
+  bottom : 0%;
 }
