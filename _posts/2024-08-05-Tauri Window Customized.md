@@ -12,7 +12,7 @@ comments: true
 published: true
 math: true
 image:
-  path: /assets/img/res/tauri_banner.png
+  path: /assets/img/thumbnail/tauri_banner.png
 incomplete: false
 ---
 

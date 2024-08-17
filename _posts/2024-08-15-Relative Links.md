@@ -9,6 +9,7 @@ tags:
   - blog
   - github_action
   - obsidian
+  - Web
 comments: true
 published: true
 math: true

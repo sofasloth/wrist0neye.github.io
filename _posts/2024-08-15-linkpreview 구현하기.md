@@ -8,12 +8,15 @@ permalink:
 tags:
   - diary
   - blog
+  - obsidian
+  - Web
 comments: true
 published: true
 math: true
 image: 
 incomplete: false
 ---
+> \[2024-08-15\] [2024-08-08-Github 블로그 꾸며보기2](2024-08-08-Github%20블로그%20꾸며보기2.md) 파일이 지나치게 길어져 별도의 파일로 분리합니다.
 # [Linkpreview 설치하기](https://github.com/ysk24ok/jekyll-linkpreview)
 
 ```ruby

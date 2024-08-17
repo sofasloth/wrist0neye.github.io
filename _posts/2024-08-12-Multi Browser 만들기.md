@@ -17,7 +17,7 @@ math: true
 pin: false
 mermaid: "false"
 image:
-  path: /assets/img/res/tauri_banner.png
+  path: /assets/img/thumbnail/tauri_banner.png
 linkpreview: false
 incomplete: true
 ---

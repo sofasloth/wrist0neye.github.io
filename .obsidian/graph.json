@@ -6,7 +6,15 @@
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "tag:#Web  ",
+      "color": {
+        "a": 1,
+        "rgb": 7157169
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0.6,
@@ -17,6 +25,6 @@
   "repelStrength": 10.8591906301897,
   "linkStrength": 0.895376278297352,
   "linkDistance": 269,
-  "scale": 0.27268599173600727,
+  "scale": 0.5359795996225953,
   "close": false
 }

@@ -8,33 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "04d559a518ad4b18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-08-14-Rust 비교하기.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f69e6e74b60dba7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-08-12-Multi Browser 만들기.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d74c1ca8f42b52ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,15 +21,74 @@
             }
           },
           {
+            "id": "9fd80597e5ab08fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-15-Relative Links.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "16d0071d61e95a5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-06-pyQt6 Index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d74c1ca8f42b52ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-06-pyQt6 Index.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "19a4cb67fd9099b1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "assets/img/thumbnail/rust_banner.png"
+              }
             }
           }
-        ],
-        "currentTab": 2
+        ]
+      },
+      {
+        "id": "3e17876359334c30",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "245c252e5838c3a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-15-linkpreview 구현하기.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +118,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#미완성",
+                "query": "gif",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -193,8 +226,17 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "e283ca730f910cca",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "552c26984e695be1",
@@ -258,54 +300,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d74c1ca8f42b52ab",
+  "active": "f69e6e74b60dba7f",
   "lastOpenFiles": [
-    "README.md",
-    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
-    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
-    "_posts/2024-08-14-Rust 비교하기.md",
-    "_posts/2024-08-15-Relative Links.md",
-    "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
-    "_cache/155d49b05751501bcc21e4fd2a0bb0bd.json",
-    "_cache/213de6c54c61195c7114f58278c1fcfd.json",
-    "_cache/a5b786f826d43091865bf22e0601afb5.json",
-    "_cache/dc15e3d9aad072352f67bc6d8284231f.json",
-    "_cache/d62ade362518ada5ad9c04ff838aea58.json",
-    "_posts/2024-08-05-Tauri Window Customized.md",
-    "assets/img/res/Pasted image 20240816192622.png",
-    "assets/img/res/Pasted image 20240816195332.png",
-    "assets/img/res/Pasted image 20240816195404.png",
-    "assets/img/res/Pasted image 20240816195436.png",
-    "assets/img/res/Pasted image 20240816195448.png",
-    "assets/img/res/css_warning_2.gif",
     "_posts/2024-08-15-linkpreview 구현하기.md",
-    "_posts/2024-08-12-Multi Browser 만들기.md",
-    "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
-    "_posts/2024-08-04-Hello github.io!.md",
+    "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
+    "_site/assets/img/res/Pasted image 20240808010356.md",
+    "_site/assets/img/res/Pasted image 20240808010356.html",
+    "assets/img/res/Pasted image 20240808010356.md",
+    "assets/img/Excalidraw/움직이는 경고 배너 만들기_Drawing 2024-08-18 03.25.18.excalidraw.md",
+    "assets/img/res/Pasted image 20240818043342.png",
+    "_site/assets/img/res/Pasted image 20240818043342.png",
+    "_site/assets/img/res/Pasted image 20240818042650.png",
+    "assets/img/res/Pasted image 20240818042650.png",
+    "_posts/2024-08-15-Relative Links.md",
+    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+    "_site/assets/img/res/Pasted image 20240818041702.png",
+    "assets/img/res/Pasted image 20240818041702.png",
+    "_site/assets/img/res/Pasted image 20240818041317.png",
+    "assets/img/res/Pasted image 20240818041317.png",
+    "_site/assets/img/res/Pasted image 20240818040904.png",
+    "assets/img/res/Pasted image 20240818040904.png",
+    "_site/posts/움직이는-경고-배너-만들기/index.html",
+    "_site/posts/움직이는-경고-배너-만들기",
     "_site/categories/web/index.html",
     "_site/categories/web",
     "_site/categories/design/index.html",
     "_site/categories/design",
-    "_site/tags/obsidian/index.html",
-    "_posts/2024-08-16-국내 인디 노래 List.md",
-    "_site/assets/img/res/Pasted image 20240816145338.png",
-    "assets/img/Excalidraw/2024-08-16 Relative Link.excalidraw.md",
-    "_posts/2024-08-04-Github 블로그 꾸며보기.md",
-    "_tabs/about.md",
-    "_site/assets/img/res/Pasted Image 20240816145031_249.png",
-    "_site/assets/img/res/Pasted Image 20240816144929_314.png",
-    "_site/assets/img/res/Pasted Image 20240816144650_250.png",
+    "_site/tags/design/index.html",
+    "_site/tags/design",
+    "_site/tags/css/index.html",
+    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+    "_posts/2024-08-12-Multi Browser 만들기.md",
+    "_posts/2024-08-06-pyQt6 Index.md",
+    "assets/img/Excalidraw/Github 블로그 꾸미기3_Drawing 2024-08-18 00.55.32.excalidraw.md",
+    "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
     "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
-    "_posts/2024-08-06-pyQt6 Index.md",
-    "_includes/template/_post template.md",
-    "{{site.baseurl}}/posts/linkpreview-구현하기.md",
-    "_site/{{site.baseurl}}/posts/linkpreview-구현하기.md",
-    "_site/assets/img/res/Pasted image 20240808010356.md",
-    "_includes/template/fast asset.md",
-    "_includes/template/linkpreview.md",
-    "assets/img/Excalidraw/Drawing 2024-08-11 22.34.17.excalidraw.md",
-    "_posts/2024-08-13-Rust 비교하기.md",
+    "_tabs/archives.md",
+    "_tabs/about.md",
+    "_posts/2024-08-04-Github 블로그 꾸며보기.md",
+    "_posts/2024-08-05-Tauri Window Customized.md",
+    "_posts/2024-08-18-dummy1 1 1.md",
+    "_posts/2024-08-18-dummy1 1 1 1 1.md",
+    "_posts/2024-08-18-dummy1 1 - 복사본 (106) - 복사본.md",
+    "_posts/2024-08-18-dummy1 1 - 복사본 (105) - 복사본.md",
+    "_posts/2024-08-18-dummy1 1 - 복사본 (104) - 복사본.md",
+    "_posts/2024-08-18-dummy1 1 - 복사본 (103) - 복사본.md",
+    "_posts/2024-08-18-dummy1 1 - 복사본 (102) - 복사본.md",
+    "_posts/2024-08-18-dummy1 1 - 복사본 (101) - 복사본.md",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",
