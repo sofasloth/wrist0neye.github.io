@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "_posts/2024-08-15-Relative Links.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -41,8 +41,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -144,7 +143,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md",
+                "file": "_posts/2024-08-15-Relative Links.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -202,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md"
+                "file": "_posts/2024-08-15-Relative Links.md"
               }
             }
           }
@@ -219,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md",
+                "file": "_posts/2024-08-15-Relative Links.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,10 +253,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "16d0071d61e95a5d",
+  "active": "f69e6e74b60dba7f",
   "lastOpenFiles": [
-    "_posts/2024-08-18-유연한 프로그래밍을 위한 설계수업.md",
     "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md",
+    "_posts/2024-08-18-유연한 프로그래밍을 위한 설계수업.md",
     "_posts/2024-08-18-PJT BranchNote.md",
     "_posts/2024-08-15-linkpreview 구현하기.md",
     "_posts/2024-08-15-Relative Links.md",
