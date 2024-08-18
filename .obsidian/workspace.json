@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-15-linkpreview 구현하기.md",
-                "mode": "source",
+                "file": "_posts/2024-08-15-Relative Links.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-18-D3.js & Jupyter notebook & Deno.md",
+                "file": "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -144,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-18-D3.js & Jupyter notebook & Deno.md",
+                "file": "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-18-D3.js & Jupyter notebook & Deno.md"
+                "file": "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md"
               }
             }
           }
@@ -219,7 +219,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-18-D3.js & Jupyter notebook & Deno.md",
+                "file": "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,6 +256,13 @@
   },
   "active": "16d0071d61e95a5d",
   "lastOpenFiles": [
+    "_posts/2024-08-18-유연한 프로그래밍을 위한 설계수업.md",
+    "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md",
+    "_posts/2024-08-18-PJT BranchNote.md",
+    "_posts/2024-08-15-linkpreview 구현하기.md",
+    "_posts/2024-08-15-Relative Links.md",
+    "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
+    "_posts/2024-08-18-D3.js & Jupyter notebook & Deno.md",
     "_site/tags/뻘짓/index.html",
     "_site/tags/뻘짓",
     "_site/tags/jupyter/index.html",
@@ -270,25 +277,18 @@
     "_site/posts/D3.js-&-Jupyter-notebook-&-Deno",
     "_site/posts/D3.js와-Jupyter-notebook(+Deno)/index.html",
     "_site/posts/D3.js와-Jupyter-notebook(+Deno)",
-    "_site/posts/D3.js와-Jupyter-notebook(+Deno!)/index.html",
     "assets/img/res/Pasted image 20240819011510.png",
     "_site/assets/img/res/Pasted image 20240819004849.png",
     "assets/img/res/Pasted image 20240819004849.png",
     "_site/assets/img/res/Pasted image 20240818231439.png",
     "_site/assets/img/res/Pasted image 20240818230841.png",
     "assets/img/res/Pasted image 20240819002521.png",
-    "_posts/2024-08-15-linkpreview 구현하기.md",
-    "_posts/2024-08-18-D3.js & Jupyter notebook & Deno.md",
-    "_posts/2024-08-18-유연한 프로그래밍을 위한 설계수업.md",
     "_posts/2024-08-18-Cpp vs Rust 동시성.md",
     "_posts/2024-08-06-pyQt6 Index.md",
     "assets/img/Excalidraw/Github 블로그 꾸며보기3_Drawing 2024-08-18 00.55.32.excalidraw.md",
     "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
-    "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md",
-    "_posts/2024-08-18-PJT BranchNote.md",
     "_posts/2024-08-20-.md",
     "assets/img/Excalidraw/PJT_BranchNote_Drawing 2024-08-18 19.17.21.excalidraw.md",
-    "_posts/2024-08-15-Relative Links.md",
     "_posts/2024-08-04-Github 블로그 꾸며보기.md",
     "_posts/2024-08-05-Tauri Window Customized.md",
     "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
@@ -296,7 +296,6 @@
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
     "_posts/2024-08-14-Rust 비교하기.md",
-    "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
     "_includes/template/Fine symbol.md",
     "_posts/2024-08-12-Multi Browser 만들기.md",
     "assets/img/Excalidraw/움직이는 경고 배너 만들기_Drawing 2024-08-18 03.25.18.excalidraw.md",
