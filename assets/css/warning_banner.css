@@ -1,7 +1,7 @@
 :root{
     --yellow-warning : #F9D008;
     --orange-warning : #F7B425;
-    --var-pitch: 0.8660254px;
+    --var-pitch: 16.3205px;
 }
 @media (max-width:767px) {
     .box{

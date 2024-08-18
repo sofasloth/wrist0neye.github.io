@@ -289,7 +289,7 @@ Linkpreview의 기본 css 스타일과 Chirpy 스타일과 조금 잘 안 어울
     <!-- 생략 -->
 ```
 
-liquid syntax로 `{% if page.linkpreview %} ~ {% endif %}` 설정해보려고 했지만 잘 인식이 안 되었다(다른 `page.comments`, `page.title`은 잘만 인식되었다). 시간되면 이부분도 손 볼 예정이다. 
+liquid syntax로 `{% if page.linkpreview %} ~ {% endif %}` 설정해보려고 했지만 잘 인식이 안 되었다(다른 `page.comments`, `page.title`은 잘만 인식되었다). 시간되면 이부분도 손 볼 예정이다. <span id="Fine">■</span>
 
 {% endraw %}
 

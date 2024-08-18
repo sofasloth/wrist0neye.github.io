@@ -8,6 +8,13 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "tag:#project  ",
+      "color": {
+        "a": 1,
+        "rgb": 14101839
+      }
+    },
+    {
       "query": "tag:#Web  ",
       "color": {
         "a": 1,
@@ -18,13 +25,13 @@
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0.6,
-  "nodeSizeMultiplier": 1.14330041080325,
+  "nodeSizeMultiplier": 1.23567708333333,
   "lineSizeMultiplier": 1.03365964513591,
   "collapse-forces": false,
   "centerStrength": 0.408705532733153,
   "repelStrength": 10.8591906301897,
   "linkStrength": 0.895376278297352,
   "linkDistance": 269,
-  "scale": 0.5359795996225953,
+  "scale": 1.0534979423868358,
   "close": false
 }

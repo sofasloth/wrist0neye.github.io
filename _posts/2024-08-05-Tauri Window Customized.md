@@ -7,7 +7,7 @@ categories:
 tags:
   - Tauri
   - Web
-  - FE
+  - Web/frontend
 comments: true
 published: true
 math: true
@@ -258,7 +258,7 @@ body {
 <footer></footer>
 ```
 
-고친결과는 아래와 같다.
+고친결과는 아래와 같다. 아직 *Tauri* 기능이 많이 부족한 관계로 Electron과 Tauri를 병행하면서 미니프로젝트를 만들어보고 그 속도/메모리 성능을 비교해보는 것이 가장 나을 거 같다. <span id="Fine">■</span>
 
 ![tauri-solved2.gif](/assets/img/res/tauri-solved2.gif)
 

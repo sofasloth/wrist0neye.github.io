@@ -13,21 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
+                "file": "_posts/2024-08-15-linkpreview 구현하기.md",
                 "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9fd80597e5ab08fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-08-15-Relative Links.md",
-                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -39,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-06-pyQt6 Index.md",
+                "file": "_posts/2024-08-18-D3.js & Jupyter notebook & Deno.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,29 +34,15 @@
             }
           },
           {
-            "id": "d74c1ca8f42b52ab",
+            "id": "b923496eac3ddecb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-08-06-pyQt6 Index.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19a4cb67fd9099b1",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/img/thumbnail/rust_banner.png"
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gif",
+                "query": "[\"published\":false]",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -143,7 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 332.5
   },
   "right": {
     "id": "73c23346572ca585",
@@ -171,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
+                "file": "_posts/2024-08-18-D3.js & Jupyter notebook & Deno.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -216,8 +189,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "552c26984e695be1",
@@ -230,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-15-움직이는 경고 배너 만들기.md"
+                "file": "_posts/2024-08-18-D3.js & Jupyter notebook & Deno.md"
               }
             }
           }
@@ -247,7 +219,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
+                "file": "_posts/2024-08-18-D3.js & Jupyter notebook & Deno.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -262,7 +234,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 347.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -281,53 +254,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f69e6e74b60dba7f",
+  "active": "16d0071d61e95a5d",
   "lastOpenFiles": [
-    "assets/img/Excalidraw/움직이는 경고 배너 만들기_Drawing 2024-08-18 03.25.18.excalidraw.md",
-    "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
-    "_site/assets/img/res/Pasted image 20240818045706.png",
-    "assets/img/res/Pasted image 20240818045706.png",
+    "_site/tags/뻘짓/index.html",
+    "_site/tags/뻘짓",
+    "_site/tags/jupyter/index.html",
+    "_site/tags/jupyter",
+    "_site/tags/deno/index.html",
+    "_site/tags/deno",
+    "_site/assets/img/res/Pasted image 20240819020922.png",
+    "assets/img/res/Pasted image 20240819020922.png",
+    "_site/assets/img/res/Pasted image 20240819020441.png",
+    "assets/img/res/Pasted image 20240819020441.png",
+    "_site/posts/D3.js-&-Jupyter-notebook-&-Deno/index.html",
+    "_site/posts/D3.js-&-Jupyter-notebook-&-Deno",
+    "_site/posts/D3.js와-Jupyter-notebook(+Deno)/index.html",
+    "_site/posts/D3.js와-Jupyter-notebook(+Deno)",
+    "_site/posts/D3.js와-Jupyter-notebook(+Deno!)/index.html",
+    "assets/img/res/Pasted image 20240819011510.png",
+    "_site/assets/img/res/Pasted image 20240819004849.png",
+    "assets/img/res/Pasted image 20240819004849.png",
+    "_site/assets/img/res/Pasted image 20240818231439.png",
+    "_site/assets/img/res/Pasted image 20240818230841.png",
+    "assets/img/res/Pasted image 20240819002521.png",
     "_posts/2024-08-15-linkpreview 구현하기.md",
-    "_posts/2024-08-12-Multi Browser 만들기.md",
-    "_site/assets/img/res/Pasted image 20240808010356.md",
-    "_site/assets/img/res/Pasted image 20240808010356.html",
-    "assets/img/res/Pasted image 20240808010356.md",
-    "assets/img/res/Pasted image 20240818043342.png",
-    "_site/assets/img/res/Pasted image 20240818043342.png",
-    "_site/assets/img/res/Pasted image 20240818042650.png",
-    "assets/img/res/Pasted image 20240818042650.png",
-    "_posts/2024-08-15-Relative Links.md",
-    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
-    "_site/assets/img/res/Pasted image 20240818041702.png",
-    "assets/img/res/Pasted image 20240818041702.png",
-    "_site/assets/img/res/Pasted image 20240818041317.png",
-    "assets/img/res/Pasted image 20240818041317.png",
-    "_site/posts/움직이는-경고-배너-만들기/index.html",
-    "_site/posts/움직이는-경고-배너-만들기",
-    "_site/categories/web/index.html",
-    "_site/categories/web",
-    "_site/categories/design/index.html",
-    "_site/categories/design",
-    "_site/tags/design/index.html",
-    "_site/tags/design",
-    "_site/tags/css/index.html",
-    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+    "_posts/2024-08-18-D3.js & Jupyter notebook & Deno.md",
+    "_posts/2024-08-18-유연한 프로그래밍을 위한 설계수업.md",
+    "_posts/2024-08-18-Cpp vs Rust 동시성.md",
     "_posts/2024-08-06-pyQt6 Index.md",
-    "assets/img/Excalidraw/Github 블로그 꾸미기3_Drawing 2024-08-18 00.55.32.excalidraw.md",
-    "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
-    "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
-    "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
-    "_tabs/archives.md",
-    "_tabs/about.md",
+    "assets/img/Excalidraw/Github 블로그 꾸며보기3_Drawing 2024-08-18 00.55.32.excalidraw.md",
+    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+    "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md",
+    "_posts/2024-08-18-PJT BranchNote.md",
+    "_posts/2024-08-20-.md",
+    "assets/img/Excalidraw/PJT_BranchNote_Drawing 2024-08-18 19.17.21.excalidraw.md",
+    "_posts/2024-08-15-Relative Links.md",
     "_posts/2024-08-04-Github 블로그 꾸며보기.md",
     "_posts/2024-08-05-Tauri Window Customized.md",
-    "_posts/2024-08-18-dummy1 1 1.md",
-    "_posts/2024-08-18-dummy1 1 1 1 1.md",
-    "_posts/2024-08-18-dummy1 1 - 복사본 (106) - 복사본.md",
-    "_posts/2024-08-18-dummy1 1 - 복사본 (105) - 복사본.md",
-    "_posts/2024-08-18-dummy1 1 - 복사본 (104) - 복사본.md",
-    "_posts/2024-08-18-dummy1 1 - 복사본 (103) - 복사본.md",
-    "_posts/2024-08-18-dummy1 1 - 복사본 (102) - 복사본.md",
+    "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
+    "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
+    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+    "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
+    "_posts/2024-08-14-Rust 비교하기.md",
+    "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
+    "_includes/template/Fine symbol.md",
+    "_posts/2024-08-12-Multi Browser 만들기.md",
+    "assets/img/Excalidraw/움직이는 경고 배너 만들기_Drawing 2024-08-18 03.25.18.excalidraw.md",
+    "_site/assets/img/res/Pasted image 20240808010356.md",
+    "assets/img/res/Pasted image 20240808010356.md",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",
