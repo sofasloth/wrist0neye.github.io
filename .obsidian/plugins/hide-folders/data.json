@@ -1,0 +1,15 @@
+{
+  "areFoldersHidden": true,
+  "matchCaseInsensitive": true,
+  "addHiddenFoldersToObsidianIgnoreList": false,
+  "hideBottomStatusBarIndicatorText": false,
+  "enableCompatQuickExplorer": false,
+  "attachmentFolderNames": [
+    "_site",
+    "_cache",
+    "_data",
+    "_layouts",
+    "_plugins",
+    "css"
+  ]
+}

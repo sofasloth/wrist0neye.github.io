@@ -36,7 +36,7 @@ comments: true
 	- [ ] 노드 하나당 포함된 문서가 여러 개일 경우 어떻게 시각화해줄 것인가?
 
 # Concept
-f![](/assets/img/res/Pasted%20image%2020240818202848.png)
+![](/assets/img/res/Pasted%20image%2020240818202848.png)
 
 
 # 구현할 기능

@@ -15,7 +15,6 @@ image:
   path: /assets/img/thumbnail/tauri_banner.png
 incomplete: false
 ---
-
 [공식 문서](https://tauri.app/ko/v1/guides/features/window-customization)에서 친절하게 설명이 되어 있는데 공식문서대로 따라하면 다음 문제점에 조우하게 된다.
 - `titlebar` 부분의 위쪽 가장자리로 창 크기 조절(`resize`)이 거의 불가능해진다.
 - 창의 가장자리에 `border-radius` 기능이 안 먹힌다.

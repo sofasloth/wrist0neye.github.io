@@ -8,37 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f69e6e74b60dba7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-08-15-Relative Links.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "16d0071d61e95a5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md",
+                "file": "_posts/2024-08-20-그래프 그리는 코드 작성 절차.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "b923496eac3ddecb",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -53,7 +32,7 @@
       {
         "id": "e96d121e2708325f",
         "type": "tabs",
-        "dimension": 59.523809523809526,
+        "dimension": 58.85841363973313,
         "children": [
           {
             "id": "c0d1cda2e4363d8c",
@@ -71,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"published\":false]",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +80,7 @@
       {
         "id": "0cdc352edcd7a61b",
         "type": "tabs",
-        "dimension": 40.476190476190474,
+        "dimension": 41.141586360266864,
         "children": [
           {
             "id": "e98444f153fdf4bb",
@@ -109,6 +88,19 @@
             "state": {
               "type": "calendar",
               "state": {}
+            }
+          },
+          {
+            "id": "f69e6e74b60dba7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_private/2024-08-19.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -143,7 +135,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-15-Relative Links.md",
+                "file": "_posts/2024-08-20-그래프 그리는 코드 작성 절차.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -201,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-15-Relative Links.md"
+                "file": "_posts/2024-08-20-그래프 그리는 코드 작성 절차.md"
               }
             }
           }
@@ -218,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-15-Relative Links.md",
+                "file": "_posts/2024-08-20-그래프 그리는 코드 작성 절차.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,8 +225,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5,
-    "collapsed": true
+    "width": 347.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -250,56 +241,58 @@
       "random-note:Open random note": false,
       "obsidian-kanban:Create new board": false,
       "oz-clear-unused-images:Clear Unused Images": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "hide-folders:Show hidden folders": false
     }
   },
-  "active": "f69e6e74b60dba7f",
+  "active": "16d0071d61e95a5d",
   "lastOpenFiles": [
-    "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md",
+    "_site/posts/그래프-그리는-코드-작성-절차/index.html",
+    "_site/posts/그래프-그리는-코드-작성-절차",
+    "_site/tags/statistics/index.html",
+    "_site/tags/statistics",
+    "_site/posts/D3.js-&-Jupyter-notebook-+-Deno/index.html",
+    "_site/posts/D3.js-&-Jupyter-notebook-+-Deno",
+    "_site/tags/python-pyqtgraph/index.html",
+    "_site/tags/python-pyqtgraph",
+    "_site/tags/python-matplotlib/index.html",
+    "_site/tags/python-matplotlib",
+    "_site/tags/graphview/index.html",
+    "_posts/2024-08-20-PJT SVG mindmap.md",
+    "_posts/2024-08-20-그래프 그리는 코드 작성 절차.md",
+    "_posts/2024-08-18-D3.js & Jupyter notebook + Deno.md",
     "_posts/2024-08-18-유연한 프로그래밍을 위한 설계수업.md",
+    "_posts/2024-08-18-Cpp vs Rust 동시성.md",
+    "_posts/2024-08-14-Rust 비교하기.md",
+    "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
+    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+    "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
+    "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
+    "_posts/2024-08-06-pyQt6 Index.md",
+    "_posts/2024-08-05-Tauri Window Customized.md",
+    "_posts/2024-08-04-Github 블로그 꾸며보기.md",
+    "_posts/2024-08-04-Hello github.io!.md",
+    "assets/img/Excalidraw/Drawing 2024-08-11 11.16.52.excalidraw.md",
+    "assets/img/Excalidraw/Drawing 2024-08-11 22.34.17.excalidraw.md",
+    "assets/img/Excalidraw/2024-08-16 Relative Link.excalidraw.md",
+    "assets/img/Excalidraw/Github 블로그 꾸며보기3_Drawing 2024-08-18 00.55.32.excalidraw.md",
+    "assets/img/Excalidraw/움직이는 경고 배너 만들기_Drawing 2024-08-18 03.25.18.excalidraw.md",
+    "assets/img/Excalidraw/PJT_BranchNote_Drawing 2024-08-18 19.17.21.excalidraw.md",
     "_posts/2024-08-18-PJT BranchNote.md",
-    "_posts/2024-08-15-linkpreview 구현하기.md",
-    "_posts/2024-08-15-Relative Links.md",
-    "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
-    "_posts/2024-08-18-D3.js & Jupyter notebook & Deno.md",
-    "_site/tags/뻘짓/index.html",
-    "_site/tags/뻘짓",
-    "_site/tags/jupyter/index.html",
-    "_site/tags/jupyter",
-    "_site/tags/deno/index.html",
-    "_site/tags/deno",
+    "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md",
+    "_private/2024-08-19.md",
+    "_tabs/categories.md",
+    "_tabs/tags.md",
     "_site/assets/img/res/Pasted image 20240819020922.png",
     "assets/img/res/Pasted image 20240819020922.png",
     "_site/assets/img/res/Pasted image 20240819020441.png",
     "assets/img/res/Pasted image 20240819020441.png",
-    "_site/posts/D3.js-&-Jupyter-notebook-&-Deno/index.html",
-    "_site/posts/D3.js-&-Jupyter-notebook-&-Deno",
-    "_site/posts/D3.js와-Jupyter-notebook(+Deno)/index.html",
-    "_site/posts/D3.js와-Jupyter-notebook(+Deno)",
     "assets/img/res/Pasted image 20240819011510.png",
     "_site/assets/img/res/Pasted image 20240819004849.png",
     "assets/img/res/Pasted image 20240819004849.png",
     "_site/assets/img/res/Pasted image 20240818231439.png",
     "_site/assets/img/res/Pasted image 20240818230841.png",
     "assets/img/res/Pasted image 20240819002521.png",
-    "_posts/2024-08-18-Cpp vs Rust 동시성.md",
-    "_posts/2024-08-06-pyQt6 Index.md",
-    "assets/img/Excalidraw/Github 블로그 꾸며보기3_Drawing 2024-08-18 00.55.32.excalidraw.md",
-    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
-    "_posts/2024-08-20-.md",
-    "assets/img/Excalidraw/PJT_BranchNote_Drawing 2024-08-18 19.17.21.excalidraw.md",
-    "_posts/2024-08-04-Github 블로그 꾸며보기.md",
-    "_posts/2024-08-05-Tauri Window Customized.md",
-    "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
-    "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
-    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
-    "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
-    "_posts/2024-08-14-Rust 비교하기.md",
-    "_includes/template/Fine symbol.md",
-    "_posts/2024-08-12-Multi Browser 만들기.md",
-    "assets/img/Excalidraw/움직이는 경고 배너 만들기_Drawing 2024-08-18 03.25.18.excalidraw.md",
-    "_site/assets/img/res/Pasted image 20240808010356.md",
-    "assets/img/res/Pasted image 20240808010356.md",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",
