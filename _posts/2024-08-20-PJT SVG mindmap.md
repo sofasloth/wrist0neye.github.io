@@ -1,7 +1,9 @@
 ---
 title: (PJT)SVG와 Link 연결하기
 date: 2024-08-20 01:55:00 +0900
-categories: 
+categories:
+  - Programming
+  - Project
 tags: 
 pin: false
 mermaid: "false"

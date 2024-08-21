@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-20-그래프 그리는 코드 작성 절차.md",
+                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Web/frontend",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,7 +135,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-20-그래프 그리는 코드 작성 절차.md",
+                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-20-그래프 그리는 코드 작성 절차.md"
+                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md"
               }
             }
           }
@@ -210,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-20-그래프 그리는 코드 작성 절차.md",
+                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,23 +247,30 @@
   },
   "active": "16d0071d61e95a5d",
   "lastOpenFiles": [
-    "_site/posts/그래프-그리는-코드-작성-절차/index.html",
-    "_site/posts/그래프-그리는-코드-작성-절차",
-    "_site/tags/statistics/index.html",
-    "_site/tags/statistics",
-    "_site/posts/D3.js-&-Jupyter-notebook-+-Deno/index.html",
-    "_site/posts/D3.js-&-Jupyter-notebook-+-Deno",
-    "_site/tags/python-pyqtgraph/index.html",
-    "_site/tags/python-pyqtgraph",
-    "_site/tags/python-matplotlib/index.html",
-    "_site/tags/python-matplotlib",
-    "_site/tags/graphview/index.html",
+    "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
+    "_posts/2024-08-15-linkpreview 구현하기.md",
+    "_posts/2024-08-14-Rust 비교하기.md",
+    "_site/tags/visualization/index.html",
+    "_site/tags/visualization",
+    "_site/tags/pyqtgraph/index.html",
+    "_site/tags/pyqtgraph",
+    "_site/tags/pyqt6/index.html",
+    "_site/tags/pyqt6",
+    "_site/tags/matplotlib/index.html",
+    "_site/tags/matplotlib",
+    "_site/tags/frontend/index.html",
+    "_site/tags/frontend",
+    "_posts/2024-08-15-Relative Links.md",
+    "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md",
+    "_posts/2024-08-18-Cpp vs Rust 동시성.md",
+    "_posts/2024-08-18-D3.js & Jupyter notebook + Deno.md",
+    "_posts/2024-08-18-PJT BranchNote.md",
+    "_posts/2024-08-18-유연한 프로그래밍을 위한 설계수업.md",
     "_posts/2024-08-20-PJT SVG mindmap.md",
     "_posts/2024-08-20-그래프 그리는 코드 작성 절차.md",
-    "_posts/2024-08-18-D3.js & Jupyter notebook + Deno.md",
-    "_posts/2024-08-18-유연한 프로그래밍을 위한 설계수업.md",
-    "_posts/2024-08-18-Cpp vs Rust 동시성.md",
-    "_posts/2024-08-14-Rust 비교하기.md",
+    "_posts/2024-08-20-통계 프로그램 추천 Minitab.md",
+    "_posts/2024-08-20-PJT News parsing + word cloud + GPT sumamry.md",
+    "_posts/2024-08-04-Hello github.io!.md",
     "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
@@ -271,18 +278,11 @@
     "_posts/2024-08-06-pyQt6 Index.md",
     "_posts/2024-08-05-Tauri Window Customized.md",
     "_posts/2024-08-04-Github 블로그 꾸며보기.md",
-    "_posts/2024-08-04-Hello github.io!.md",
     "assets/img/Excalidraw/Drawing 2024-08-11 11.16.52.excalidraw.md",
     "assets/img/Excalidraw/Drawing 2024-08-11 22.34.17.excalidraw.md",
     "assets/img/Excalidraw/2024-08-16 Relative Link.excalidraw.md",
     "assets/img/Excalidraw/Github 블로그 꾸며보기3_Drawing 2024-08-18 00.55.32.excalidraw.md",
     "assets/img/Excalidraw/움직이는 경고 배너 만들기_Drawing 2024-08-18 03.25.18.excalidraw.md",
-    "assets/img/Excalidraw/PJT_BranchNote_Drawing 2024-08-18 19.17.21.excalidraw.md",
-    "_posts/2024-08-18-PJT BranchNote.md",
-    "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md",
-    "_private/2024-08-19.md",
-    "_tabs/categories.md",
-    "_tabs/tags.md",
     "_site/assets/img/res/Pasted image 20240819020922.png",
     "assets/img/res/Pasted image 20240819020922.png",
     "_site/assets/img/res/Pasted image 20240819020441.png",

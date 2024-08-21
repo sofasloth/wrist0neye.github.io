@@ -6,7 +6,7 @@ categories:
   - Project
 tags:
   - Web
-  - Web/frontend
+  - frontend
   - extension
   - organizer
   - obsidian
@@ -40,3 +40,11 @@ comments: true
 
 
 # 구현할 기능
+
+
+# Reference
+{% linkpreview "https://ykwan0714.github.io/git-flow/" %}
+- [https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/)
+- [](https://danielkummer.github.io/git-flow-cheatsheet/index.ko_KR.html)[https://danielkummer.github.io/git-flow-cheatsheet/index.ko_KR.html](https://danielkummer.github.io/git-flow-cheatsheet/index.ko_KR.html)
+- [](https://gmlwjd9405.github.io/2018/05/11/types-of-git-branch.html)[https://gmlwjd9405.github.io/2018/05/11/types-of-git-branch.html](https://gmlwjd9405.github.io/2018/05/11/types-of-git-branch.html)
+- [](https://doitduri.me/53)[https://doitduri.me/53](https://doitduri.me/53)

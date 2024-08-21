@@ -6,7 +6,7 @@ categories:
   - Web_desktop
 permalink: 
 tags:
-  - Web/frontend
+  - frontend
   - GUI
   - programming
   - Tauri
