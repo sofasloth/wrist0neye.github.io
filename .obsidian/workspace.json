@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d35ef60aea8a8d3f",
+        "id": "83ca95d48540467e",
         "type": "tabs",
         "children": [
           {
-            "id": "16d0071d61e95a5d",
+            "id": "9d0caae6e3079c1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -245,10 +245,14 @@
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "16d0071d61e95a5d",
+  "active": "9d0caae6e3079c1a",
   "lastOpenFiles": [
-    "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
+    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
     "_posts/2024-08-15-linkpreview 구현하기.md",
+    "_posts/2024-08-20-통계 프로그램 추천 Minitab.md",
+    "_posts/2024-08-20-PJT News parsing + word cloud + GPT sumamry.md",
+    "_includes/template/linkpreview.md",
+    "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
     "_posts/2024-08-14-Rust 비교하기.md",
     "_site/tags/visualization/index.html",
     "_site/tags/visualization",
@@ -268,8 +272,6 @@
     "_posts/2024-08-18-유연한 프로그래밍을 위한 설계수업.md",
     "_posts/2024-08-20-PJT SVG mindmap.md",
     "_posts/2024-08-20-그래프 그리는 코드 작성 절차.md",
-    "_posts/2024-08-20-통계 프로그램 추천 Minitab.md",
-    "_posts/2024-08-20-PJT News parsing + word cloud + GPT sumamry.md",
     "_posts/2024-08-04-Hello github.io!.md",
     "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
@@ -281,8 +283,6 @@
     "assets/img/Excalidraw/Drawing 2024-08-11 11.16.52.excalidraw.md",
     "assets/img/Excalidraw/Drawing 2024-08-11 22.34.17.excalidraw.md",
     "assets/img/Excalidraw/2024-08-16 Relative Link.excalidraw.md",
-    "assets/img/Excalidraw/Github 블로그 꾸며보기3_Drawing 2024-08-18 00.55.32.excalidraw.md",
-    "assets/img/Excalidraw/움직이는 경고 배너 만들기_Drawing 2024-08-18 03.25.18.excalidraw.md",
     "_site/assets/img/res/Pasted image 20240819020922.png",
     "assets/img/res/Pasted image 20240819020922.png",
     "_site/assets/img/res/Pasted image 20240819020441.png",
