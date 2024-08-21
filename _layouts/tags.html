@@ -3,20 +3,6 @@ layout: page
 # All the Tags of posts.
 ---
 <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
-<script type="application/json" id="tag-data">
-  {
-    "tags": [
-      {% for t in sorted_tags %}
-        {
-          "tag": "{{ t | escape }}",
-          "size": {{ site.tags[t].size }},
-          "link": "{{ t | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}"
-        }{% if forloop.last == false %},{% endif %}
-      {% endfor %}
-    ]
-  }
-</script>
-<script defer src="/assets/js/tag_horizontalbar.js"></script>
 
 <div id="tags" class="d-flex flex-wrap mx-xl-2">
   {% assign tags = '' | split: '' %}
@@ -36,8 +22,19 @@ layout: page
   {% endfor %}
 </div>
 
-<div id="bar_chart" style="width:100%;">
-  
-</div>
+<div id="bar_chart" style="width:100%;"></div>
 
-
+<script defer type="application/json" id="tag-data">
+  {
+    "tags": [
+      {% for t in sorted_tags %}
+        {
+          "tag": "{{ t | escape }}",
+          "size": {{ site.tags[t].size }},
+          "link": "{{ t | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}"
+        }{% if forloop.last == false %},{% endif %}
+      {% endfor %}
+    ]
+  }
+</script>
+<script defer src="/assets/js/tag_horizontalbar.js"></script>
