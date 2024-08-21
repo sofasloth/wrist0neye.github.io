@@ -43,10 +43,10 @@ layout: page
   const jsonData = document.getElementById("tag-data").textContent.replace('\n','').replace(' ','');
   const dataset = JSON.parse(jsonData).tags;
 
-  console.log(dataset)
+  console.log(dataset);
 
-  const xAcessor = (d) => d.size
-  const yAcessor = (d) => d.tag
+  const xAcessor = (d) => d.size;
+  const yAcessor = (d) => d.tag;
 
   let dimensions = {
     width : 800,
@@ -68,11 +68,11 @@ layout: page
     .append('svg')
     // .attr('width', dimensions.width)
     // .attr('height', dimensions.height)
-    .attr("viewBox", `0 0 ${dimensions.width} ${dimensions.height}`)
+    .attr("viewBox", `0 0 ${dimensions.width} ${dimensions.height}`);
 
   const x = d3.scaleLinear()
     .domain([0, d3.max(dataset, d=> xAcessor(d))])
-    .range([dimensions.margin.left, dimensions.width - dimensions.margin.right])
+    .range([dimensions.margin.left, dimensions.width - dimensions.margin.right]);
 
   const y = d3.scaleBand()
     .domain(d3.sort(dataset, d=> -d.size).map(d=>d.tag))
@@ -80,16 +80,15 @@ layout: page
     .padding(0.1);
 
   const ctr = svg.append('g')
-    .attr('fill', 'white')
-
+    .attr('fill', 'white');
   
   // 왜 안됨?
-  const colorgradient = ["#0F76BC","#00AEC4","#0FB189","#34AD22","#B4BB22","#D36903","#FE3D23","#FE133B","#CE1A67"]
+  const colorgradient = ["#0F76BC","#00AEC4","#0FB189","#34AD22","#B4BB22","#D36903","#FE3D23","#FE133B","#CE1A67"];
   let colorScale;
 
   colorScale = d3.scaleQuantile()
     .domain(dataset)
-    .range(["white","blue"])
+    .range(["white","blue"]);
 
   ctr.selectAll('rect')
     .data(dataset)
@@ -108,7 +107,7 @@ layout: page
       } else {
         window.location.href = d.link;
       }
-    })
+    });
     
 
   const value = svg.append('g')
@@ -123,7 +122,7 @@ layout: page
       .attr("dx", -10)
       // .text((d) => format(d.size))
       .text(d => d.size)
-      .attr('color', '#aeaeae')
+      .attr('color', '#aeaeae');
 
     // value.call((text) => text.filter(d=> (x(d.size) - x(0)) < 2)) // for short bars
     //   .attr("dx", +4)
@@ -136,11 +135,11 @@ layout: page
     .call(d3.axisTop(x))
     // .call(g => g.select('.domain').remove())
     .style("font-size", "0.85em")
-    .classed("tag", true)
+    .classed("tag", true);
 
   svg.append("g")
     .attr("transform", `translate(${dimensions.margin.left}, 0)`)
     .call(d3.axisLeft(y).tickSizeOuter(0))
-    .style("font-size", "0.85em")
+    .style("font-size", "0.85em");
 
 </script>
