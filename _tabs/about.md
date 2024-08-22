@@ -3,6 +3,18 @@
 icon: fas fa-info-circle
 order: 4
 ---
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+
+<h1>Hello World!</h1>
+<div id="chart"></div>
+
+<script defer type="application/json" id="about-data">
+{
+	
+}
+</script>
+<script defer src="/assets/js/about_node.js"></script>
+
 > 비개발자의 유사 개발블로그 겸 일기장입니다.
 
 

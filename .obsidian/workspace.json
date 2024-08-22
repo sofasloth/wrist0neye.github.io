@@ -13,10 +13,53 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+                "file": "_tabs/about.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "3baa77bbf48c61d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-18-유연한 프로그래밍을 위한 설계 원칙(1).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "f02dfb698e8a3c7e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a17097996659cf1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙(2).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c73a2c3fc6b25d3f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "assets/img/Excalidraw/2024-08-18-유연한 프로그래밍을 위한 설계-Drawing 2024-08-23 01.00.59.excalidraw.md"
               }
             }
           }
@@ -135,7 +178,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+                "file": "_posts/2024-08-18-유연한 프로그래밍을 위한 설계 원칙(1).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -193,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md"
+                "file": "_posts/2024-08-18-유연한 프로그래밍을 위한 설계 원칙(1).md"
               }
             }
           }
@@ -210,7 +253,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+                "file": "_posts/2024-08-18-유연한 프로그래밍을 위한 설계 원칙(1).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,14 +288,33 @@
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "9d0caae6e3079c1a",
+  "active": "3baa77bbf48c61d7",
   "lastOpenFiles": [
-    "assets/js/tag_horizontalbar.js",
-    "assets/js",
-    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
-    "_posts/2024-08-15-linkpreview 구현하기.md",
+    "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙(2).md",
+    "_posts/2024-08-18-유연한 프로그래밍을 위한 설계 원칙(1).md",
+    "assets/img/res/Pasted image 20240823021852.png",
+    "assets/img/res/Pasted image 20240823020509.png",
+    "assets/img/res/Pasted image 20240823020235.png",
+    "assets/img/res/Pasted image 20240823020307.png",
+    "assets/img/res/Pasted image 20240823020329.png",
+    "assets/img/res/Pasted image 20240823013831.png",
+    "assets/img/res/Pasted image 20240823020225.png",
+    "assets/img/res/Pasted image 20240823013813.png",
+    "assets/img/Excalidraw/2024-08-18-유연한 프로그래밍을 위한 설계-Drawing 2024-08-23 01.00.59.excalidraw.md",
+    "assets/img/res/Pasted image 20240823013747.png",
+    "assets/img/res/Pasted image 20240823013655.png",
+    "_posts/2024-08-20-그래프 그리는 코드 작성 절차.md",
     "_posts/2024-08-20-통계 프로그램 추천 Minitab.md",
     "_posts/2024-08-20-PJT News parsing + word cloud + GPT sumamry.md",
+    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+    "_site/assets/js/about_node.js",
+    "_tabs/about.md",
+    "assets/js/about_node.js",
+    "assets/js/about_about.js",
+    "_layouts/about.html",
+    "assets/js/tag_horizontalbar.js",
+    "assets/js",
+    "_posts/2024-08-15-linkpreview 구현하기.md",
     "_includes/template/linkpreview.md",
     "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
     "_posts/2024-08-14-Rust 비교하기.md",
@@ -260,19 +322,12 @@
     "_site/tags/visualization",
     "_site/tags/pyqtgraph/index.html",
     "_site/tags/pyqtgraph",
-    "_site/tags/pyqt6/index.html",
-    "_site/tags/pyqt6",
-    "_site/tags/matplotlib/index.html",
-    "_site/tags/matplotlib",
-    "_site/tags/frontend/index.html",
     "_posts/2024-08-15-Relative Links.md",
     "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md",
     "_posts/2024-08-18-Cpp vs Rust 동시성.md",
     "_posts/2024-08-18-D3.js & Jupyter notebook + Deno.md",
     "_posts/2024-08-18-PJT BranchNote.md",
-    "_posts/2024-08-18-유연한 프로그래밍을 위한 설계수업.md",
     "_posts/2024-08-20-PJT SVG mindmap.md",
-    "_posts/2024-08-20-그래프 그리는 코드 작성 절차.md",
     "_posts/2024-08-04-Hello github.io!.md",
     "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
@@ -281,18 +336,6 @@
     "_posts/2024-08-06-pyQt6 Index.md",
     "_posts/2024-08-05-Tauri Window Customized.md",
     "_posts/2024-08-04-Github 블로그 꾸며보기.md",
-    "assets/img/Excalidraw/Drawing 2024-08-11 11.16.52.excalidraw.md",
-    "assets/img/Excalidraw/Drawing 2024-08-11 22.34.17.excalidraw.md",
-    "_site/assets/img/res/Pasted image 20240819020922.png",
-    "assets/img/res/Pasted image 20240819020922.png",
-    "_site/assets/img/res/Pasted image 20240819020441.png",
-    "assets/img/res/Pasted image 20240819020441.png",
-    "assets/img/res/Pasted image 20240819011510.png",
-    "_site/assets/img/res/Pasted image 20240819004849.png",
-    "assets/img/res/Pasted image 20240819004849.png",
-    "_site/assets/img/res/Pasted image 20240818231439.png",
-    "_site/assets/img/res/Pasted image 20240818230841.png",
-    "assets/img/res/Pasted image 20240819002521.png",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",
