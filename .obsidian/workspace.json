@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md",
+                "file": "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙(2).md",
+                "file": "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,23 +47,7 @@
             }
           }
         ],
-        "currentTab": 2
-      },
-      {
-        "id": "f02dfb698e8a3c7e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c73a2c3fc6b25d3f",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "assets/img/Excalidraw/2024-08-18-유연한 프로그래밍을 위한 설계-Drawing 2024-08-23 01.00.59.excalidraw.md"
-              }
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,7 +162,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙(2).md",
+                "file": "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -236,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙(2).md"
+                "file": "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md"
               }
             }
           }
@@ -253,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙(2).md",
+                "file": "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -288,33 +272,33 @@
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "4ed942caff0dd8d8",
+  "active": "3baa77bbf48c61d7",
   "lastOpenFiles": [
-    "_posts/2024-08-18-유연한 프로그래밍을 위한 설계 원칙(1).md",
+    "_posts/2024-08-18-유연한 프로그래밍을 위한 설계 원칙 1.md",
+    "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md",
+    "_site/assets/img/res/Pasted image 20240823194926.png",
+    "assets/img/res/Pasted image 20240823194926.png",
+    "_site/assets/img/res/Pasted image 20240823194709.png",
+    "assets/img/res/Pasted image 20240823194709.png",
+    "_site/assets/img/res/Pasted image 20240823194539.png",
+    "assets/img/res/Pasted image 20240823194539.png",
+    "_site/posts/유연한-프로그래밍을-위한-설계원칙-2/index.html",
+    "_site/posts/유연한-프로그래밍을-위한-설계원칙-2",
+    "_site/posts/유연한-프로그래밍을-위한-설계-원칙-1/index.html",
+    "_site/posts/유연한-프로그래밍을-위한-설계-원칙-1",
     "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md",
+    "assets/img/res/Pasted image 20240823140459.png",
+    "assets/img/Excalidraw/2024-08-18-유연한 프로그래밍을 위한 설계-Drawing 2024-08-23 01.00.59.excalidraw.md",
     "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
-    "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙(2).md",
     "_site/posts/유연한-프로그래밍을-위한-설계원칙(2)/index.html",
     "_site/posts/유연한-프로그래밍을-위한-설계원칙(2)",
     "_site/assets/img/res/Pasted image 20240823034106.png",
     "_site/assets/img/res/Pasted image 20240823033100.png",
     "_site/assets/img/res/Pasted image 20240823032408.png",
-    "_site/assets/img/res/Pasted image 20240823021852.png",
-    "_site/assets/img/res/Pasted image 20240823020509.png",
-    "_site/assets/img/res/Pasted image 20240823013831.png",
-    "_site/assets/img/res/Pasted image 20240823011355.png",
-    "_site/assets/img/res/Pasted image 20240823004346.png",
-    "_site/assets/img/res/Pasted image 20240823001827.png",
     "_site/tags/scheme/index.html",
     "_site/tags/scheme",
     "_site/tags/racket/index.html",
     "_site/tags/racket",
-    "_site/tags/lisp/index.html",
-    "_site/tags/lisp",
-    "_site/tags/architecture/index.html",
-    "_site/tags/architecture",
-    "assets/img/Excalidraw/2024-08-18-유연한 프로그래밍을 위한 설계-Drawing 2024-08-23 01.00.59.excalidraw.md",
-    "assets/img/res/Pasted image 20240823034106.png",
     "_posts/2024-08-20-그래프 그리는 코드 작성 절차.md",
     "_posts/2024-08-20-통계 프로그램 추천 Minitab.md",
     "_posts/2024-08-20-PJT News parsing + word cloud + GPT sumamry.md",
