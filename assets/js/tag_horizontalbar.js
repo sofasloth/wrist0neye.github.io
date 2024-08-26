@@ -80,7 +80,10 @@ const value = svg.append('g')
     .attr("dx", -10)
     // .text((d) => format(d.size))
     .text(d => d.size)
-    .attr('color', '#aeaeae');
+    .attr('color', '#aeaeae')
+    .attr('rx', '5')
+    .attr('storke', '#7d90aa')
+    .attr('stroke-width', '3');
 
   // value.call((text) => text.filter(d=> (x(d.size) - x(0)) < 2)) // for short bars
   //   .attr("dx", +4)
@@ -88,14 +91,14 @@ const value = svg.append('g')
   //   .attr("text-anchor", "start")
 
 // Create the axes.
-svg.append("g")
-  .attr("transform", `translate(0,${dimensions.margin.top})`)
-  .call(d3.axisTop(x))
-  // .call(g => g.select('.domain').remove())
-  .style("font-size", "0.85em")
-  .classed("tag", true);
+// svg.append("g")
+//   .attr("transform", `translate(0,${dimensions.margin.top})`)
+//   .call(d3.axisTop(x))
+//   // .call(g => g.select('.domain').remove())
+//   .style("font-size", "0.85em")
+//   .classed("tag", true);
 
 svg.append("g")
   .attr("transform", `translate(${dimensions.margin.left}, 0)`)
   .call(d3.axisLeft(y).tickSizeOuter(0))
-  .style("font-size", "0.85em");
+  .style("font-size", "1rem");

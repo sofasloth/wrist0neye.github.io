@@ -21,19 +21,6 @@
             }
           },
           {
-            "id": "3baa77bbf48c61d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4ed942caff0dd8d8",
             "type": "leaf",
             "state": {
@@ -46,8 +33,63 @@
               }
             }
           }
+        ]
+      },
+      {
+        "id": "df70a10ca016d325",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b69e12736a56392",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "assets/img/Excalidraw/Github 블로그 꾸며보기3_Drawing 2024-08-18 00.55.32.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "ec43514271e5772a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-18-유연한 프로그래밍을 위한 설계원칙 1.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b538c464f4d4c901",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-15-Relative Links.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3baa77bbf48c61d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-08-14-Rust 비교하기.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -77,7 +119,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Web/frontend",
+                "query": "리터럴",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,7 +204,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md",
+                "file": "_posts/2024-08-14-Rust 비교하기.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -220,7 +262,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md"
+                "file": "_posts/2024-08-14-Rust 비교하기.md"
               }
             }
           }
@@ -237,7 +279,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md",
+                "file": "_posts/2024-08-14-Rust 비교하기.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -272,8 +314,26 @@
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "c0d1cda2e4363d8c",
+  "active": "3baa77bbf48c61d7",
   "lastOpenFiles": [
+    "_posts/2024-08-27-Rust String.md",
+    "_posts/2024-08-14-Rust 비교하기.md",
+    "_posts/2024-08-18-유연한 프로그래밍을 위한 설계원칙 1.md",
+    "assets/img/res/Pasted image 20240827020005.png",
+    "_site/assets/img/res/Pasted image 20240827015633.png",
+    "assets/img/res/Pasted image 20240827015633.png",
+    "assets/img/res/Pasted image 20240827014856.png",
+    "_site/assets/img/res/Pasted image 20240827014856.png",
+    "_site/posts/유연한-프로그래밍을-위한-설계원칙-1/index.html",
+    "_site/posts/유연한-프로그래밍을-위한-설계원칙-1",
+    "_site/assets/data.json",
+    "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md",
+    "assets/img/Excalidraw/Github 블로그 꾸며보기3_Drawing 2024-08-18 00.55.32.excalidraw.md",
+    "assets/data.json",
+    "_posts/2024-08-15-Relative Links.md",
+    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
+    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+    "_tabs/about.md",
     "_site/posts/Hello-github.io!/index.html",
     "_site/posts/Hello-github.io!",
     "_site/assets/img/thumbnail/tauri_banner.png",
@@ -282,44 +342,25 @@
     "_site/assets/img/thumbnail/Obsidian+Action.png",
     "_site/assets/img/thumbnail/Git+D3_image.png",
     "_site/assets/img/thumbnail",
-    "_site/assets/img/res/PIN_BANNER.png",
-    "_site/assets/img/res/Pasted image 20240823194926.png",
-    "_site/assets/img/res/Pasted image 20240823194709.png",
-    "_site/assets/img/res/Pasted image 20240823194539.png",
-    "_site/assets/img/res/Pasted image 20240823140459.png",
     "_site/assets/img/favicons/favicon.ico",
     "_site/assets/img/favicons/site.webmanifest",
     "_site/assets/js/data/swconf.js",
-    "_site/assets/img/favicons/browserconfig.xml",
-    "_site/assets/js/data/search.json",
-    "_site/assets/js/data/mathjax.js",
-    "_site/tags/web/index.html",
-    "_site/tags/webgpu/index.html",
-    "_posts/2024-08-18-유연한 프로그래밍을 위한 설계 원칙 1.md",
-    "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md",
     "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md",
     "assets/img/Excalidraw/2024-08-18-유연한 프로그래밍을 위한 설계-Drawing 2024-08-23 01.00.59.excalidraw.md",
-    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
     "_posts/2024-08-20-그래프 그리는 코드 작성 절차.md",
     "_posts/2024-08-20-통계 프로그램 추천 Minitab.md",
     "_posts/2024-08-20-PJT News parsing + word cloud + GPT sumamry.md",
-    "_tabs/about.md",
     "_posts/2024-08-15-linkpreview 구현하기.md",
     "_includes/template/linkpreview.md",
     "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
-    "_posts/2024-08-14-Rust 비교하기.md",
-    "_posts/2024-08-15-Relative Links.md",
     "_posts/2024-08-18-Cpp vs Rust 동시성.md",
     "_posts/2024-08-18-D3.js & Jupyter notebook + Deno.md",
     "_posts/2024-08-18-PJT BranchNote.md",
     "_posts/2024-08-20-PJT SVG mindmap.md",
     "_posts/2024-08-04-Hello github.io!.md",
     "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
-    "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
     "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
-    "_posts/2024-08-06-pyQt6 Index.md",
-    "_posts/2024-08-05-Tauri Window Customized.md",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",

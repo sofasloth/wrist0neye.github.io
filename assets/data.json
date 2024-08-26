@@ -1,0 +1,358 @@
+{
+  "files": [
+    {
+      "title": "Github 블로그 꾸며보기",
+      "tags": [
+        "diary"
+      ],
+      "categories": [
+        "Doodle",
+        "Diary"
+      ],
+      "incomplete": false,
+      "pin": false
+    },
+    {
+      "title": "Hello Blog!",
+      "tags": [
+        "diary"
+      ],
+      "categories": [
+        "Doodle",
+        "Diary"
+      ],
+      "incomplete": false,
+      "pin": false
+    },
+    {
+      "title": "(Tauri)Window Customized 하기",
+      "tags": [
+        "Tauri",
+        "Web",
+        "frontend"
+      ],
+      "categories": [
+        "Programming",
+        "Web_desktop"
+      ],
+      "incomplete": false,
+      "pin": false
+    },
+    {
+      "title": "js파일에서 비동기함수 실행하기",
+      "tags": [
+        "javascript",
+        "Web",
+        "WebGPU"
+      ],
+      "categories": [
+        "Programming",
+        "Web_desktop"
+      ],
+      "incomplete": true,
+      "pin": false
+    },
+    {
+      "title": "(pyQt6) Python GUI + 해석 프로그램 만들기 개요",
+      "tags": [
+        "pyQt6",
+        "python",
+        "GUI"
+      ],
+      "categories": [
+        "Programming",
+        "Python"
+      ],
+      "incomplete": true,
+      "pin": true
+    },
+    {
+      "title": "(Tauri)기본 기능 확인하기",
+      "tags": [
+        "Tauri",
+        "Web",
+        "frontend",
+        "Electron"
+      ],
+      "categories": [
+        "Programming",
+        "Web_desktop"
+      ],
+      "incomplete": true,
+      "pin": false
+    },
+    {
+      "title": "Github 블로그 꾸며보기2 (+obisidan)",
+      "tags": [
+        "diary",
+        "blog",
+        "obsidian",
+        "github_action"
+      ],
+      "categories": [
+        "Doodle",
+        "Diary"
+      ],
+      "incomplete": false,
+      "pin": false
+    },
+    {
+      "title": "Github 블로그 꾸며보기3 (blog component)",
+      "tags": [
+        "diary",
+        "blog"
+      ],
+      "categories": [
+        "Doodle",
+        "Diary"
+      ],
+      "incomplete": true,
+      "pin": false
+    },
+    {
+      "title": "(Tauri) Multi Browser App 만들기",
+      "tags": [
+        "frontend",
+        "GUI",
+        "programming",
+        "Tauri",
+        "Electron"
+      ],
+      "categories": [
+        "Programming",
+        "Web_desktop"
+      ],
+      "incomplete": true,
+      "pin": false
+    },
+    {
+      "title": "초보 코더의 how-to-write 명세서",
+      "tags": [
+        "design",
+        "설계",
+        "programming",
+        "기획"
+      ],
+      "categories": [
+        "How-To",
+        "Design"
+      ],
+      "incomplete": true,
+      "pin": false
+    },
+    {
+      "title": "Rust, C/C++, Python 비교하기",
+      "tags": [
+        "Rust",
+        "programming",
+        "Clang"
+      ],
+      "categories": [
+        "Programming",
+        "Rust"
+      ],
+      "incomplete": true,
+      "pin": true
+    },
+    {
+      "title": "(blog)linkpreview를 github.io 블로그에 적용하기",
+      "tags": [
+        "diary",
+        "blog",
+        "obsidian",
+        "Web"
+      ],
+      "categories": [
+        "Doodle",
+        "Diary"
+      ],
+      "incomplete": false,
+      "pin": false
+    },
+    {
+      "title": "(blog)obsidian link를 그대로 github.io에 적용하기",
+      "tags": [
+        "diary",
+        "blog",
+        "github_action",
+        "obsidian",
+        "Web"
+      ],
+      "categories": [
+        "Doodle",
+        "Diary"
+      ],
+      "incomplete": false,
+      "pin": false
+    },
+    {
+      "title": "(CSS)미완성 문서 경고 배너 만들기",
+      "tags": [
+        "Web",
+        "css",
+        "design",
+        "blog"
+      ],
+      "categories": [
+        "Design",
+        "Web"
+      ],
+      "incomplete": false,
+      "pin": false
+    },
+    {
+      "title": "Cpp, Rust 동시성 프로그래밍",
+      "tags": [
+        "Book",
+        "Asyncronizing",
+        "Multiprocessing",
+        "Multithreading",
+        "cpp",
+        "Rust"
+      ],
+      "categories": [
+        "Programming",
+        "Reference"
+      ],
+      "incomplete": true,
+      "pin": false
+    },
+    {
+      "title": "D3.js를 Juptyer notebook + Deno에서 돌려보기",
+      "tags": [
+        "Javascript",
+        "D3",
+        "visualization",
+        "deno",
+        "jupyter",
+        "뻘짓"
+      ],
+      "categories": [
+        "Programming",
+        "Web"
+      ],
+      "incomplete": true,
+      "pin": false
+    },
+    {
+      "title": "(PJT)BranchNote",
+      "tags": [
+        "Web",
+        "frontend",
+        "extension",
+        "organizer",
+        "obsidian",
+        "D3",
+        "project"
+      ],
+      "categories": [
+        "Programming",
+        "Project"
+      ],
+      "incomplete": true,
+      "pin": false
+    },
+    {
+      "title": "racket 언어 문법 조금만 살펴보기",
+      "tags": [
+        "Book",
+        "design",
+        "architecture",
+        "lisp",
+        "racket"
+      ],
+      "categories": [
+        "Programming",
+        "Reference"
+      ],
+      "incomplete": true,
+      "pin": false
+    },
+    {
+      "title": "코딩할 때 참고하면 블로그, 사이트 모음",
+      "tags": [
+        "blog",
+        "reference",
+        "tech",
+        "Web",
+        "language"
+      ],
+      "categories": [
+        "Programming",
+        "Reference"
+      ],
+      "incomplete": true,
+      "pin": false
+    },
+    {
+      "title": "(PJT)News 스크레이퍼에 AI 곁들이기",
+      "tags": [
+        "AI",
+        "visualization",
+        "scraper",
+        "Javascript"
+      ],
+      "categories": [
+        "Programming",
+        "Project"
+      ],
+      "incomplete": true,
+      "pin": false
+    },
+    {
+      "title": "(PJT)SVG와 Link 연결하기",
+      "tags": null,
+      "categories": [
+        "Programming",
+        "Project"
+      ],
+      "incomplete": true,
+      "pin": false
+    },
+    {
+      "title": "그래프 그리는 코드 절차 정리",
+      "tags": [
+        "graphview",
+        "D3",
+        "matplotlib",
+        "pyqtgraph",
+        "visualization",
+        "statistics"
+      ],
+      "categories": [
+        "Design",
+        "Web"
+      ],
+      "incomplete": true,
+      "pin": false
+    },
+    {
+      "title": "데이터 통계 정리 툴 : Minitab",
+      "tags": null,
+      "categories": null,
+      "incomplete": true,
+      "pin": false
+    },
+    {
+      "title": "(책)유연한 프로그래밍을 위한 설계원칙 조금 살펴보기",
+      "tags": [
+        "Book",
+        "design",
+        "architecture",
+        "lisp",
+        "racket",
+        "scheme",
+        "python",
+        "deno",
+        "jupyter",
+        "Javascript"
+      ],
+      "categories": [
+        "Programming",
+        "Reference"
+      ],
+      "incomplete": true,
+      "pin": false
+    }
+  ]
+}
