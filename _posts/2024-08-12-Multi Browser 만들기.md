@@ -47,18 +47,22 @@ incomplete: true
 - widget의 내부에 상하좌우, 가운데에 `drag`하면 미리 놓을 장소를 표시하고 `drop`시 표시한 위치로 이동하게 만든다.
 
 drag & drop에 관한 이벤트 종류는 아래와 같다. 
-- `dragstart`
-- `drag`
-- `dragenter`
-- `dragover`
-- `drop`
-- `dragleave`
-- `dragend`
+
+>- `drag` : 태그 안에 `draggable = "true"`를 추가해야 한다.
+>	- `drag` : 자기자신이 드래그 중일 때 
+>	- `dragstart` : 자기자신이 드래그를 시작했을 때
+>	- `dragend` : 자기자신이 드래그 종료했을 때
+>- `drop`
+>	- `dragenter` : 자신의 영역에서 드래그가 들어왔을 때
+>	- `dragover` : 자신의 영역에서 드래그가 이벤트 발생 중일 때
+>	- `drop` : 자신의 영역에서 드래그가 종료했을 때 (**하지만 이 과제 하면서 느낀게 `dragleave` 이벤트가 우선 순위가 더 높은 것 같다..**)
+>	- `dragleave` : 자신의 영역에서 드래그 벗어났을 때
+{: .prompt-tip}
 
 파일 drag & drop 의 경우 `dataTransfer`를 활용해야 하는데 이번 프로젝트에서는 사용 안 하니 넘어가자.
 
 
-#### Step 1.2 `<iframe>` 활용하기
+### Step 1.2 `<iframe>` 활용하기
 `<iframe>`은 상당히 간단하다. 아래 내용만 만족시켜주면 되기 때문이다.
 ```xml
 <iframe src="삽입하는 웹페이지 URL" title="내용"></iframe>
@@ -137,9 +141,46 @@ declare class WebviewWindow extends WindowManager {
 위에서 가이드라인 대로 한 번 코드를 짜보자.
 
 
+### Step 1.3 구현하기
+Tauri는 `<WebView>` 태그를 지원하지 않아 Electron 처럼 쉽게 구현하기 어렵다. 그래서 먼저 Electron부터 써먹자.
+
+[2024-08-27-Electron&Svelte 초기화](2024-08-27-Electron&Svelte%20초기화.md) 
+
+>`dragover` 이벤트를 사용할 때, `event.clientX`, `event.clientY`로 `div`태그 기준 마우스 포인터 위치를 표시해줄 수 있다.
+{: .prompt-tip}
+
+- `clientX Y`
+- `offset X Y`
+- `layer X Y` : deprecated
+#### 1차 구현
+- [x] `dragover`로 상하좌우 표시하기
+	- [x] margin을 줘서 일단 해결하기
+- [x] 마우스 포인터가 떠나면 표시박스 삭제하기
+- [x] `drop` 발생 시
+	- [x] `client X,Y` 출력하기
+	- [x] `drop`이 발생했을 때 가장 마지막으로 `dragover` 되었던 객체정보 출력하기 \
+		- [ ] `.target`을 활용하기
+
+![electron_multibrowser_1](/assets/img/res/electron_multibrowser_1.gif)
+
+#### 2차 구현
+- [x] 디테일 추가
+	- [x] 애니메이션 transition
+- [ ] 브라우저 모사하기
+- [ ] 브라우저 탭 이동시 실제 상하좌우 구현하기
+- [ ] 브라우저 간 간격 조절할 수 있게 하기
+- [ ] 앱 바깥으로 드래그 앤 드롭할 경우 `newWindow` 생성할 것
+
+#### 3차 구현
+- [ ] 리다이렉트 방지하기
+- [ ] 다른 `window` 앱 간 이동을 공유할 것
+- [ ] 크롬/파폭/사파리 위로 드롭할 경우 새 탭으로 열기
+- [ ] 크롬/파폭/사파리로부터 드래그했을 경우에도 창 열기
+- [ ] 디버깅
+	- [ ] 메모리 누수 여부 체크
+	- [ ] 네트워크 3G 테스트
 
 
-#### Step 1.3 구현하기
 
 
 
@@ -151,9 +192,10 @@ declare class WebviewWindow extends WindowManager {
 
 {% linkpreview "https://inpa.tistory.com/entry/%EB%93%9C%EB%9E%98%EA%B7%B8-%EC%95%A4-%EB%93%9C%EB%A1%AD-Drag-Drop-%EA%B8%B0%EB%8A%A5" %}
 
-{% linkpreview "https://svelte.dev/repl/b225504c9fea44b189ed5bfb566df6e6?version=4.2.18" %}
-
-{% linkpreview "https://svelte.dev/repl/adf5a97b91164c239cc1e6d0c76c2abe?version=3.14.1" %}
+- [svelte drag&drop (1)](https://svelte.dev/repl/b225504c9fea44b189ed5bfb566df6e6?version=4.2.18)
+- [svelte drag&drop (2)](https://svelte.dev/repl/adf5a97b91164c239cc1e6d0c76c2abe?version=3.14.1)
+- [drag event 관련 요약](https://h5homom.tistory.com/entry/html5-Drag-Drop)
+	- 이거 보고 위에 팁에 작성
 #### iframe vs webview
 - [Electron : Web Embeds](https://www.electronjs.org/docs/latest/tutorial/web-embeds)
 - [웹페이지 뒤로가기 및 앞으로 가기](https://codingbroker.tistory.com/73)
@@ -177,3 +219,18 @@ declare class WebviewWindow extends WindowManager {
 
 {% linkpreview "https://blog.eunsukim.me/posts/debugging-javascript-memory-leak-with-chrome-devtools" %}
 
+- [ResizeObserver](https://mong-blog.tistory.com/entry/JS-%ED%81%AC%EA%B8%B0-%EB%B3%80%ED%99%94%EB%A5%BC-%EA%B0%90%EC%A7%80%ED%95%98%EB%8A%94-%EB%91%90-%EA%B0%80%EC%A7%80-%EB%B0%A9%EB%B2%95resize-ResizeObserver)
+---
+## Log
+
+### Electron
+
+- [x] Electon with Svelte 구동 완료 🔜**2024-08-28**
+- [x] svelte에서 `on:` 활용해서 `drag` 이벤트 구현하기 🔜 **2024-08-28 01:14:00**
+- [ ] Reference 예제들을 직접 구현해보기. 
+- [ ] 창 이동 기능과 구성요소에 대한 명세서를 짜고 구현해보기
+- [ ] `Webview` 태그로 인터넷 연결확인하기
+- [ ] Network 속도와 메모리 속도 확인하기
+
+### Tauri
+- [ ] `<WebView>`를 대체할만한 방법을 찾기 전까지 보류 

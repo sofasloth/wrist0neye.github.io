@@ -21,13 +21,14 @@ order: 4
 # 기술 스택
 %%`D3` 라이브러리를 활용해서 추가할려고 하는 내용%%
 
-- Python : PyQt + `numpy/pandas/scipy` + 시각화
-- Rust
-- Web : Svelte + JS
+- **Python** : PyQt + `numpy/pandas/scipy` + 시각화
+- **Rust**
+	- C, C++ 비교군
+- Web : **Svelte** + JS
 	- JS 라이브러리를 활용한 각종 프로젝트
 - Flutter(TBD)
 	- Mobile cross platform
-- Web + Gui Application
+- **Web + Gui Application**
 	- Electron
 	- Tauri
 - Excel, PPT, AI

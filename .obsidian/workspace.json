@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "83ca95d48540467e",
+        "id": "df70a10ca016d325",
         "type": "tabs",
         "children": [
           {
@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "_tabs/about.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -32,13 +32,7 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "df70a10ca016d325",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "4b69e12736a56392",
             "type": "leaf",
@@ -81,7 +75,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-14-Rust 비교하기.md",
+                "file": "_posts/2024-08-12-Multi Browser 만들기.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -89,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -204,7 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-14-Rust 비교하기.md",
+                "file": "_posts/2024-08-12-Multi Browser 만들기.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -262,7 +256,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-14-Rust 비교하기.md"
+                "file": "_posts/2024-08-12-Multi Browser 만들기.md"
               }
             }
           }
@@ -279,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-14-Rust 비교하기.md",
+                "file": "_posts/2024-08-12-Multi Browser 만들기.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -294,7 +288,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 347.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -316,8 +311,26 @@
   },
   "active": "3baa77bbf48c61d7",
   "lastOpenFiles": [
-    "_posts/2024-08-27-Rust String.md",
+    "_site/assets/img/res/electron_multibrowser_1.gif",
+    "assets/img/res/electron_multibrowser_1.gif",
     "_posts/2024-08-14-Rust 비교하기.md",
+    "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md",
+    "_tabs/about.md",
+    "_tabs/categories.md",
+    "_tabs/archives.md",
+    "_tabs/tags.md",
+    "_posts/2024-08-12-Multi Browser 만들기.md",
+    "_includes/template/Completed Tag.md",
+    "_includes/template/_post template.md",
+    "_posts/2024-08-05-Tauri Window Customized.md",
+    "_posts/2024-08-27-Electron&Svelte 초기화.md",
+    "assets/img/favicons/baba is sleep.png",
+    "assets/img/thumbnail/Electron_20.0.3_screenshot.png",
+    "_site/assets/img/thumbnail/Electron_20.0.3_screenshot.png",
+    "_site/posts/Electron&Svelte-초기화/index.html",
+    "_site/posts/Electron&Svelte-초기화",
+    "_site/assets/img/res/Electron_20.0.3_screenshot.png",
+    "_posts/2024-08-27-Rust String.md",
     "_posts/2024-08-18-유연한 프로그래밍을 위한 설계원칙 1.md",
     "assets/img/res/Pasted image 20240827020005.png",
     "_site/assets/img/res/Pasted image 20240827015633.png",
@@ -327,24 +340,15 @@
     "_site/posts/유연한-프로그래밍을-위한-설계원칙-1/index.html",
     "_site/posts/유연한-프로그래밍을-위한-설계원칙-1",
     "_site/assets/data.json",
-    "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md",
     "assets/img/Excalidraw/Github 블로그 꾸며보기3_Drawing 2024-08-18 00.55.32.excalidraw.md",
     "assets/data.json",
     "_posts/2024-08-15-Relative Links.md",
     "_posts/2024-08-08-Github 블로그 꾸며보기2.md",
     "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
-    "_tabs/about.md",
     "_site/posts/Hello-github.io!/index.html",
     "_site/posts/Hello-github.io!",
-    "_site/assets/img/thumbnail/tauri_banner.png",
-    "_site/assets/img/thumbnail/pyqt++.png",
-    "_site/assets/img/thumbnail/rust_banner.png",
-    "_site/assets/img/thumbnail/Obsidian+Action.png",
-    "_site/assets/img/thumbnail/Git+D3_image.png",
     "_site/assets/img/thumbnail",
     "_site/assets/img/favicons/favicon.ico",
-    "_site/assets/img/favicons/site.webmanifest",
-    "_site/assets/js/data/swconf.js",
     "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md",
     "assets/img/Excalidraw/2024-08-18-유연한 프로그래밍을 위한 설계-Drawing 2024-08-23 01.00.59.excalidraw.md",
     "_posts/2024-08-20-그래프 그리는 코드 작성 절차.md",
@@ -353,14 +357,6 @@
     "_posts/2024-08-15-linkpreview 구현하기.md",
     "_includes/template/linkpreview.md",
     "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
-    "_posts/2024-08-18-Cpp vs Rust 동시성.md",
-    "_posts/2024-08-18-D3.js & Jupyter notebook + Deno.md",
-    "_posts/2024-08-18-PJT BranchNote.md",
-    "_posts/2024-08-20-PJT SVG mindmap.md",
-    "_posts/2024-08-04-Hello github.io!.md",
-    "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
-    "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
-    "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",
