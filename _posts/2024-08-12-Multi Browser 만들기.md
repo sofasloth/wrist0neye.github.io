@@ -143,8 +143,7 @@ declare class WebviewWindow extends WindowManager {
 
 ### Step 1.3 구현하기
 Tauri는 `<WebView>` 태그를 지원하지 않아 Electron 처럼 쉽게 구현하기 어렵다. 그래서 먼저 Electron부터 써먹자.
-
-[2024-08-27-Electron&Svelte 초기화](2024-08-27-Electron&Svelte%20초기화.md) 
+- `[2024-08-27-Electron&Svelte 초기화](2024-08-27-Electron&Svelte%20초기화.md)` : #미완성
 
 >`dragover` 이벤트를 사용할 때, `event.clientX`, `event.clientY`로 `div`태그 기준 마우스 포인터 위치를 표시해줄 수 있다.
 {: .prompt-tip}
@@ -152,6 +151,7 @@ Tauri는 `<WebView>` 태그를 지원하지 않아 Electron 처럼 쉽게 구현
 - `clientX Y`
 - `offset X Y`
 - `layer X Y` : deprecated
+
 #### 1차 구현
 - [x] `dragover`로 상하좌우 표시하기
 	- [x] margin을 줘서 일단 해결하기
