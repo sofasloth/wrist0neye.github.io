@@ -21,6 +21,7 @@ image:
 linkpreview: false
 incomplete: true
 ---
+
 이번에 만들 어플리케이션은 VSC, Pycharm과 같이 문서를 여러 개 열 수 있는 어플리케이션이다.
 
 이 브라우저를 만들기 위해서는 다음 기능에 대해서 어느 정도 이해도가 있어야 한다.
@@ -42,7 +43,9 @@ incomplete: true
 
 #### Step 1.1 drag & drop 기능 모음
 우리가 구현할 기능은 VSC의 창 기능과 같다.
+
 ![vsc-docking](/assets/img/res/vsc-docking.gif)
+
 - widget의 제목창만 미리 표시한다.
 - widget의 내부에 상하좌우, 가운데에 `drag`하면 미리 놓을 장소를 표시하고 `drop`시 표시한 위치로 이동하게 만든다.
 
@@ -69,6 +72,7 @@ drag & drop에 관한 이벤트 종류는 아래와 같다.
 ```
 
 이것만으로 구현하면 허전하니 Browser의 기본기능들을 구현해보자.
+
 ![](/assets/img/res/Pasted%20image%2020240812003438.png)
 
 ![](/assets/img/res/Pasted%20image%2020240812011724.png)
@@ -86,6 +90,7 @@ drag & drop에 관한 이벤트 종류는 아래와 같다.
 이는 [mdn X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options)를 봤는데 이해가 잘 안 되서 google에 `X-Frame-Options`와 `frame-ancestors` 검색했는데 *click jacking* 이라고 `iframe` 위에 `z-index` 높은 이상한 링크를 숨겨놓아서 사용자가 클릭 시 이상한 사이트로 옮겨버리는 방식 때문에 생긴 보안 장치라고 보면 된다. 
 
 electron의 경우 iframe을 안 쓰고 `<webview>` 라는 태그를 대신 사용하는데, [Tauri 공식 문서](https://tauri.app/)에서 비슷한 기능이 없는지 찾아봤지만 이에 대해서 설명한 내용이 없었는지 확인해본 결과 window.ts 에서 비슷한 기능을 하는 WebViewWindow 라는 클래스를 찾을 수 있다. 그 클래스 내용은 다음과 같다. 
+
 ```ts
 declare class WebviewWindow extends WindowManager {
     /**
@@ -181,8 +186,9 @@ Tauri는 `<WebView>` 태그를 지원하지 않아 Electron 처럼 쉽게 구현
 	- [ ] 네트워크 3G 테스트
 
 
-
-
+## 관련 블로그 글
+- [2024-08-07-Tauri의 기본기능 활용하기](2024-08-07-Tauri의%20기본기능%20활용하기.md)
+- [2024-08-05-Tauri Window Customized](2024-08-05-Tauri%20Window%20Customized.md)
 
 ---
 # Reference
@@ -196,6 +202,7 @@ Tauri는 `<WebView>` 태그를 지원하지 않아 Electron 처럼 쉽게 구현
 - [svelte drag&drop (2)](https://svelte.dev/repl/adf5a97b91164c239cc1e6d0c76c2abe?version=3.14.1)
 - [drag event 관련 요약](https://h5homom.tistory.com/entry/html5-Drag-Drop)
 	- 이거 보고 위에 팁에 작성
+
 #### iframe vs webview
 - [Electron : Web Embeds](https://www.electronjs.org/docs/latest/tutorial/web-embeds)
 - [웹페이지 뒤로가기 및 앞으로 가기](https://codingbroker.tistory.com/73)

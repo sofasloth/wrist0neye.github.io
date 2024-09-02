@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: sofasloth # the main title
 
-tagline: 야매지만 잘 하고 싶다. # it will display as the sub-title
+tagline: 초보코더지만 잘 하고 싶어 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
