@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-12-Multi Browser 만들기.md",
+                "file": "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-03-PyQt6에 대해서.md",
+                "file": "_posts/2024-09-03-PyQt6 기본 위젯 모음.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -111,7 +111,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "df70a10ca016d325",
@@ -308,7 +309,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-08-12-Multi Browser 만들기.md",
+                "file": "_posts/2024-09-03-PyQt6 기본 위젯 모음.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -367,7 +368,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-08-12-Multi Browser 만들기.md"
+                "file": "_posts/2024-09-03-PyQt6 기본 위젯 모음.md"
               }
             }
           }
@@ -384,7 +385,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-08-12-Multi Browser 만들기.md",
+                "file": "_posts/2024-09-03-PyQt6 기본 위젯 모음.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -419,13 +420,27 @@
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "a1c640cf96387082",
+  "active": "3baa77bbf48c61d7",
   "lastOpenFiles": [
-    "_posts/2024-08-06-pyQt6 Index.md",
-    "_posts/2024-09-03-PyQt6 기본 위젯 모음.md",
+    "_site/assets/img/res/pyqt_Qtwidgets.gif",
+    "_site/assets/img/res/Pasted image 20240906092217.png",
+    "_site/assets/img/res/Pasted image 20240905130941.png",
+    "assets/img/res/pyqt_Qtwidgets.gif",
     "_posts/2024-09-03-PyQt6 example.md",
-    "_posts/2024-09-03-PyQt6와 QThread 그리고 Scipy.md",
+    "_posts/2024-09-03-PyQt6 기본 위젯 모음.md",
+    "assets/img/res/Pasted image 20240906092217.png",
+    "_posts/2024-09-03-PyQt6 UI 꾸미기.md",
+    "assets/img/res/Pasted image 20240905130941.png",
+    "_posts/2024-09-03-PyQt6에 대해서.md",
+    "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
+    "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md",
+    "_posts/2024-08-18-유연한 프로그래밍을 위한 설계원칙 1.md",
+    "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
+    "_posts/2024-08-05-Tauri Window Customized.md",
+    "_posts/2024-08-04-Github 블로그 꾸며보기.md",
     "_posts/2024-08-12-Multi Browser 만들기.md",
+    "_posts/2024-08-06-pyQt6 Index.md",
+    "_posts/2024-09-03-PyQt6와 QThread 그리고 Scipy.md",
     "_posts/2024-09-03-PyQt6 pyqtgraph 소개하기.md",
     "_posts/2024-09-03-PyQt6 xlwings 활용하기.md",
     "_posts/2024-09-03-PyQt6와 Sqlite3.md",
@@ -440,33 +455,19 @@
     "_site/posts/PyQt6-xlwings-활용하기/index.html",
     "_site/posts/PyQt6-xlwings-활용하기",
     "_posts/2024-08-15-Relative Links.md",
-    "_posts/2024-09-03-PyQt6 UI 꾸미기.md",
-    "_posts/2024-09-03-PyQt6에 대해서.md",
     "_tabs/about.md",
     "_posts/2024-08-18-Cpp vs Rust 동시성.md",
-    "_posts/2024-08-18-유연한 프로그래밍을 위한 설계원칙 1.md",
     "_posts/2024-08-20-그래프 그리는 코드 작성 절차.md",
     "_posts/2024-08-20-PJT SVG mindmap.md",
     "_posts/2024-08-20-통계 프로그램 추천 Minitab.md",
     "_posts/2024-08-20-PJT News parsing + word cloud + GPT sumamry.md",
     "_posts/2024-08-27-Rust String.md",
-    "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md",
     "_posts/2024-08-27-Electron&Svelte 초기화.md",
-    "_posts/2024-08-18-D3.js & Jupyter notebook + Deno.md",
-    "_posts/2024-08-18-PJT BranchNote.md",
-    "_posts/2024-08-18-코딩할 때 참고하면 좋은 사이트 모음.md",
-    "_posts/2024-08-15-linkpreview 구현하기.md",
-    "_posts/2024-08-15-움직이는 경고 배너 만들기.md",
     "_site/assets/img/res/electron_multibrowser_1.gif",
     "assets/img/res/electron_multibrowser_1.gif",
     "assets/img/favicons/baba is sleep.png",
     "assets/img/thumbnail/Electron_20.0.3_screenshot.png",
     "_site/assets/img/thumbnail/Electron_20.0.3_screenshot.png",
-    "_site/assets/img/res/Electron_20.0.3_screenshot.png",
-    "assets/img/res/Pasted image 20240827020005.png",
-    "_site/assets/img/res/Pasted image 20240827015633.png",
-    "assets/img/res/Pasted image 20240827015633.png",
-    "assets/img/res/Pasted image 20240827014856.png",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",
