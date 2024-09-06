@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-03-PyQt6 기본 위젯 모음.md",
+                "file": "_posts/2024-09-03-PyQt6 UI 꾸미기.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -309,7 +309,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-09-03-PyQt6 기본 위젯 모음.md",
+                "file": "_posts/2024-09-03-PyQt6 UI 꾸미기.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -368,7 +368,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-09-03-PyQt6 기본 위젯 모음.md"
+                "file": "_posts/2024-09-03-PyQt6 UI 꾸미기.md"
               }
             }
           }
@@ -385,7 +385,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-09-03-PyQt6 기본 위젯 모음.md",
+                "file": "_posts/2024-09-03-PyQt6 UI 꾸미기.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -422,15 +422,20 @@
   },
   "active": "3baa77bbf48c61d7",
   "lastOpenFiles": [
-    "_site/assets/img/res/pyqt_Qtwidgets.gif",
-    "_site/assets/img/res/Pasted image 20240906092217.png",
-    "_site/assets/img/res/Pasted image 20240905130941.png",
-    "assets/img/res/pyqt_Qtwidgets.gif",
     "_posts/2024-09-03-PyQt6 example.md",
-    "_posts/2024-09-03-PyQt6 기본 위젯 모음.md",
-    "assets/img/res/Pasted image 20240906092217.png",
     "_posts/2024-09-03-PyQt6 UI 꾸미기.md",
-    "assets/img/res/Pasted image 20240905130941.png",
+    "_site/assets/img/res/Pasted image 20240906141745.png",
+    "assets/img/res/Pasted image 20240906141745.png",
+    "_posts/2024-09-03-PyQt6 기본 위젯 모음.md",
+    "_site/assets/img/res/Pasted image 20240906135547.png",
+    "assets/img/res/Pasted image 20240906135547.png",
+    "assets/img/Excalidraw/PyQT6)Drawing 2024-09-06 11.44.43.excalidraw.md",
+    "_site/assets/img/res/Pasted image 20240906122007.png",
+    "assets/img/res/Pasted image 20240906122007.png",
+    "_site/assets/img/res/Pasted image 20240906121857.png",
+    "assets/img/res/Pasted image 20240906121857.png",
+    "_site/assets/img/res/Pasted image 20240906121759.png",
+    "assets/img/res/Pasted image 20240906121759.png",
     "_posts/2024-09-03-PyQt6에 대해서.md",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
     "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md",
@@ -462,12 +467,6 @@
     "_posts/2024-08-20-통계 프로그램 추천 Minitab.md",
     "_posts/2024-08-20-PJT News parsing + word cloud + GPT sumamry.md",
     "_posts/2024-08-27-Rust String.md",
-    "_posts/2024-08-27-Electron&Svelte 초기화.md",
-    "_site/assets/img/res/electron_multibrowser_1.gif",
-    "assets/img/res/electron_multibrowser_1.gif",
-    "assets/img/favicons/baba is sleep.png",
-    "assets/img/thumbnail/Electron_20.0.3_screenshot.png",
-    "_site/assets/img/thumbnail/Electron_20.0.3_screenshot.png",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",
