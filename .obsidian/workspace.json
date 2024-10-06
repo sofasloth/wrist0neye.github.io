@@ -122,12 +122,9 @@
             "id": "9d0caae6e3079c1a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "_tabs/about.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "assets/img/Excalidraw/PyQT6)Drawing 2024-09-06 11.44.43.excalidraw.md"
               }
             }
           },
@@ -194,7 +191,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -422,23 +419,27 @@
   },
   "active": "3baa77bbf48c61d7",
   "lastOpenFiles": [
-    "_posts/2024-09-03-PyQt6 example.md",
+    "_site/assets/img/res/Pasted image 20241007010203.png",
+    "_site/assets/img/res/Pasted image 20241007001103.png",
+    "_site/assets/img/res/Pasted image 20241007000420.png",
+    "_site/assets/img/res/Pasted image 20241007000045.png",
+    "assets/img/res/Pasted image 20241007010203.png",
+    "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md",
     "_posts/2024-09-03-PyQt6 UI 꾸미기.md",
+    "assets/img/res/Pasted image 20241007001103.png",
+    "assets/img/Excalidraw/PyQT6)Drawing 2024-09-06 11.44.43.excalidraw.md",
+    "assets/img/res/Pasted image 20241007000420.png",
+    "_tabs/about.md",
+    "_posts/2024-09-03-PyQt6 example.md",
+    "_posts/2024-08-15-Relative Links.md",
+    "assets/img/Excalidraw/Github 블로그 꾸며보기3_Drawing 2024-08-18 00.55.32.excalidraw.md",
+    "assets/img/res/Pasted image 20241007000045.png",
     "_site/assets/img/res/Pasted image 20240906141745.png",
     "assets/img/res/Pasted image 20240906141745.png",
     "_posts/2024-09-03-PyQt6 기본 위젯 모음.md",
     "_site/assets/img/res/Pasted image 20240906135547.png",
-    "assets/img/res/Pasted image 20240906135547.png",
-    "assets/img/Excalidraw/PyQT6)Drawing 2024-09-06 11.44.43.excalidraw.md",
-    "_site/assets/img/res/Pasted image 20240906122007.png",
-    "assets/img/res/Pasted image 20240906122007.png",
-    "_site/assets/img/res/Pasted image 20240906121857.png",
-    "assets/img/res/Pasted image 20240906121857.png",
-    "_site/assets/img/res/Pasted image 20240906121759.png",
-    "assets/img/res/Pasted image 20240906121759.png",
     "_posts/2024-09-03-PyQt6에 대해서.md",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
-    "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md",
     "_posts/2024-08-18-유연한 프로그래밍을 위한 설계원칙 1.md",
     "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
     "_posts/2024-08-05-Tauri Window Customized.md",
@@ -459,14 +460,11 @@
     "_site/tags/excel",
     "_site/posts/PyQt6-xlwings-활용하기/index.html",
     "_site/posts/PyQt6-xlwings-활용하기",
-    "_posts/2024-08-15-Relative Links.md",
-    "_tabs/about.md",
     "_posts/2024-08-18-Cpp vs Rust 동시성.md",
     "_posts/2024-08-20-그래프 그리는 코드 작성 절차.md",
     "_posts/2024-08-20-PJT SVG mindmap.md",
     "_posts/2024-08-20-통계 프로그램 추천 Minitab.md",
     "_posts/2024-08-20-PJT News parsing + word cloud + GPT sumamry.md",
-    "_posts/2024-08-27-Rust String.md",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",
