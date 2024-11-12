@@ -12,7 +12,7 @@ tags:
   - Web
 pin: false
 mermaid: "false"
-image: 
+image: {"path":"/assets/img/thumbnail/Youtube_clone_pjt.png"}
 incomplete: true
 math: true
 published: true
