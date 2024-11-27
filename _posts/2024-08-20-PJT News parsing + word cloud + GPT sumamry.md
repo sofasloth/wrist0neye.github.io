@@ -14,7 +14,7 @@ mermaid: "false"
 image: 
 incomplete: true
 math: true
-published: true
+published: false
 comments: true
 ---
 워드클라우드, 키워드 그래프 등등

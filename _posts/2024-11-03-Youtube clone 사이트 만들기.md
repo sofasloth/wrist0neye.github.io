@@ -12,7 +12,8 @@ tags:
   - Web
 pin: false
 mermaid: "false"
-image: {"path":"/assets/img/thumbnail/Youtube_clone_pjt.png"}
+image:
+  path: /assets/img/thumbnail/Youtube_clone_pjt.png
 incomplete: true
 math: true
 published: true
@@ -23,9 +24,11 @@ comments: true
 
 우선 저분의 github 주소에 들어가서 파일을 열어보면 아래와 같은 구조를 취하고 있다.
 
+근데 이 강의 따라하려고 하는데 4년 전이라 빌드가 잘 안 된다. 쉽지 않네;;
+
 
 ---
-### Mongo DB
+### [Mongo DB](https://www.mongodb.com/resources/products/fundamentals/clusters)
 mongoDB 가입 후 *Cluster* 를 생성한다. AWS EC2 같은 서버를 생성한다고 생각하면 된다. 무료 계정으로 가입해두자. 
 
 ![](/assets/img/res/Pasted%20image%2020241103180606.png)
@@ -45,3 +48,15 @@ mongoDB 가입 후 *Cluster* 를 생성한다. AWS EC2 같은 서버를 생성�
 Database Access로 들어가면 새 계정을 생성할 수 있다. 필요하면 추가하자.
 ![](/assets/img/res/Pasted%20image%2020241103181421.png)
 
+이제 설정되었다면 `server/config/dev.js`에 들어가서 해당 mongoDB 정보를 넣어주면 된다.
+![](/assets/img/res/Pasted%20image%2020241121073603.png)
+
+### Video 업로드 폼 만들기
+>- Upload Page Route 만들기
+>- Upload Page Header Tab 만들기
+>- Form Template 만들기
+>- 파일을 올리는 Template 구현을 위한 `Drop-zone` 다운 받기
+>- `onChange` func 만들기 
+{: .prompt-info }
+
+`concurrently` 도 라이브러리 중 하나다.
