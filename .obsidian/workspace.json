@@ -17,7 +17,9 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2024-08-07-Tauri의 기본기능 활용하기"
             }
           },
           {
@@ -26,11 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-03-PyQt6 UI 꾸미기.md",
+                "file": "_posts/2024-12-01-075619-Rust 동적메모리 할당.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2024-12-01-075619-Rust 동적메모리 할당"
             }
           },
           {
@@ -43,7 +47,9 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2024-09-03-PyQt6 기본 위젯 모음"
             }
           },
           {
@@ -56,7 +62,9 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2024-09-03-PyQt6 UI 꾸미기"
             }
           },
           {
@@ -69,7 +77,9 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2024-09-03-PyQt6와 Sqlite3"
             }
           },
           {
@@ -82,7 +92,9 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2024-09-03-PyQt6와 QThread 그리고 Scipy"
             }
           },
           {
@@ -95,7 +107,9 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2024-09-03-PyQt6 example"
             }
           },
           {
@@ -108,93 +122,55 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2024-09-03-PyQt6 pyqtgraph 소개하기"
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "df70a10ca016d325",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "9d0caae6e3079c1a",
+            "id": "b97dddc95a9f1b76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_tabs/about.md",
-                "mode": "source",
+                "file": "_posts/2024-08-14-Rust 비교하기.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2024-08-14-Rust 비교하기"
             }
           },
           {
-            "id": "4ed942caff0dd8d8",
+            "id": "1439f8a48dad42e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md",
+                "file": "_posts/2025-01-30-Todolist 코드 리뷰.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2025-01-30-Todolist 코드 리뷰"
             }
           },
           {
-            "id": "4b69e12736a56392",
+            "id": "12fc3da2eee156a4",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "assets/img/Excalidraw/Github 블로그 꾸며보기3_Drawing 2024-08-18 00.55.32.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "ec43514271e5772a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-08-18-유연한 프로그래밍을 위한 설계원칙 1.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b538c464f4d4c901",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-08-15-Relative Links.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8fa04aa30524f84f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2024-09-03-PyQt6 example.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+                "file": "assets/img/Excalidraw/Drawing 2025-01-30 Todolist App.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-01-30 Todolist App.excalidraw"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -215,7 +191,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTime"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -230,7 +208,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byCreatedTime"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -238,7 +218,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -246,7 +228,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -261,7 +245,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -274,14 +260,17 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2024-08-19"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 332.5,
+    "collapsed": true
   },
   "right": {
     "id": "73c23346572ca585",
@@ -300,7 +289,9 @@
               "state": {
                 "sortOrder": "alphabetical",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -309,7 +300,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_posts/2024-09-03-PyQt6 UI 꾸미기.md",
+                "file": "_posts/2024-12-01-075619-Rust 동적메모리 할당.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -335,7 +326,9 @@
                   "scale": 0.3346213142094393,
                   "close": true
                 }
-              }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of 2024-12-01-075619-Rust 동적메모리 할당"
             }
           },
           {
@@ -343,7 +336,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -351,7 +346,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -368,8 +365,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-09-03-PyQt6 UI 꾸미기.md"
-              }
+                "file": "_posts/2024-12-01-075619-Rust 동적메모리 할당.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2024-12-01-075619-Rust 동적메모리 할당"
             }
           }
         ]
@@ -385,7 +384,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-09-03-PyQt6 UI 꾸미기.md",
+                "file": "_posts/2024-12-01-075619-Rust 동적메모리 할당.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -393,17 +392,21 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2024-12-01-075619-Rust 동적메모리 할당"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 347.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -413,42 +416,46 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "zk-prefixer:Create new unique note": false,
-      "random-note:Open random note": false,
-      "obsidian-kanban:Create new board": false,
-      "oz-clear-unused-images:Clear Unused Images": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "hide-folders:Show hidden folders": false
+      "random-note:Open random note": false
     }
   },
-  "active": "3baa77bbf48c61d7",
+  "active": "1439f8a48dad42e9",
   "lastOpenFiles": [
-    "_posts/2024-09-03-PyQt6 example.md",
+    "assets/img/res/Pasted image 20250131000300.png",
+    "assets/img/Excalidraw/Drawing 2025-01-30 Todolist App.excalidraw.md",
+    "_posts/2025-01-30-Todolist 코드 리뷰.md",
+    "assets/img/res/Pasted Image 20250130233818_367.png",
+    "_posts/2024-08-14-Rust 비교하기.md",
+    "_posts/2024-09-03-PyQt6 pyqtgraph 소개하기.md",
+    "_posts/Untitled.md",
+    "_posts/2024-12-01-075619-Rust 동적메모리 할당.md",
     "_posts/2024-09-03-PyQt6 UI 꾸미기.md",
-    "_site/assets/img/res/Pasted image 20240906141745.png",
-    "assets/img/res/Pasted image 20240906141745.png",
-    "_posts/2024-09-03-PyQt6 기본 위젯 모음.md",
-    "_site/assets/img/res/Pasted image 20240906135547.png",
-    "assets/img/res/Pasted image 20240906135547.png",
-    "assets/img/Excalidraw/PyQT6)Drawing 2024-09-06 11.44.43.excalidraw.md",
-    "_site/assets/img/res/Pasted image 20240906122007.png",
-    "assets/img/res/Pasted image 20240906122007.png",
-    "_site/assets/img/res/Pasted image 20240906121857.png",
-    "assets/img/res/Pasted image 20240906121857.png",
-    "_site/assets/img/res/Pasted image 20240906121759.png",
-    "assets/img/res/Pasted image 20240906121759.png",
-    "_posts/2024-09-03-PyQt6에 대해서.md",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
+    "_posts/2024-09-03-PyQt6 기본 위젯 모음.md",
+    "_tabs/about.md",
+    "assets/img/res/Pasted image 20241201212317.png",
+    "assets/img/res/Pasted image 20241201210852.png",
+    "assets/img/res/Pasted image 20241201205934.png",
+    "assets/img/res/Pasted image 20241201204631.png",
+    "assets/img/res/Pasted image 20241201204613.png",
+    "assets/img/res/Pasted image 20241201200907.png",
+    "assets/img/res/Pasted image 20241201200850.png",
+    "assets/img/res/Pasted image 20241201195953.png",
+    "assets/img/res/Pasted image 20241201195928.png",
+    "_posts/2024-09-03-PyQt6와 Sqlite3.md",
     "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md",
     "_posts/2024-08-18-유연한 프로그래밍을 위한 설계원칙 1.md",
+    "_posts/2024-08-15-Relative Links.md",
+    "_posts/2024-09-03-PyQt6 example.md",
+    "assets/img/Excalidraw/PyQT6)Drawing 2024-09-06 11.44.43.excalidraw.md",
+    "_posts/2024-09-03-PyQt6에 대해서.md",
     "_posts/2024-08-06-node.js에서 비동기함수 동작하기.md",
     "_posts/2024-08-05-Tauri Window Customized.md",
     "_posts/2024-08-04-Github 블로그 꾸며보기.md",
     "_posts/2024-08-12-Multi Browser 만들기.md",
     "_posts/2024-08-06-pyQt6 Index.md",
     "_posts/2024-09-03-PyQt6와 QThread 그리고 Scipy.md",
-    "_posts/2024-09-03-PyQt6 pyqtgraph 소개하기.md",
     "_posts/2024-09-03-PyQt6 xlwings 활용하기.md",
-    "_posts/2024-09-03-PyQt6와 Sqlite3.md",
     "_site/posts/PyQt6와-QThread-그리고-Scipy/index.html",
     "_site/posts/PyQt6와-QThread-그리고-Scipy",
     "_site/posts/PyQt6-pyqtgraph-소개하기/index.html",
@@ -459,14 +466,7 @@
     "_site/tags/excel",
     "_site/posts/PyQt6-xlwings-활용하기/index.html",
     "_site/posts/PyQt6-xlwings-활용하기",
-    "_posts/2024-08-15-Relative Links.md",
-    "_tabs/about.md",
     "_posts/2024-08-18-Cpp vs Rust 동시성.md",
-    "_posts/2024-08-20-그래프 그리는 코드 작성 절차.md",
-    "_posts/2024-08-20-PJT SVG mindmap.md",
-    "_posts/2024-08-20-통계 프로그램 추천 Minitab.md",
-    "_posts/2024-08-20-PJT News parsing + word cloud + GPT sumamry.md",
-    "_posts/2024-08-27-Rust String.md",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",

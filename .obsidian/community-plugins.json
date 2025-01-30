@@ -1,19 +1,6 @@
 [
   "calendar",
-  "table-editor-obsidian",
-  "tag-wrangler",
-  "nldates-obsidian",
-  "obsidian-kanban",
-  "obsidian-frontmatter-tag-suggest",
-  "file-explorer-note-count",
-  "oz-clear-unused-images",
-  "obsidian-show-file-path",
-  "markdown-prettifier",
-  "multi-column-markdown",
-  "obsidian-image-toolkit",
-  "oz-image-plugin",
-  "obsidian-git",
-  "permalink-opener",
   "obsidian-excalidraw-plugin",
-  "hide-folders"
+  "file-explorer-note-count",
+  "obsidian-frontmatter-tag-suggest"
 ]
