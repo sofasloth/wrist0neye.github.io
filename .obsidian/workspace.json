@@ -13,13 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
+                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "2024-08-07-Tauri의 기본기능 활용하기"
+              "title": "2024-08-11-Github 블로그 꾸며보기3"
             }
           },
           {
@@ -90,8 +99,17 @@
               "state": {
                 "file": "_posts/2024-09-03-PyQt6 example.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "2024-09-03-PyQt6 example"
@@ -105,8 +123,17 @@
               "state": {
                 "file": "_posts/2024-09-03-PyQt6 pyqtgraph 소개하기.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "2024-09-03-PyQt6 pyqtgraph 소개하기"
@@ -120,8 +147,17 @@
               "state": {
                 "file": "_posts/2025-01-30-Todolist 코드 리뷰.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "2025-01-30-Todolist 코드 리뷰"
@@ -160,7 +196,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -239,8 +276,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5,
-    "collapsed": true
+    "width": 332.5
   },
   "right": {
     "id": "73c23346572ca585",
@@ -391,22 +427,35 @@
   },
   "active": "b97dddc95a9f1b76",
   "lastOpenFiles": [
-    "assets/img/res/Pasted image 20250131024104.png",
-    "assets/img/Excalidraw/Drawing 2025-01-30 Todolist App.excalidraw.md",
+    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+    "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
+    "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
+    "_posts/2024-09-03-PyQt6 pyqtgraph 소개하기.md",
     "_posts/2025-01-30-Todolist 코드 리뷰.md",
-    "assets/img/res/Pasted image 20250131021418.png",
+    "_batch script/py_jeykll_localbuilder.py",
+    "_batch script/py_jeykll_localbuilder.bat",
+    "_site/about/index.html",
+    "_site/about",
+    "_site/archives/index.html",
+    "_site/archives",
+    "_site/tags/index.html",
+    "_site/categories/index.html",
+    "_site/posts/Making-Code-Editor/index.html",
+    "_site/posts/Making-Code-Editor",
+    "_site/assets/img/favicons/mstile-150x150.png",
+    "_site/assets/img/favicons/apple-touch-icon.png",
+    "_site/assets/img/favicons/android-chrome-512x512.png",
+    "_site/assets/img/favicons/android-chrome-192x192.png",
+    "_site/assets/img/thumbnail/tauri_banner.png",
+    "_site/assets/img/thumbnail/rust_banner.png",
+    "_site/assets/img/thumbnail/pyqt++.png",
+    "_site/assets/img/thumbnail/Youtube_clone_pjt.png",
+    "_site/assets/img/thumbnail/SQL_ai.png",
+    "_site/assets/img/thumbnail/Obsidian+Action.png",
+    "_posts/2025-01-31-Making Code Editor.md",
+    "_posts/2024-09-03-PyQt6 example.md",
+    "assets/img/Excalidraw/Drawing 2025-01-30 Todolist App.excalidraw.md",
     "_posts/2024-08-14-Rust 비교하기.md",
-    "assets/img/thumbnail/Youtube_clone_pjt.png",
-    "assets/img/thumbnail/SQL_ai.png",
-    "assets/img/res/vyXSnlZ.png",
-    "assets/img/res/vyXSnlZ 1.png",
-    "assets/img/res/mfOlDR6.png",
-    "assets/img/res/mfOlDR6 1.png",
-    "assets/img/res/ex93rdqt.bmp",
-    "assets/img/res/Pasted image 20241128081125.png",
-    "assets/img/res/Pasted image 20241128075430.png",
-    "assets/img/favicons/fav 모음/favicon.ico",
-    "assets/img/favicons/fav 모음",
     "assets/img/Excalidraw/SQLD 필기.excalidraw.md",
     "assets/img/Excalidraw/Drawing 2024-11-03 17.55.42.excalidraw.md",
     "_posts/2024-12-13-Kaggle Deep Learning Course.md",
@@ -416,27 +465,14 @@
     "_posts/2024-11-16-021456-SQLD 마구잡이.md",
     "_posts/2024-11-11-072017-SQLD 1과목.md",
     "_posts/2024-11-03-Youtube clone 사이트 만들기.md",
-    "_includes/comments.html",
-    "_cache/f4c6f7ab895263fd99512860238ca5fb.json",
-    "_cache/1fd667c837a24151a5c2da0b6985533c.json",
     "_posts/2024-12-01-075619-Rust 동적메모리 할당.md",
-    "_posts/2024-09-03-PyQt6 pyqtgraph 소개하기.md",
     "_posts/Untitled.md",
     "_posts/2024-09-03-PyQt6 UI 꾸미기.md",
-    "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
     "_posts/2024-09-03-PyQt6 기본 위젯 모음.md",
     "_tabs/about.md",
     "_posts/2024-09-03-PyQt6와 Sqlite3.md",
     "_posts/2024-08-23-유연한 프로그래밍을 위한 설계원칙 2.md",
     "_posts/2024-08-18-유연한 프로그래밍을 위한 설계원칙 1.md",
-    "_posts/2024-08-15-Relative Links.md",
-    "_posts/2024-09-03-PyQt6 example.md",
-    "assets/img/Excalidraw/PyQT6)Drawing 2024-09-06 11.44.43.excalidraw.md",
-    "_site/posts/PyQt6와-QThread-그리고-Scipy/index.html",
-    "_site/posts/PyQt6와-QThread-그리고-Scipy",
-    "_site/posts/PyQt6-pyqtgraph-소개하기/index.html",
-    "_site/posts/PyQt6-pyqtgraph-소개하기",
-    "_site/posts/014807/index.html",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",
