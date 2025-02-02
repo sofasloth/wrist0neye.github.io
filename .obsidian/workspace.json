@@ -140,30 +140,6 @@
             }
           },
           {
-            "id": "b97dddc95a9f1b76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2025-01-30-Todolist 코드 리뷰.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-01-30-Todolist 코드 리뷰"
-            }
-          },
-          {
             "id": "ed4445168966d217",
             "type": "leaf",
             "state": {
@@ -176,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -276,7 +252,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 332.5,
+    "collapsed": true
   },
   "right": {
     "id": "73c23346572ca585",
@@ -425,13 +402,13 @@
       "random-note:Open random note": false
     }
   },
-  "active": "b97dddc95a9f1b76",
+  "active": "56e574217ec0078d",
   "lastOpenFiles": [
+    "_posts/2025-01-30-Todolist 코드 리뷰.md",
     "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
     "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
     "_posts/2024-09-03-PyQt6 pyqtgraph 소개하기.md",
-    "_posts/2025-01-30-Todolist 코드 리뷰.md",
     "_batch script/py_jeykll_localbuilder.py",
     "_batch script/py_jeykll_localbuilder.bat",
     "_site/about/index.html",
