@@ -11,10 +11,8 @@ lang: en
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Seoul
 
-
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
-
 
 title: sofasloth # the main title
 
@@ -32,7 +30,6 @@ github:
 
 twitter:
   username: twitter_username # change to your twitter username
-
 
 social:
   # Change to your full name.
@@ -104,8 +101,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/assets/img/favicons/lanternMouse.png'
-
+avatar: "/assets/img/favicons/lanternMouse.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -115,11 +111,7 @@ social_preview_image: # string, local or CORS resources
 toc: true
 
 comments:
-<<<<<<< HEAD
-  # Global switch for the post comment system. Keeping it empty means disabled.
-=======
   # Global switch for the post-comment system. Keeping it empty means disabled.
->>>>>>> v7.2.4
   provider: # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
@@ -198,7 +190,6 @@ defaults:
       permalink: /posts/:title/
       incomplete: true
       pin: false
-.4
   - scope:
       path: _drafts
     values:
@@ -248,7 +239,6 @@ jekyll-archives:
 # relative_links:
 #   enabled:     false
 #   collections: false
-
 
 # Plugins (previously gems:)
 plugins:

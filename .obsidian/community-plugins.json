@@ -2,5 +2,7 @@
   "calendar",
   "obsidian-excalidraw-plugin",
   "file-explorer-note-count",
-  "obsidian-frontmatter-tag-suggest"
+  "obsidian-frontmatter-tag-suggest",
+  "liquid-templates",
+  "mermaid-tools"
 ]
