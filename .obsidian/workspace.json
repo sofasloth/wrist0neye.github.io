@@ -121,7 +121,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-03-PyQt6 pyqtgraph 소개하기.md",
+                "file": "_posts/2025-01-30-Todolist 코드 리뷰.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -136,7 +136,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2024-09-03-PyQt6 pyqtgraph 소개하기"
+              "title": "2025-01-30-Todolist 코드 리뷰"
             }
           },
           {
@@ -147,8 +147,8 @@
               "state": {
                 "file": "assets/img/Excalidraw/Drawing 2025-01-30 Todolist App.excalidraw.md"
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-01-30 Todolist App.excalidraw"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -252,8 +252,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5,
-    "collapsed": true
+    "width": 332.5
   },
   "right": {
     "id": "73c23346572ca585",
@@ -389,7 +388,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -399,16 +397,18 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "zk-prefixer:Create new unique note": false,
-      "random-note:Open random note": false
+      "random-note:Open random note": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "56e574217ec0078d",
   "lastOpenFiles": [
+    "_posts/2025-01-31-Making Code Editor.md",
     "_posts/2025-01-30-Todolist 코드 리뷰.md",
+    "_posts/2024-09-03-PyQt6 pyqtgraph 소개하기.md",
     "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
     "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
     "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
-    "_posts/2024-09-03-PyQt6 pyqtgraph 소개하기.md",
     "_batch script/py_jeykll_localbuilder.py",
     "_batch script/py_jeykll_localbuilder.bat",
     "_site/about/index.html",
@@ -429,7 +429,6 @@
     "_site/assets/img/thumbnail/Youtube_clone_pjt.png",
     "_site/assets/img/thumbnail/SQL_ai.png",
     "_site/assets/img/thumbnail/Obsidian+Action.png",
-    "_posts/2025-01-31-Making Code Editor.md",
     "_posts/2024-09-03-PyQt6 example.md",
     "assets/img/Excalidraw/Drawing 2025-01-30 Todolist App.excalidraw.md",
     "_posts/2024-08-14-Rust 비교하기.md",
