@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-03-PyQt6 example.md",
+                "file": "_posts/2025-02-11-Data_examples.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -112,31 +112,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2024-09-03-PyQt6 example"
-            }
-          },
-          {
-            "id": "56e574217ec0078d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2025-01-30-Todolist 코드 리뷰.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-01-30-Todolist 코드 리뷰"
+              "title": "2025-02-11-Data_examples"
             }
           },
           {
@@ -176,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -412,6 +388,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "mermaid-tools:Open Mermaid Toolbar": false,
       "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -425,22 +402,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "56e574217ec0078d",
+  "active": "95c7bb0627ce3f05",
   "lastOpenFiles": [
+    "_site/posts/Data_examples/index.html",
+    "_site/posts/Data_examples",
+    "_site/categories/data-science/index.html",
+    "_site/categories/data-science",
+    "_site/tags/machine-learning/index.html",
+    "_site/tags/machine-learning",
+    "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
+    "_posts/2025-02-11-Data_examples.md",
+    "_posts/2024-09-03-PyQt6 example.md",
+    "assets/img/Excalidraw/SQLD 필기.excalidraw.md",
+    "_posts/2025-01-30-Todolist 코드 리뷰.md",
     "_includes/template/youtube_link.md",
     "assets/img/Excalidraw/Drawing 2025-01-30 Todolist App.excalidraw.md",
-    "_posts/2025-01-30-Todolist 코드 리뷰.md",
     "_posts/2025-01-31-Making Code Editor.md",
     "_data/origin/cors.yml",
     "_data/locales/ru-RU.yml",
     "_data/origin/basic.yml",
     "_data/locales/zh-TW.yml",
     "_data/locales/zh-CN.yml",
-    "_data/locales/vi-VN.yml",
-    "_data/locales/uk-UA.yml",
-    "_data/locales/tr-TR.yml",
-    "_data/locales/th.yml",
-    "_data/locales/sv-SE.yml",
     "docs/SECURITY.md",
     "docs/CONTRIBUTING.md",
     "docs/CODE_OF_CONDUCT.md",
@@ -462,17 +444,12 @@
     "_posts/2024-09-03-PyQt6 pyqtgraph 소개하기.md",
     "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
     "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
-    "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
-    "_posts/2024-09-03-PyQt6 example.md",
     "_posts/2024-08-14-Rust 비교하기.md",
-    "assets/img/Excalidraw/SQLD 필기.excalidraw.md",
     "assets/img/Excalidraw/Drawing 2024-11-03 17.55.42.excalidraw.md",
     "_posts/2024-12-13-Kaggle Deep Learning Course.md",
     "_posts/2024-12-08-수치미분.md",
     "_posts/2024-12-05-drag&drop.md",
     "_posts/2024-11-22-124503-svelte clone pjt1.md",
-    "_posts/2024-11-16-021456-SQLD 마구잡이.md",
-    "_posts/2024-11-11-072017-SQLD 1과목.md",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",
