@@ -65,16 +65,33 @@ print("Path to dataset files:", path)
 #### [2. Human Acitivty Recognition Using Smartphones Data Sets](https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones)
 > 사람에게 스마트폰 센서를 장착하여 사람의 동작과 관련된 여러 가지 피처를 수집한 데이터다.
 
-이 데이터셋에 대해서 다음 책[^1][^2][^3]에서 설명을 자세히 해주니 참고하자. 여기서는 이 데이터셋 dataframe 구성하는 데까지만 소개할 예정이다.
+이 데이터셋에 대해서 다음 책[^1][^2]에서 설명을 자세히 해주니 참고하자. 여기서는 이 데이터셋 dataframe 구성하는 데까지만 소개할 예정이다.
 - 태그 : #분류 
 	- `DecisionTreeClassifier`
 	- `RandomForestClassifier`
 - `UCI HAR Dataset/features.txt` : 피처명
 - `UCI HAR Dataset/train/X_train.txt, y_train.txt` : 학습용 데이터셋
 
+### [3. Titanic](https://www.kaggle.com/competitions/titanic)
 
 
+### [4. Bike](https://www.kaggle.com/competitions/bike-sharing-demand)
 
+
+## 데이터 분석할 때 사용하는 기능들
+
+#### `DataFrame.corr()`
+`.corr()` 메소드는 각 피처들 간의 상관계수를 `DataFrame`으로 반환하는 메서드다. 
+
+- `pearson` :  두 변수가 **선형** 상관계수를 구합니다. 값의 범위는 $[-1, 1]$입니다.
+- `kendal` : 
+- `spearman` : 
+
+#### `DataFrame.crosstab()`
+`.`
+
+
+---
 ## SQL 연습용 데이터 베이스
 
 

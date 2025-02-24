@@ -34,8 +34,12 @@ end
 #   gem "tzinfo-data"
 # end
 
-# gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
+# gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]'
 gem 'csv'
 gem 'base64'
 gem 'wdm', '>= 0.2',  platforms: [:mingw, :mswin, :x64_mingw]
+
+gem 'json', '~> 2.10', '>= 2.10.1'
+gem 'io-event', '~> 1.9'
+gem 'bigdecimal', '~> 3.1', '>= 3.1.9'
 # frozen_string_literal: true
