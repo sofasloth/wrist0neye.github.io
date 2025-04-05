@@ -6,7 +6,7 @@
       {
         "id": "f3c1561e767e30af",
         "type": "tabs",
-        "dimension": 58.54402789886662,
+        "dimension": 47.43112434847357,
         "children": [
           {
             "id": "a1c640cf96387082",
@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-18-D3.js & Jupyter notebook + Deno.md",
+                "file": "_posts/2025-03-15-vite 짧은 팁.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -68,7 +68,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2024-08-18-D3.js & Jupyter notebook + Deno"
+              "title": "2025-03-15-vite 짧은 팁"
             }
           },
           {
@@ -143,13 +143,12 @@
               "title": "2025-02-11-Data_examples"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "114d37a4fcfa6063",
         "type": "tabs",
-        "dimension": 41.45597210113339,
+        "dimension": 52.56887565152644,
         "children": [
           {
             "id": "48097507d7c17f9b",
@@ -157,7 +156,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-02-15-Data_Pipeline.md",
+                "file": "_posts/2025-04-06-공업수학 계산.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,19 +171,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-02-15-Data_Pipeline"
-            }
-          },
-          {
-            "id": "afb37eda087b13f4",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "assets/img/Excalidraw/Drawing 2025-02-15 17.11.44.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-02-15 17.11.44.excalidraw"
+              "title": "2025-04-06-공업수학 계산"
             }
           }
         ]
@@ -437,24 +424,37 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c0d1cda2e4363d8c",
+  "active": "48097507d7c17f9b",
   "lastOpenFiles": [
+    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+    "_posts/2025-04-06-공업수학 계산.md",
+    "assets/img/thumbnail/engineering_math.png",
     "_posts/2025-02-15-Data_Pipeline.md",
+    "assets/img/Excalidraw/Drawing 2025-02-15 17.11.44.excalidraw.md",
+    "_posts/2025-03-15-vite 짧은 팁.md",
+    "assets/img/res/Pasted image 20250315200748.png",
+    "assets/img/res/Pasted image 20250315200737.png",
+    "assets/img/res/Pasted image 20250315200346.png",
+    "assets/img/res/Pasted Image 20250315200324_553.png",
+    "assets/img/res/Pasted image 20250315200040.png",
+    "assets/img/res/Pasted Image 20250315195832_982.png",
     "_posts/2024-08-18-D3.js & Jupyter notebook + Deno.md",
+    "_includes/template/_post template.md",
+    "_includes/template/admonition.md",
+    "_includes/template/Completed Tag.md",
+    "_includes/template/fast asset.md",
+    "_includes/template/Fine symbol.md",
+    "_includes/template/youtube_link.md",
+    "_includes/template/linkpreview.md",
+    "assets/img/res/Pasted Image 20250308170212_361.png",
     "_posts/2024-09-03-PyQt6 UI 꾸미기.md",
     "_posts/2025-02-11-Data_examples.md",
     "_posts/2024-09-03-PyQt6와 QThread 그리고 Scipy.md",
-    "assets/img/Excalidraw/Drawing 2025-02-15 17.11.44.excalidraw.md",
     "_posts/Untitled.md",
     "_site/assets/img/res/Pasted image 20250215172352.png",
     "assets/img/res/Pasted image 20250215172352.png",
-    "_site/assets/img/res/Pasted image 20250215172335.png",
-    "assets/img/res/Pasted image 20250215172335.png",
-    "assets/img/res/Pasted Image 20250215171900_974.png",
-    "assets/img/res/Pasted Image 20250215171332_767.png",
     "_site/posts/Data_Pipeline/index.html",
     "_site/posts/Data_Pipeline",
-    "_site/assets/img/res/Pasted Image 20250215171332_767.png",
     "_site/categories/data-science/index.html",
     "_site/categories/data-science",
     "_site/tags/machine-learning/index.html",
@@ -462,7 +462,6 @@
     "_posts/2024-08-04-Hello github.io!.md",
     "_posts/2025-02-12-Debug.md",
     "_posts/2024-09-03-PyQt6와 Sqlite3.md",
-    "_includes/template/youtube_link.md",
     "assets/img/Excalidraw/Drawing 2025-01-30 Todolist App.excalidraw.md",
     "_site/posts/Data_examples/index.html",
     "_site/posts/Data_examples",
@@ -470,21 +469,8 @@
     "_posts/2024-09-03-PyQt6 example.md",
     "assets/img/Excalidraw/SQLD 필기.excalidraw.md",
     "_posts/2025-01-30-Todolist 코드 리뷰.md",
-    "_posts/2025-01-31-Making Code Editor.md",
     "_data/origin/cors.yml",
     "_data/locales/ru-RU.yml",
-    "docs/SECURITY.md",
-    "docs/CONTRIBUTING.md",
-    "docs/CODE_OF_CONDUCT.md",
-    "docs/CHANGELOG.md",
-    "assets/img/favicons/mstile-150x150.png",
-    "assets/img/favicons/apple-touch-icon.png",
-    "assets/img/favicons/android-chrome-512x512.png",
-    "_posts/2019-08-11-customize-the-favicon.md",
-    "_posts/2019-08-09-getting-started.md",
-    "_posts/2019-08-08-write-a-new-post.md",
-    "_posts/2019-08-08-text-and-typography.md",
-    "_posts/2024-09-03-PyQt6 pyqtgraph 소개하기.md",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",
