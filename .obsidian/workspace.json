@@ -173,8 +173,33 @@
               "icon": "lucide-file",
               "title": "2025-04-06-공업수학 계산"
             }
+          },
+          {
+            "id": "2f8505e7a5fc93c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2025-04-13-Electron-with-vite.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2025-04-13-Electron-with-vite"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -424,10 +449,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "48097507d7c17f9b",
+  "active": "2f8505e7a5fc93c4",
   "lastOpenFiles": [
-    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+    "assets/img/res/Pasted image 20250413133356.png",
+    "_posts/().md",
+    "_posts/2025-04-13-Electron-with-vite.md",
+    "_posts/2025-04-08-STEM 통계 튜토리얼.md",
     "_posts/2025-04-06-공업수학 계산.md",
+    "_posts/Untitled.md",
+    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
     "assets/img/Excalidraw/SQLD 필기.excalidraw.md",
     "_posts/2024-09-03-PyQt6 pyqtgraph 소개하기.md",
     "assets/img/thumbnail/engineering_math.png",
@@ -452,7 +482,6 @@
     "_posts/2024-09-03-PyQt6 UI 꾸미기.md",
     "_posts/2025-02-11-Data_examples.md",
     "_posts/2024-09-03-PyQt6와 QThread 그리고 Scipy.md",
-    "_posts/Untitled.md",
     "_site/assets/img/res/Pasted image 20250215172352.png",
     "assets/img/res/Pasted image 20250215172352.png",
     "_site/posts/Data_Pipeline/index.html",
@@ -464,12 +493,8 @@
     "_posts/2024-08-04-Hello github.io!.md",
     "_posts/2025-02-12-Debug.md",
     "_posts/2024-09-03-PyQt6와 Sqlite3.md",
-    "assets/img/Excalidraw/Drawing 2025-01-30 Todolist App.excalidraw.md",
     "_site/posts/Data_examples/index.html",
     "_site/posts/Data_examples",
-    "_posts/2024-08-07-Tauri의 기본기능 활용하기.md",
-    "_posts/2024-09-03-PyQt6 example.md",
-    "_posts/2025-01-30-Todolist 코드 리뷰.md",
     "_data/origin/cors.yml",
     "_data/locales/ru-RU.yml",
     "Python ml3.canvas",

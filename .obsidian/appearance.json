@@ -1,6 +1,6 @@
 {
   "baseFontSize": 16,
-  "cssTheme": "",
+  "cssTheme": "Obsidian gruvbox",
   "theme": "obsidian",
   "translucency": false,
   "baseFontSizeAction": false,
@@ -14,7 +14,7 @@
     "mjx-math_font130%"
   ],
   "textFontFamily": "nanumsquare neo,Noto Sans CJK KR",
-  "accentColor": "#157d0d",
+  "accentColor": "#36ba99",
   "interfaceFontFamily": "nanumsquare neo,Noto Sans CJK KR",
   "monospaceFontFamily": "",
   "nativeMenus": false
