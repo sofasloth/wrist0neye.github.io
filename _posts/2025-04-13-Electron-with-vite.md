@@ -194,6 +194,8 @@ export default config;
 
 ![](/assets/img/res/Pasted%20image%2020250413211012.png)
 
+그럼에도 잘 빌드가 되지 않는다.. React나 그냥 svelte로 빌드를 시도해봐야할 거 같다.
+
 ## Reference
 - [Electron 시작하기 : 배포하기](https://jetalog.net/106)
 - [Packaging an electron-react-vite app using electron-builder](https://youtu.be/n18d1vQsPFM?si=iwpZkswydBqIUs6K)

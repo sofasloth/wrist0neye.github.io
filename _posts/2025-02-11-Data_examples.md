@@ -94,7 +94,6 @@ print("Path to dataset files:", path)
 ---
 ## SQL 연습용 데이터 베이스
 
-
 # Reference
 [^1]:⭐ **[데이터 머신러닝 완벽 가이드](https://product.kyobobook.co.kr/detail/S000001766511)** 
 [^2]: ⭐**[데이터 머신러닝 완벽 가이드_github](https://github.com/wikibook/pymlrev2)**
