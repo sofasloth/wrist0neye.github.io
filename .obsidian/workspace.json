@@ -148,7 +148,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-05-13-Svelte 기본 잡팁 모음.md",
+                "file": "_posts/2025-06-07-excel++.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -163,7 +163,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-05-13-Svelte 기본 잡팁 모음"
+              "title": "2025-06-07-excel++"
             }
           },
           {
@@ -383,9 +383,19 @@
               "icon": "lucide-file",
               "title": "Plugin no longer active"
             }
+          },
+          {
+            "id": "bb750108b295fe89",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "552c26984e695be1",
@@ -398,10 +408,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-12-01-075619-Rust 동적메모리 할당.md"
+                "file": "_posts/2025-06-07-excel++.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024-12-01-075619-Rust 동적메모리 할당"
+              "title": "Outline of 2025-06-07-excel++"
             }
           }
         ]
@@ -417,7 +430,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-12-01-075619-Rust 동적메모리 할당.md",
+                "file": "_posts/2025-06-07-excel++.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -427,15 +440,14 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2024-12-01-075619-Rust 동적메모리 할당"
+              "title": "Backlinks for 2025-06-07-excel++"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 347.5,
-    "collapsed": true
+    "width": 347.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -450,14 +462,17 @@
       "markdown-importer:Open format converter": false,
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "95c7bb0627ce3f05",
   "lastOpenFiles": [
+    "_posts/2025-06-07-excel++.md",
+    "assets/img/res/minecraft_chunk.png",
+    "_posts/2025-05-13-Svelte 기본 잡팁 모음.md",
     "assets/img/Excalidraw/Drawing 2025-01-30 Todolist App.excalidraw.md",
     "_posts/2024-08-27-Electron&Svelte 초기화.md",
-    "_posts/2025-05-13-Svelte 기본 잡팁 모음.md",
     "_posts/2024-09-03-PyQt6와 QThread 그리고 Scipy.md",
     "_posts/2025-02-11-Data_examples.md",
     "_posts/Untitled.md",
@@ -483,7 +498,6 @@
     "_site/assets/img/res/Pasted image 20250315200748.png",
     "_site/assets/img/res/Pasted image 20250315200737.png",
     "_site/assets/img/res/Pasted image 20250315200346.png",
-    "_site/assets/img/res/Pasted image 20250315200040.png",
     "_site/tags/experiments/index.html",
     "_site/tags/experiments",
     "_posts/().md",
@@ -499,8 +513,6 @@
     "_includes/template/fast asset.md",
     "_includes/template/Fine symbol.md",
     "_includes/template/youtube_link.md",
-    "_includes/template/linkpreview.md",
-    "_posts/2024-09-03-PyQt6 UI 꾸미기.md",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",
