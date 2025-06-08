@@ -447,7 +447,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 347.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -462,12 +463,14 @@
       "markdown-importer:Open format converter": false,
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "95c7bb0627ce3f05",
   "lastOpenFiles": [
+    "assets/img/res/Pasted image 20250609082017.png",
+    "assets/img/res/Pasted image 20250609081504.png",
+    "assets/img/res/Pasted image 20250609081301.png",
     "_posts/2025-06-07-excel++.md",
     "assets/img/res/minecraft_chunk.png",
     "_posts/2025-05-13-Svelte 기본 잡팁 모음.md",
@@ -496,8 +499,6 @@
     "_site/assets/img/thumbnail/engineering_math.png",
     "_site/assets/img/res/Pasted image 20250413133356.png",
     "_site/assets/img/res/Pasted image 20250315200748.png",
-    "_site/assets/img/res/Pasted image 20250315200737.png",
-    "_site/assets/img/res/Pasted image 20250315200346.png",
     "_site/tags/experiments/index.html",
     "_site/tags/experiments",
     "_posts/().md",
