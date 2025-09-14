@@ -232,8 +232,8 @@ Tauri는 `<WebView>` 태그를 지원하지 않아 Electron 처럼 쉽게 구현
 
 ### Electron
 
-- [x] Electon with Svelte 구동 완료 🔜**2024-08-28**
-- [x] svelte에서 `on:` 활용해서 `drag` 이벤트 구현하기 🔜 **2024-08-28 01:14:00**
+- [x] Electon with Svelte 구동 완료 → **2024-08-28**
+- [x] svelte에서 `on:` 활용해서 `drag` 이벤트 구현하기 → **2024-08-28 01:14:00**
 - [ ] Reference 예제들을 직접 구현해보기. 
 - [ ] 창 이동 기능과 구성요소에 대한 명세서를 짜고 구현해보기
 - [ ] `Webview` 태그로 인터넷 연결확인하기
