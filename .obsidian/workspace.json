@@ -148,7 +148,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-06-07-excel++.md",
+                "file": "_posts/2025-09-14-.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -163,7 +163,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-06-07-excel++"
+              "title": "2025-09-14-"
             }
           },
           {
@@ -253,8 +253,8 @@
             "state": {
               "type": "starred",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "starred"
             }
           },
           {
@@ -370,8 +370,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           },
           {
@@ -380,8 +380,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -452,6 +452,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
@@ -466,8 +467,21 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "95c7bb0627ce3f05",
+  "active": "c0d1cda2e4363d8c",
   "lastOpenFiles": [
+    "_includes/template/_post template.md",
+    "_posts/2025-09-14-.md",
+    "_posts/Untitled.md",
+    "_includes/template/Completed Tag.md",
+    "_includes/template/admonition.md",
+    "_includes/template/fast asset.md",
+    "_includes/template/linkpreview.md",
+    "_includes/template/Fine symbol.md",
+    "_includes/template/youtube_link.md",
+    "_posts/2025-06-14-Rust 공부.md",
+    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+    "_posts/2024-08-27-Electron&Svelte 초기화.md",
+    "Untitled.canvas",
     "_posts/2025-06-07-excel++.md",
     "assets/img/res/Pasted image 20250609082017.png",
     "assets/img/res/Pasted image 20250609081504.png",
@@ -475,15 +489,12 @@
     "assets/img/res/minecraft_chunk.png",
     "_posts/2025-05-13-Svelte 기본 잡팁 모음.md",
     "assets/img/Excalidraw/Drawing 2025-01-30 Todolist App.excalidraw.md",
-    "_posts/2024-08-27-Electron&Svelte 초기화.md",
     "_posts/2024-09-03-PyQt6와 QThread 그리고 Scipy.md",
     "_posts/2025-02-11-Data_examples.md",
-    "_posts/Untitled.md",
     "assets/img/Excalidraw/Drawing 2025-02-15 17.11.44.excalidraw.md",
     "assets/img/Excalidraw/Drawing 2024-11-03 17.55.42.excalidraw.md",
     "_posts/2025-04-06-공업수학 계산.md",
     "_posts/2025-04-13-Electron-with-vite.md",
-    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
     "_site/assets/img/res/Pasted image 20250413211012.png",
     "assets/img/res/Pasted image 20250413211012.png",
     "_site/assets/img/res/Pasted image 20250413201848.png",
@@ -505,14 +516,6 @@
     "assets/img/Excalidraw/SQLD 필기.excalidraw.md",
     "_posts/2024-09-03-PyQt6 pyqtgraph 소개하기.md",
     "_posts/2025-02-15-Data_Pipeline.md",
-    "_posts/2025-03-15-vite 짧은 팁.md",
-    "_posts/2024-08-18-D3.js & Jupyter notebook + Deno.md",
-    "_includes/template/_post template.md",
-    "_includes/template/admonition.md",
-    "_includes/template/Completed Tag.md",
-    "_includes/template/fast asset.md",
-    "_includes/template/Fine symbol.md",
-    "_includes/template/youtube_link.md",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",
