@@ -187,7 +187,7 @@ Tauri는 `<WebView>` 태그를 지원하지 않아 Electron 처럼 쉽게 구현
 
 
 ## 관련 블로그 글
-- [2024-08-07-Tauri의 기본기능 활용하기](2024-08-07-Tauri의%20기본기능%20활용하기.md)
+- [2024-08-07-using basic functions of Tauri](2024-08-07-using%20basic%20functions%20of%20Tauri.md)
 - [2024-08-05-Tauri Window Customized](2024-08-05-Tauri%20Window%20Customized.md)
 
 ---

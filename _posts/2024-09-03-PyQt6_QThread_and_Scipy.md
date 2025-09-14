@@ -19,7 +19,7 @@ published: true
 comments: true
 ---
 - 목차 글 : [2024-08-06-pyQt6 Index](2024-08-06-pyQt6%20Index.md)
-- 이전 글 : [2024-09-03-PyQt6와 Sqlite3](2024-09-03-PyQt6와%20Sqlite3.md)
+- 이전 글 : [2024-09-03-PyQt6+Sqlite3](2024-09-03-PyQt6+Sqlite3.md)
 
 ### 작성할 내용들
 - [ ] jupyter notebook
@@ -34,5 +34,5 @@ comments: true
 	- [ ] 편미분방정식(공간-시간) 풀기
 - [ ] Sympy 간단히 맛보기
 
-- 다음 글 : [2024-09-03-PyQt6 xlwings 활용하기](2024-09-03-PyQt6%20xlwings%20활용하기.md)
+- 다음 글 : [2024-09-03-PyQt6_with_xlwings](2024-09-03-PyQt6_with_xlwings.md)
 ## Reference

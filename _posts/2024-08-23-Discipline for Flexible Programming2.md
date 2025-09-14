@@ -23,7 +23,7 @@ math: true
 published: true
 comments: true
 ---
-- 이전 글 : [2024-08-18-유연한 프로그래밍을 위한 설계원칙 1](2024-08-18-유연한%20프로그래밍을%20위한%20설계원칙%201.md)
+- 이전 글 : [2024-08-18-Discipline for Flexible Programming1](2024-08-18-Discipline%20for%20Flexible%20Programming1.md)
 
 이번 글에서는 2장 영역 특화 언어(DSL) 초반부만 Python, javascript와 비교해보려고 한다. Jupyter notebook에서 커널을 각각 Python, Deno로 설정해 racket 코드를 그대로 구현해보려고 한다.
 

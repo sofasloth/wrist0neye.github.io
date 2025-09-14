@@ -17,7 +17,7 @@ math: true
 published: false
 comments: true
 ---
-- 이전 글 : [2024-08-14-Rust 비교하기](2024-08-14-Rust%20비교하기.md)
+- 이전 글 : [2024-08-14-Rust_comparison_with_other_lang](2024-08-14-Rust_comparison_with_other_lang.md)
 - 공식문서 : [8. 컬렉션 > 8.2 스트링](https://rinthel.github.io/rust-lang-book-ko/ch08-02-strings.html)
 
 ---
@@ -55,7 +55,7 @@ let s3 = String::from("initial contents");
 
 이 글을 쓰게 된 가장 큰 이유는 `"initial contents"`와 `String::from("initial contents")`, `&str` 의 차이점이 아직도 잘 몰라서다. Rust는 왜 문자열을 다루는 타입만 최소 3가지를 요구할까?
 
-- `"initial contents"` : 문자열 [리터럴](2024-08-18-유연한%20프로그래밍을%20위한%20설계원칙%201.md#Reference)
+- `"initial contents"` : 문자열 [리터럴](2024-08-18-Discipline%20for%20Flexible%20Programming1.md#Reference)
 	- **Literal** : 값 자체를 말한다.
 - `String::from("initial contents")` : `String` 타입
 - `str` : `String slice` 타입

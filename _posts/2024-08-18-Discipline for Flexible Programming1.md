@@ -163,7 +163,7 @@ a-vector
 
 이 다음 글이 날아가서 다음시간에 본격적으로 책 초반을 어떻게 이해해 나가야할지 알아보자.. <span id="Fine">■</span>
 
-- 다음 글 : [유연한 프로그래밍을 위한 설계원칙 조금 살펴보기](2024-08-23-유연한%20프로그래밍을%20위한%20설계원칙%202.md)
+- 다음 글 : [유연한 프로그래밍을 위한 설계원칙 조금 살펴보기](2024-08-23-Discipline%20for%20Flexible%20Programming2.md)
 
 ## Reference
 - [Literal이란?](https://velog.io/@pjeeyoung/%EB%A6%AC%ED%84%B0%EB%9F%B4)

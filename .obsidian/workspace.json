@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
+                "file": "_posts/2024-08-11-Customize Github Blog3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2024-08-11-Github 블로그 꾸며보기3"
+              "title": "2024-08-11-Customize Github Blog3"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-03-PyQt6 기본 위젯 모음.md",
+                "file": "_posts/2024-09-03-PyQt6_Basic_Widgets.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2024-09-03-PyQt6 기본 위젯 모음"
+              "title": "2024-09-03-PyQt6_Basic_Widgets"
             }
           },
           {
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-03-15-vite 짧은 팁.md",
+                "file": "_posts/2025-03-15-vite_short_tips.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-03-15-vite 짧은 팁"
+              "title": "2025-03-15-vite_short_tips"
             }
           },
           {
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-04-06-공업수학 계산.md",
+                "file": "_posts/2024-08-04-Customize Github Blog1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-04-06-공업수학 계산"
+              "title": "2024-08-04-Customize Github Blog1"
             }
           },
           {
@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-03-PyQt6와 Sqlite3.md",
+                "file": "_posts/2024-09-03-PyQt6+Sqlite3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2024-09-03-PyQt6와 Sqlite3"
+              "title": "2024-09-03-PyQt6+Sqlite3"
             }
           },
           {
@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-09-03-PyQt6와 QThread 그리고 Scipy.md",
+                "file": "_posts/2024-09-03-PyQt6_QThread_and_Scipy.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2024-09-03-PyQt6와 QThread 그리고 Scipy"
+              "title": "2024-09-03-PyQt6_QThread_and_Scipy"
             }
           },
           {
@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-09-14-.md",
+                "file": "_posts/2024-08-04-Customize Github Blog1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-09-14-"
+              "title": "2024-08-04-Customize Github Blog1"
             }
           },
           {
@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-12-Multi Browser 만들기.md",
+                "file": "_posts/2024-08-12-Multi Browser.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,7 +196,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2024-08-12-Multi Browser 만들기"
+              "title": "2024-08-12-Multi Browser"
             }
           }
         ],
@@ -466,53 +466,53 @@
   },
   "active": "95c7bb0627ce3f05",
   "lastOpenFiles": [
-    "_posts/2024-09-03-PyQt6와 QThread 그리고 Scipy.md",
-    "_posts/2025-09-14-.md",
-    "assets/img/Excalidraw/Drawing 2025-01-30 Todolist App.excalidraw.md",
-    "_posts/2024-08-12-Multi Browser 만들기.md",
-    "_posts/2024-08-27-Electron&Svelte 초기화.md",
-    "_posts/2024-08-11-Github 블로그 꾸며보기3.md",
-    "_posts/2024-09-03-PyQt6 기본 위젯 모음.md",
-    "_posts/2025-03-15-vite 짧은 팁.md",
-    "_posts/2025-04-06-공업수학 계산.md",
-    "_posts/2024-09-03-PyQt6와 Sqlite3.md",
-    "_includes/template/_post template.md",
-    "_posts/Untitled.md",
-    "_includes/template/Completed Tag.md",
-    "_includes/template/admonition.md",
-    "_includes/template/fast asset.md",
-    "_includes/template/linkpreview.md",
-    "_includes/template/Fine symbol.md",
-    "_includes/template/youtube_link.md",
-    "_posts/2025-06-14-Rust 공부.md",
+    "_posts/2024-08-04-Hello github.io!.md",
+    "_posts/2024-08-05-Tauri Window Customized.md",
+    "_posts/2024-08-06-node.js_Asychronous.md",
+    "_site/posts/using-basic-functions-of-Tauri/index.html",
+    "_site/posts/using-basic-functions-of-Tauri",
+    "_posts/2024-08-07-using basic functions of Tauri.md",
+    "_site/posts/Customize-Github-Blog2/index.html",
+    "_site/posts/Customize-Github-Blog2",
+    "_posts/2024-08-08-Customize Github Blog2.md",
+    "_site/posts/Customize-Github-Blog3/index.html",
+    "_site/posts/Customize-Github-Blog3",
+    "_posts/2024-08-11-Customize Github Blog3.md",
+    "_site/posts/Rust_comparison_with_other_lang/index.html",
+    "_site/posts/Rust_comparison_with_other_lang",
+    "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
+    "_posts/2024-08-14-Rust_comparison_with_other_lang.md",
+    "_site/posts/Implement_linkpreview/index.html",
+    "_site/posts/Implement_linkpreview",
+    "_posts/2024-08-15-Implement_linkpreview.md",
+    "_posts/2024-08-18-Cpp vs Rust 동시성.md",
+    "_posts/2024-08-18-D3.js & Jupyter notebook + Deno.md",
+    "_posts/2024-08-20-통계 프로그램 추천 Minitab.md",
+    "_posts/2024-08-20-그래프 그리는 코드 작성 절차.md",
+    "_posts/2024-08-18-PJT BranchNote.md",
+    "_posts/2024-08-18-Discipline for Flexible Programming1.md",
+    "_posts/2024-08-23-Discipline for Flexible Programming2.md",
+    "_posts/2024-08-27-Electron&Svelte_initialized.md",
+    "_posts/2024-08-27-Rust String.md",
+    "_posts/2024-09-03-About_PyQt6.md",
+    "_posts/2024-09-03-PyQt6_Basic_Widgets.md",
+    "_posts/2024-09-03-Customized PyQt6 UI.md",
+    "_posts/2024-09-03-PyQt6_with_xlwings.md",
+    "_posts/2024-09-03-PyQt6_QThread_and_Scipy.md",
+    "_posts/2024-09-03-PyQt6+Sqlite3.md",
+    "_posts/2024-11-03-Youtube clone 사이트 만들기.md",
+    "_posts/2024-11-11-072017-SQLD_first_subjects.md",
+    "_site/assets/img/res/Pasted image 20250914121003.png",
+    "assets/img/res/Pasted image 20250914121003.png",
+    "_site/assets/img/res/Pasted image 20250914120702.png",
+    "assets/img/res/Pasted image 20250914120702.png",
+    "_site/assets/img/res/Pasted image 20250914120559.png",
+    "assets/img/res/Pasted image 20250914120559.png",
+    "_site/assets/img/res/Pasted image 20250914115743.png",
+    "assets/img/res/Pasted image 20250914115743.png",
+    "_site/assets/img/res/Pasted image 20250914115534.png",
+    "assets/img/res/Pasted image 20250914115534.png",
     "Untitled.canvas",
-    "_posts/2025-06-07-excel++.md",
-    "assets/img/res/Pasted image 20250609082017.png",
-    "assets/img/res/Pasted image 20250609081504.png",
-    "assets/img/res/Pasted image 20250609081301.png",
-    "assets/img/res/minecraft_chunk.png",
-    "_posts/2025-05-13-Svelte 기본 잡팁 모음.md",
-    "_posts/2025-02-11-Data_examples.md",
-    "assets/img/Excalidraw/Drawing 2025-02-15 17.11.44.excalidraw.md",
-    "assets/img/Excalidraw/Drawing 2024-11-03 17.55.42.excalidraw.md",
-    "_posts/2025-04-13-Electron-with-vite.md",
-    "_site/assets/img/res/Pasted image 20250413211012.png",
-    "assets/img/res/Pasted image 20250413211012.png",
-    "_site/assets/img/res/Pasted image 20250413201848.png",
-    "assets/img/res/Pasted image 20250413201848.png",
-    "_site/posts/Electron-with-vite/index.html",
-    "_site/posts/Electron-with-vite",
-    "_site/posts/STEM-통계-튜토리얼/index.html",
-    "_site/posts/STEM-통계-튜토리얼",
-    "_site/posts/공업수학-계산/index.html",
-    "_site/posts/공업수학-계산",
-    "_site/posts/vite-짧은-팁/index.html",
-    "_site/posts/vite-짧은-팁",
-    "_site/assets/img/thumbnail/engineering_math.png",
-    "_site/assets/img/res/Pasted image 20250413133356.png",
-    "_site/tags/experiments/index.html",
-    "_site/tags/experiments",
-    "_posts/().md",
     "Python ml3.canvas",
     "02_Resource/컴퓨터 책과 강의/Android Studio/with Kotlin(Udemy)/Day9 - whole flow of app.canvas",
     "04_Ideas/PJT_옷 관리 도구/옷 관리도구 모음.canvas",

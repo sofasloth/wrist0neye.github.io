@@ -16,7 +16,7 @@ math: true
 incomplete: false
 image:
 ---
-> \[2024-08-15\] [2024-08-08-Github 블로그 꾸며보기2](2024-08-08-Github%20블로그%20꾸며보기2.md) 파일이 지나치게 길어져 별도의 파일로 분리합니다.
+> \[2024-08-15\] [2024-08-08-Customize Github Blog2](2024-08-08-Customize%20Github%20Blog2.md) 파일이 지나치게 길어져 별도의 파일로 분리합니다.
 > 또, Liquid 문법 상 **이중 중괄호가 감지**되면 `liquid` 문법으로 치환하려고 해서 `{`하나만 inline code block으로 표기합니다.
 
 ### (실패)jekyll-relative-links Plugin 적용

@@ -122,7 +122,7 @@ pause
 ## 4. obsidian 일부 기능 구현하기
 너무 길어져서 아래 두 문서로 분리했다.
 - [2024-08-15-Relative Links](2024-08-15-Relative%20Links.md)
-- [2024-08-15-linkpreview 구현하기](2024-08-15-linkpreview%20구현하기.md)
+- [2024-08-15-Implement_linkpreview](2024-08-15-Implement_linkpreview.md)
 
 ## 5. 빌드 실패 시 배포 금지
 localhost에서 잘 열린다고 github Action에서 빌드가 성공된다는 보장이 없다. 내 경우에는 보통 `bundle exec htmlproofer _site` 단계에서 자주 Error가 발생되었고 대부분은 md파일 relative link를 잘못 걸어서 발생했다. md파일을 실수 없이 작성하는 게 가장 좋지만 그러기 쉽지 않으니 build 실패 때문에 블로그 전체가 날아가는 걸 방지해야 한다.
@@ -225,7 +225,7 @@ jobs:
 
 이제 다음 시간에는 search 결과나 tag, category 접속 시 home 화면과 똑같은 화면으로 바꿔보도록 해보자.<span id="Fine">■</span>
 
-> Next : [2024-08-11-Github 블로그 꾸며보기3](2024-08-11-Github%20블로그%20꾸며보기3.md)
+> Next : [2024-08-11-Customize Github Blog3](2024-08-11-Customize%20Github%20Blog3.md)
 
 ## Reference
 ### 5. Build & Deploy

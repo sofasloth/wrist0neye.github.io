@@ -18,7 +18,7 @@ published: true
 comments: true
 ---
 - 목차 글 : [2024-08-06-pyQt6 Index](2024-08-06-pyQt6%20Index.md)
-- 이전 글 : [2024-09-03-PyQt6와 QThread 그리고 Scipy](2024-09-03-PyQt6와%20QThread%20그리고%20Scipy.md)
+- 이전 글 : [2024-09-03-PyQt6_QThread_and_Scipy](2024-09-03-PyQt6_QThread_and_Scipy.md)
 
 ### 작성할 내용들
 - [ ] xlwings

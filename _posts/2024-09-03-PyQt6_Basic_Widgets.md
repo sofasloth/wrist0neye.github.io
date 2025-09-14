@@ -18,7 +18,7 @@ published: true
 comments: true
 ---
 - 목차 글 : [2024-08-06-pyQt6 Index](2024-08-06-pyQt6%20Index.md)
-- 이전 글 : [PyQt6_1. 시작해보기](2024-09-03-PyQt6에%20대해서.md)
+- 이전 글 : [PyQt6_1. 시작해보기](2024-09-03-About_PyQt6.md)
 
 ### 작성할 내용들
 - [ ] 기본위젯들
@@ -302,7 +302,7 @@ wid1 = QLabel("Double Click Test")
 wid1.mouseDoubleClickEvent = lambda x : print(wid1.text())
 ```
 
-- 다음 글 : [2024-09-03-PyQt6 UI 꾸미기](2024-09-03-PyQt6%20UI%20꾸미기.md)
+- 다음 글 : [2024-09-03-Customized PyQt6 UI](2024-09-03-Customized%20PyQt6%20UI.md)
 
 ## Reference
 - [(stackoverflow)QLineEdit 글자수 제한하는 방법](https://stackoverflow.com/questions/47285303/how-can-i-limit-text-box-width-of-qlineedit-to-display-at-most-four-characters)

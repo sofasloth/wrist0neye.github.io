@@ -16,7 +16,7 @@ image:
   path: /assets/img/thumbnail/Obsidian+Action.png
 incomplete: true
 ---
-- 이전 글 : [2024-08-08-Github 블로그 꾸며보기2](2024-08-08-Github%20블로그%20꾸며보기2.md)
+- 이전 글 : [2024-08-08-Customize Github Blog2](2024-08-08-Customize%20Github%20Blog2.md)
 
 이번 글에서는 다음 내용들을 다뤄보려고 한다.
 

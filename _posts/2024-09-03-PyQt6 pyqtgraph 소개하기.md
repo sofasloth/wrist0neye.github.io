@@ -19,7 +19,7 @@ published: true
 comments: true
 ---
 - 목차 글 : [2024-08-06-pyQt6 Index](2024-08-06-pyQt6%20Index.md)
-- 이전 글 : [2024-09-03-PyQt6 xlwings 활용하기](2024-09-03-PyQt6%20xlwings%20활용하기.md)
+- 이전 글 : [2024-09-03-PyQt6_with_xlwings](2024-09-03-PyQt6_with_xlwings.md)
 
 ### 작성할 내용들
 - [ ] [Pyqtgraph 소개하기](#공식홈페이지%20및%20docs)

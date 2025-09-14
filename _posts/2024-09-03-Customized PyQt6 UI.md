@@ -18,7 +18,7 @@ published: true
 comments: true
 ---
 - 목차 글 : [2024-08-06-pyQt6 Index](2024-08-06-pyQt6%20Index.md)
-- 이전 글 : [PyQt6_2. 기본 위젯 소개](2024-09-03-PyQt6%20기본%20위젯%20모음.md)
+- 이전 글 : [PyQt6_2. 기본 위젯 소개](2024-09-03-PyQt6_Basic_Widgets.md)
 
 ### 작성할 내용들
 - [x] `.setStyleSheet()`로 꾸미기
@@ -244,7 +244,7 @@ self.propertylayout.addWidget(self.prop3_value,1,1)
 
 ![](/assets/img/res/Pasted%20image%2020241007010203.png)
 
-- 다음 글 : [2024-09-03-PyQt6와 Sqlite3](2024-09-03-PyQt6와%20Sqlite3.md)
+- 다음 글 : [2024-09-03-PyQt6+Sqlite3](2024-09-03-PyQt6+Sqlite3.md)
 ## Reference
 - **[(stackoverflow) pyinstaller :: win32ctypes.pywin32 에러 해결](https://stackoverflow.com/questions/77239487/win32ctypes-pywin32-pywintypes-error-when-using-pyinstaller-in-vs-code-possib)**
 - [(stackoverflow) raspberrypi pip install 시 발생하는 externally-managed-environment 에러 해결 방법](https://stackoverflow.com/questions/75608323/how-do-i-solve-error-externally-managed-environment-every-time-i-use-pip-3)

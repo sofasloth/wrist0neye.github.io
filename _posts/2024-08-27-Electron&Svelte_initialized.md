@@ -17,7 +17,7 @@ math: true
 published: false
 comments: true
 ---
-- 관련 글 : [2024-08-12-Multi Browser 만들기](2024-08-12-Multi%20Browser%20만들기.md)
+- 관련 글 : [2024-08-12-Multi Browser](2024-08-12-Multi%20Browser.md)
 ## 방법 1. Github 블로그 그대로 가져오기
 
 예전에 `npm i svelte@latest` 후 `npm i electron`으로 설치 했는데 `svlete` 화면을 `electron` 에 띄우는 방법을 못 찾아 아래 깃허브 주소대로 설치하려고 한다.
