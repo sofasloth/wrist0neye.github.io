@@ -1,0 +1,11 @@
+.git
+.github
+.gitignore
+README.md
+LICENSE
+.obsidian
+_site
+.jekyll-cache
+.sass-cache
+node_modules
+*.log

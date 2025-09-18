@@ -49,22 +49,19 @@ jobs:
       - name: Run Python Script for link converter
         run: python _plugins/link_converter.py
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 3.3
-          bundler-cache: true
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
 
-      - name: Build site
-        run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
-        env:
-          JEKYLL_ENV: "production"
-
-      - name: Test site
+      - name: Build Jekyll site with Docker
         run: |
-          bundle exec htmlproofer _site \
-            \-\-disable-external \
-            \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+          docker build -t chirpy-blog .
+          docker run --rm -v ${{ github.workspace }}:/srv/jekyll -e JEKYLL_ENV=production chirpy-blog bundle exec jekyll build -d "_site${{ steps.pages.outputs.base_path }}"
+
+      - name: Test site with Docker
+        run: |
+          docker run --rm -v ${{ github.workspace }}:/srv/jekyll chirpy-blog bundle exec htmlproofer _site \
+            --disable-external \
+            --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3

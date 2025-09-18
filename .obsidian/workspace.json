@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-08-04-Customize Github Blog1.md",
+                "file": "_posts/2025-05-13-Svelte_basic_tips_collection.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2024-08-04-Customize Github Blog1"
+              "title": "2025-05-13-Svelte_basic_tips_collection"
             }
           },
           {
@@ -466,6 +466,15 @@
   },
   "active": "95c7bb0627ce3f05",
   "lastOpenFiles": [
+    "_site/docker-compose.yml",
+    "_site/Dockerfile",
+    "docker-compose.yml",
+    "docker-compose.yml.tmp.59268.1758088497224",
+    "Dockerfile",
+    "Dockerfile.tmp.59268.1758088241506",
+    "_posts/2024-08-04-Customize Github Blog1.md",
+    "_site/posts/Customize-Github-Blog1/index.html",
+    "_site/posts/Customize-Github-Blog1",
     "_posts/2024-08-04-Hello github.io!.md",
     "_posts/2024-08-05-Tauri Window Customized.md",
     "_posts/2024-08-06-node.js_Asychronous.md",
@@ -473,17 +482,10 @@
     "_site/posts/using-basic-functions-of-Tauri",
     "_posts/2024-08-07-using basic functions of Tauri.md",
     "_site/posts/Customize-Github-Blog2/index.html",
-    "_site/posts/Customize-Github-Blog2",
     "_posts/2024-08-08-Customize Github Blog2.md",
-    "_site/posts/Customize-Github-Blog3/index.html",
-    "_site/posts/Customize-Github-Blog3",
     "_posts/2024-08-11-Customize Github Blog3.md",
-    "_site/posts/Rust_comparison_with_other_lang/index.html",
-    "_site/posts/Rust_comparison_with_other_lang",
     "_posts/2024-08-12-명세서는 뭐고 어떻게 작성하는 걸까.md",
     "_posts/2024-08-14-Rust_comparison_with_other_lang.md",
-    "_site/posts/Implement_linkpreview/index.html",
-    "_site/posts/Implement_linkpreview",
     "_posts/2024-08-15-Implement_linkpreview.md",
     "_posts/2024-08-18-Cpp vs Rust 동시성.md",
     "_posts/2024-08-18-D3.js & Jupyter notebook + Deno.md",
@@ -500,8 +502,6 @@
     "_posts/2024-09-03-PyQt6_with_xlwings.md",
     "_posts/2024-09-03-PyQt6_QThread_and_Scipy.md",
     "_posts/2024-09-03-PyQt6+Sqlite3.md",
-    "_posts/2024-11-03-Youtube clone 사이트 만들기.md",
-    "_posts/2024-11-11-072017-SQLD_first_subjects.md",
     "_site/assets/img/res/Pasted image 20250914121003.png",
     "assets/img/res/Pasted image 20250914121003.png",
     "_site/assets/img/res/Pasted image 20250914120702.png",
